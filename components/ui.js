@@ -1,16 +1,16 @@
 import { collectionLabels, collections } from "./data-provider.js";
 
 export function renderNav(active = "") {
-  const encyclopediaLinks = [
-    ["/pages/killers.html", "القتلة", "killers"],
-    ["/pages/survivors.html", "الناجون", "survivors"],
-    ["/pages/perks.html", "البيركات", "perks"],
-    ["/pages/items.html", "الأدوات", "items"],
-    ["/pages/addons.html", "الإضافات", "addons"],
-    ["/pages/offerings.html", "الأوفرينغ", "offerings"],
-    ["/pages/maps.html", "الخرائط", "maps"],
+  const dbdLinks = [
+    ["/pages/survivors.html", "👤", "الناجون", "survivors"],
+    ["/pages/killers.html", "🔪", "القتلة", "killers"],
+    ["/pages/perks.html", "🟣", "البيركات", "perks"],
+    ["/pages/items.html", "🧰", "الأدوات", "items"],
+    ["/pages/addons.html", "⚙️", "الإضافات", "addons"],
+    ["/pages/offerings.html", "🕯️", "الأوفرينغ", "offerings"],
+    ["/pages/maps.html", "🗺️", "الخرائط", "maps"],
   ];
-  const isEncyclopediaActive = ["dbd", ...encyclopediaLinks.map(([, , key]) => key)].includes(active);
+  const isDbdActive = ["dbd", ...dbdLinks.map(([, , , key]) => key)].includes(active);
 
   return `
     <nav class="nav">
@@ -18,11 +18,19 @@ export function renderNav(active = "") {
       <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
       <div class="nav-links">
         <a class="${active === "home" ? "active" : ""}" href="/">الرئيسية</a>
-        <div class="nav-dropdown ${isEncyclopediaActive ? "active" : ""}">
-          <button class="nav-dropdown-toggle" type="button" aria-expanded="false">الموسوعة <span>▼</span></button>
+        <div class="nav-dropdown ${isDbdActive ? "active" : ""}">
+          <button class="nav-dropdown-toggle" type="button" aria-expanded="false">Dead by Daylight <span>▼</span></button>
           <div class="nav-dropdown-menu">
-            <a class="${active === "dbd" ? "active" : ""}" href="/pages/dbd.html">Dead by Daylight</a>
-            ${encyclopediaLinks.map(([href, label, key]) => `<a class="${active === key ? "active" : ""}" href="${href}">${label}</a>`).join("")}
+            ${dbdLinks
+              .map(
+                ([href, icon, label, key]) => `
+                  <a class="${active === key ? "active" : ""}" href="${href}">
+                    <span class="nav-item-icon" aria-hidden="true">${icon}</span>
+                    <span>${label}</span>
+                  </a>
+                `,
+              )
+              .join("")}
           </div>
         </div>
         <a class="${active === "news" ? "active" : ""}" href="/pages/news.html">الأخبار</a>
@@ -38,6 +46,7 @@ export function setupNavToggle() {
   document.addEventListener("click", (event) => {
     const navToggle = event.target.closest(".nav-toggle");
     const dropdownToggle = event.target.closest(".nav-dropdown-toggle");
+    const dropdownLink = event.target.closest(".nav-dropdown-menu a");
 
     if (navToggle) {
       const navLinks = document.querySelector(".nav-links");
@@ -53,13 +62,22 @@ export function setupNavToggle() {
       return;
     }
 
+    if (dropdownLink) {
+      closeNavMenus();
+      return;
+    }
+
     if (!event.target.closest(".nav")) {
-      document.querySelector(".nav-links")?.classList.remove("open");
-      document.querySelector(".nav-toggle")?.setAttribute("aria-expanded", "false");
-      document.querySelectorAll(".nav-dropdown.open").forEach((dropdown) => dropdown.classList.remove("open"));
-      document.querySelectorAll(".nav-dropdown-toggle").forEach((button) => button.setAttribute("aria-expanded", "false"));
+      closeNavMenus();
     }
   });
+}
+
+function closeNavMenus() {
+  document.querySelector(".nav-links")?.classList.remove("open");
+  document.querySelector(".nav-toggle")?.setAttribute("aria-expanded", "false");
+  document.querySelectorAll(".nav-dropdown.open").forEach((dropdown) => dropdown.classList.remove("open"));
+  document.querySelectorAll(".nav-dropdown-toggle").forEach((button) => button.setAttribute("aria-expanded", "false"));
 }
 
 export function renderPageHero({ eyebrow = "ALVenomDBD", title, subtitle }) {
