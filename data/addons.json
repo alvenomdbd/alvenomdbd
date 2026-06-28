@@ -1,0 +1,32 @@
+[
+  {
+    "id": "trapper-bag",
+    "name": "Trapper Bag",
+    "nameAr": "حقيبة الترابر",
+    "type": "Killer Add-on",
+    "owner": "The Trapper",
+    "rarity": "Uncommon",
+    "summary": "إضافة تساعد الترابر في تجهيز الفخاخ وإدارة بداية المباراة.",
+    "image": "/images/equipment-killer-addon.svg"
+  },
+  {
+    "id": "windstorm",
+    "name": "Windstorm",
+    "nameAr": "ويندستورم",
+    "type": "Killer Add-on",
+    "owner": "The Wraith",
+    "rarity": "Varies",
+    "summary": "تحسن سرعة حركة الريث أثناء التخفي وتزيد ضغط الخريطة.",
+    "image": "/images/equipment-killer-addon.svg"
+  },
+  {
+    "id": "brand-new-part",
+    "name": "Brand New Part",
+    "nameAr": "براند نيو بارت",
+    "type": "Item Add-on",
+    "owner": "Toolbox",
+    "rarity": "Ultra Rare",
+    "summary": "إضافة قوية للتولبوكس تسرع تقدم المولد عند استخدامها بشكل صحيح.",
+    "image": "/images/equipment-item-addon.svg"
+  }
+]

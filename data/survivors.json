@@ -1,0 +1,68 @@
+[
+  {
+    "id": "dwight",
+    "name": "Dwight Fairfield",
+    "nameAr": "دوايت فيرفيلد",
+    "role": "Survivor",
+    "difficulty": "سهل",
+    "summary": "سيرفايفر ممتاز للمبتدئين لأنه يعلمك التعاون مع الفريق والعمل على المولدات.",
+    "image": "/images/survivor.svg",
+    "perks": [
+      "Bond",
+      "Prove Thyself",
+      "Leader"
+    ]
+  },
+  {
+    "id": "meg",
+    "name": "Meg Thomas",
+    "nameAr": "ميغ توماس",
+    "role": "Survivor",
+    "difficulty": "سهل",
+    "summary": "مناسبة لأسلوب الهروب والمطاردة السريعة، خصوصًا مع بيركات السرعة.",
+    "image": "/images/survivor.svg",
+    "perks": [
+      "Sprint Burst",
+      "Adrenaline",
+      "Quick & Quiet"
+    ]
+  },
+  {
+    "id": "claudette",
+    "name": "Claudette Morel",
+    "nameAr": "كلوديت موريل",
+    "role": "Survivor",
+    "difficulty": "سهل",
+    "summary": "تركز على العلاج ودعم الفريق، وتساعدك تفهم متى العلاج مهم ومتى يضيع وقت.",
+    "image": "/images/survivor.svg",
+    "perks": [
+      "Empathy",
+      "Botany Knowledge",
+      "Self-Care"
+    ]
+  },
+  {
+    "id": "bill",
+    "name": "Bill Overbeck",
+    "nameAr": "بيل أوفربيك",
+    "role": "Survivor",
+    "difficulty": "متوسط",
+    "summary": "سيرفايفر قوي في الإنقاذ ونهاية المباراة، وبيركاته مفيدة ضد الضغط والتانل.",
+    "image": "/images/survivor.svg",
+    "perks": [
+      "Borrowed Time",
+      "Left Behind",
+      "Unbreakable"
+    ]
+  },
+  {
+    "id": "shane",
+    "name": "Shane Wiigwaas",
+    "nameAr": "شين ويغواس",
+    "role": "Survivor",
+    "difficulty": "متوسط",
+    "summary": "سيرفايفر جديد يمكن تحديث بياناته وبيركاته من لوحة الإدارة عند توفر تفاصيل أكثر.",
+    "image": "/images/survivor.svg",
+    "perks": []
+  }
+]

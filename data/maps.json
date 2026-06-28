@@ -1,0 +1,26 @@
+[
+  {
+    "id": "macmillan",
+    "name": "MacMillan Estate",
+    "nameAr": "ماكميلان إستيت",
+    "realm": "MacMillan Estate",
+    "summary": "عالم كلاسيكي فيه مناطق مفتوحة ولوابات قوية حسب نسخة الخريطة.",
+    "image": "/images/dbd-hero.png"
+  },
+  {
+    "id": "coldwind",
+    "name": "Coldwind Farm",
+    "nameAr": "مزرعة كولدويند",
+    "realm": "Coldwind Farm",
+    "summary": "خرائط واسعة بإضاءة واضحة، ممتازة لتعلم قراءة المسافات واللوبات.",
+    "image": "/images/dbd-hero.png"
+  },
+  {
+    "id": "rpd",
+    "name": "Raccoon City Police Station",
+    "nameAr": "قسم شرطة راكون سيتي",
+    "realm": "Raccoon City",
+    "summary": "خريطة داخلية مع ممرات كثيرة. تحتاج معرفة المسارات لتجنب الضياع.",
+    "image": "/images/dbd-hero.png"
+  }
+]

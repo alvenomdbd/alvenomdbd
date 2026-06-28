@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Survivor placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#20352d"/>
+      <stop offset="1" stop-color="#0b1010"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="240" fill="url(#bg)"/>
+  <circle cx="180" cy="88" r="38" fill="#d9c7a2"/>
+  <path d="M118 210c9-57 31-88 62-88s53 31 62 88" fill="#6aa96b"/>
+  <path d="M58 188c56-32 96-48 122-48s66 16 122 48" fill="none" stroke="#d8a84d" stroke-width="6" opacity=".4"/>
+  <text x="180" y="224" text-anchor="middle" font-family="Arial" font-size="22" fill="#f4f0e8">SURVIVOR</text>
+</svg>

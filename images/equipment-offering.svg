@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Offering">
+  <rect width="360" height="220" fill="#17130b"/>
+  <path d="M180 44c34 36 58 65 58 98 0 23-22 37-58 37s-58-14-58-37c0-33 24-62 58-98z" fill="#d8a84d"/>
+  <path d="M180 82c15 20 25 36 25 54 0 14-10 23-25 23s-25-9-25-23c0-18 10-34 25-54z" fill="#c53336"/>
+  <text x="180" y="204" text-anchor="middle" font-family="Arial" font-size="24" fill="#f4f0e8">OFFERING</text>
+</svg>

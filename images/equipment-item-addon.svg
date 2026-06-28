@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Item add-on">
+  <rect width="360" height="220" fill="#0f1813"/>
+  <circle cx="180" cy="105" r="58" fill="#6aa96b"/>
+  <path d="M180 62v86M137 105h86" stroke="#f4f0e8" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="180" cy="105" r="82" fill="none" stroke="#d8a84d" stroke-width="6" opacity=".55"/>
+  <text x="180" y="194" text-anchor="middle" font-family="Arial" font-size="22" fill="#f4f0e8">ITEM ADD-ON</text>
+</svg>

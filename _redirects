@@ -1,0 +1,11 @@
+/admin /admin/index.html 200
+/killers /pages/killers.html 200
+/survivors /pages/survivors.html 200
+/perks /pages/perks.html 200
+/addons /pages/addons.html 200
+/items /pages/items.html 200
+/maps /pages/maps.html 200
+/news /pages/news.html 200
+/videos /pages/videos.html 200
+/search /pages/search.html 200
+/* /index.html 200

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "beginner-survivor",
+    "title": "شرح Survivor للمبتدئين",
+    "channel": "ALVenomDBD",
+    "summary": "فيديو مقترح لشرح أساسيات الناجي، الإصلاح، الإنقاذ، والمطاردة.",
+    "url": "https://www.youtube.com/"
+  },
+  {
+    "id": "killer-basics",
+    "title": "شرح Killer للمبتدئين",
+    "channel": "ALVenomDBD",
+    "summary": "فيديو مقترح لشرح ضغط المولدات، المطاردة، واختيار الهدف.",
+    "url": "https://www.youtube.com/"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "trapper",
+    "name": "The Trapper",
+    "nameAr": "الترابر",
+    "role": "Killer",
+    "difficulty": "متوسط",
+    "power": "Bear Trap",
+    "summary": "كيلر يعتمد على السيطرة على المناطق بالفخاخ. قوته تظهر عندما تقرأ مسارات الناجين وتجهز اللوبات مسبقًا.",
+    "image": "/images/killer.svg",
+    "tags": [
+      "trap",
+      "control"
+    ]
+  },
+  {
+    "id": "wraith",
+    "name": "The Wraith",
+    "nameAr": "الريث",
+    "role": "Killer",
+    "difficulty": "سهل",
+    "power": "Wailing Bell",
+    "summary": "كيلر مناسب للتعلم، يعتمد على التخفي والتنقل بين المولدات والظهور المفاجئ.",
+    "image": "/images/killer.svg",
+    "tags": [
+      "stealth",
+      "mobility"
+    ]
+  },
+  {
+    "id": "nurse",
+    "name": "The Nurse",
+    "nameAr": "النيرس",
+    "role": "Killer",
+    "difficulty": "صعب",
+    "power": "Spencer's Last Breath",
+    "summary": "من أصعب وأقوى القتلة. تعتمد على التنقل بالبلينك وقراءة حركة الناجي بدقة.",
+    "image": "/images/killer.svg",
+    "tags": [
+      "blink",
+      "high skill"
+    ]
+  },
+  {
+    "id": "huntress",
+    "name": "The Huntress",
+    "nameAr": "الهنتريس",
+    "role": "Killer",
+    "difficulty": "متوسط",
+    "power": "Hunting Hatchets",
+    "summary": "كيلر رينج يعتمد على رمي الفؤوس. ممتاز لمن يحب التصويب وقراءة مسار الناجي.",
+    "image": "/images/killer.svg",
+    "tags": [
+      "ranged",
+      "aim"
+    ]
+  },
+  {
+    "id": "blight",
+    "name": "The Blight",
+    "nameAr": "البلايت",
+    "role": "Killer",
+    "difficulty": "صعب",
+    "power": "Blighted Corruption",
+    "summary": "كيلر سريع جدًا يعتمد على الارتدادات والضغط المستمر على الخريطة.",
+    "image": "/images/killer.svg",
+    "tags": [
+      "mobility",
+      "chase"
+    ]
+  }
+]

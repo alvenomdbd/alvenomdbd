@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Portrait unavailable">
+  <rect width="360" height="240" fill="#11171a"/>
+  <rect x="22" y="22" width="316" height="196" rx="10" fill="none" stroke="#d8a84d" stroke-width="4" opacity=".55"/>
+  <text x="180" y="112" text-anchor="middle" font-family="Arial" font-size="24" fill="#f4f0e8">PORTRAIT</text>
+  <text x="180" y="148" text-anchor="middle" font-family="Arial" font-size="18" fill="#b7b2a8">loading / unavailable</text>
+</svg>

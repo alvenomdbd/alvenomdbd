@@ -1,0 +1,29 @@
+[
+  {
+    "id": "medkit",
+    "name": "Med-Kit",
+    "nameAr": "ميدكيت",
+    "type": "Survivor Item",
+    "rarity": "Common - Ultra Rare",
+    "summary": "أداة علاج تساعد الناجي على التعافي أو دعم الفريق حسب الإضافات.",
+    "image": "/images/equipment-item.svg"
+  },
+  {
+    "id": "toolbox",
+    "name": "Toolbox",
+    "nameAr": "تولبوكس",
+    "type": "Survivor Item",
+    "rarity": "Common - Ultra Rare",
+    "summary": "أداة لإصلاح المولدات أو تخريب الخطافات حسب البيلد والإضافات.",
+    "image": "/images/equipment-item.svg"
+  },
+  {
+    "id": "flashlight",
+    "name": "Flashlight",
+    "nameAr": "فلاشلايت",
+    "type": "Survivor Item",
+    "rarity": "Uncommon - Rare",
+    "summary": "تستخدم للتعمية ومحاولات الإنقاذ، وتحتاج توقيتًا ومكانًا صحيحًا.",
+    "image": "/images/equipment-item.svg"
+  }
+]

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Killer add-on">
+  <rect width="360" height="220" fill="#170d0e"/>
+  <path d="M180 42l70 44-28 72h-84l-28-72z" fill="#c53336"/>
+  <path d="M146 100l68-30M146 122l68-30M146 144l68-30" stroke="#f4f0e8" stroke-width="10" stroke-linecap="round"/>
+  <text x="180" y="194" text-anchor="middle" font-family="Arial" font-size="22" fill="#f4f0e8">KILLER ADD-ON</text>
+</svg>

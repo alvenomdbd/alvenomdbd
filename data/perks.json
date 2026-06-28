@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bond",
+    "name": "Bond",
+    "nameAr": "بوند",
+    "type": "Survivor",
+    "owner": "Dwight Fairfield",
+    "category": "Information",
+    "summary": "يكشف أماكن الحلفاء القريبين، ويساعدك تعرف متى تتعاون أو تبتعد عن الفريق.",
+    "image": "/images/perk-survivor.svg"
+  },
+  {
+    "id": "prove-thyself",
+    "name": "Prove Thyself",
+    "nameAr": "بروف ذايسلف",
+    "type": "Survivor",
+    "owner": "Dwight Fairfield",
+    "category": "Objective",
+    "summary": "بيرك ممتاز للمولدات والعمل الجماعي عندما يكون أكثر من ناج على نفس الهدف.",
+    "image": "/images/perk-survivor.svg"
+  },
+  {
+    "id": "sprint-burst",
+    "name": "Sprint Burst",
+    "nameAr": "سبرنت برست",
+    "type": "Survivor",
+    "owner": "Meg Thomas",
+    "category": "Chase",
+    "summary": "يعطيك سرعة مفاجئة عند الجري، ممتاز للوصول إلى لوب آمن أو بدء مطاردة قوية.",
+    "image": "/images/perk-survivor.svg"
+  },
+  {
+    "id": "borrowed-time",
+    "name": "Borrowed Time",
+    "nameAr": "بورو تايم",
+    "type": "Survivor",
+    "owner": "Bill Overbeck",
+    "category": "Rescue",
+    "summary": "يساعد على الإنقاذ الآمن ويقلل خطر سقوط الناجي مباشرة بعد فك الخطاف.",
+    "image": "/images/perk-survivor.svg"
+  },
+  {
+    "id": "unbreakable",
+    "name": "Unbreakable",
+    "nameAr": "أنبريكبل",
+    "type": "Survivor",
+    "owner": "Bill Overbeck",
+    "category": "Recovery",
+    "summary": "يعطي فرصة قوية للتعافي من الأرض، خصوصًا ضد أسلوب السلاق.",
+    "image": "/images/perk-survivor.svg"
+  },
+  {
+    "id": "barbecue",
+    "name": "Barbecue & Chilli",
+    "nameAr": "باربكيو آند تشيلي",
+    "type": "Killer",
+    "owner": "The Cannibal",
+    "category": "Information",
+    "summary": "يساعد الكيلر يعرف وجهته التالية بعد التعليق ويستمر بالضغط.",
+    "image": "/images/perk-killer.svg"
+  },
+  {
+    "id": "corrupt",
+    "name": "Corrupt Intervention",
+    "nameAr": "كوربت إنترفينشن",
+    "type": "Killer",
+    "owner": "The Plague",
+    "category": "Slowdown",
+    "summary": "يغلق مولدات في بداية المباراة ويعطي الكيلر وقتًا للتمركز.",
+    "image": "/images/perk-killer.svg"
+  }
+]

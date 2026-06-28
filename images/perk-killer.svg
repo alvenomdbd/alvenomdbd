@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-label="Killer perk">
+  <rect width="360" height="220" fill="#120d0e"/>
+  <circle cx="180" cy="104" r="66" fill="#c53336" opacity=".24"/>
+  <path d="M180 35l58 47-22 70h-72l-22-70z" fill="#c53336"/>
+  <path d="M153 94h23M184 94h23M162 126h36" stroke="#f4f0e8" stroke-width="10" stroke-linecap="round"/>
+  <text x="180" y="194" text-anchor="middle" font-family="Arial" font-size="22" fill="#f4f0e8">KILLER PERK</text>
+</svg>
