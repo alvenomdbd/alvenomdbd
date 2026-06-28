@@ -1,28 +1,34 @@
 import { collectionLabels, collections } from "./data-provider.js";
 
 export function renderNav(active = "") {
-  const links = [
-    ["/", "الرئيسية", "home"],
-    ["/pages/dbd.html", "Dead by Daylight", "dbd"],
+  const encyclopediaLinks = [
     ["/pages/killers.html", "القتلة", "killers"],
     ["/pages/survivors.html", "الناجون", "survivors"],
     ["/pages/perks.html", "البيركات", "perks"],
     ["/pages/items.html", "الأدوات", "items"],
     ["/pages/addons.html", "الإضافات", "addons"],
-    ["/pages/offerings.html", "الأوفرنغز", "offerings"],
+    ["/pages/offerings.html", "الأوفرينغ", "offerings"],
     ["/pages/maps.html", "الخرائط", "maps"],
-    ["/pages/news.html", "الأخبار", "news"],
-    ["/pages/videos.html", "YouTube", "videos"],
-    ["/pages/search.html", "البحث", "search"],
-    ["/admin/", "Admin", "admin"],
   ];
+  const isEncyclopediaActive = ["dbd", ...encyclopediaLinks.map(([, , key]) => key)].includes(active);
 
   return `
     <nav class="nav">
       <a class="brand" href="/">ALVenomDBD</a>
-      <button class="nav-toggle" type="button" aria-label="فتح القائمة">☰</button>
+      <button class="nav-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">☰</button>
       <div class="nav-links">
-        ${links.map(([href, label, key]) => `<a class="${active === key ? "active" : ""}" href="${href}">${label}</a>`).join("")}
+        <a class="${active === "home" ? "active" : ""}" href="/">الرئيسية</a>
+        <div class="nav-dropdown ${isEncyclopediaActive ? "active" : ""}">
+          <button class="nav-dropdown-toggle" type="button" aria-expanded="false">الموسوعة <span>▼</span></button>
+          <div class="nav-dropdown-menu">
+            <a class="${active === "dbd" ? "active" : ""}" href="/pages/dbd.html">Dead by Daylight</a>
+            ${encyclopediaLinks.map(([href, label, key]) => `<a class="${active === key ? "active" : ""}" href="${href}">${label}</a>`).join("")}
+          </div>
+        </div>
+        <a class="${active === "news" ? "active" : ""}" href="/pages/news.html">الأخبار</a>
+        <a class="${active === "videos" ? "active" : ""}" href="/pages/videos.html">YouTube</a>
+        <a class="${active === "search" ? "active" : ""}" href="/pages/search.html">البحث</a>
+        <a class="${active === "admin" ? "active" : ""}" href="/admin/">Admin</a>
       </div>
     </nav>
   `;
@@ -30,8 +36,29 @@ export function renderNav(active = "") {
 
 export function setupNavToggle() {
   document.addEventListener("click", (event) => {
-    if (!event.target.matches(".nav-toggle")) return;
-    document.querySelector(".nav-links")?.classList.toggle("open");
+    const navToggle = event.target.closest(".nav-toggle");
+    const dropdownToggle = event.target.closest(".nav-dropdown-toggle");
+
+    if (navToggle) {
+      const navLinks = document.querySelector(".nav-links");
+      const isOpen = navLinks?.classList.toggle("open") || false;
+      navToggle.setAttribute("aria-expanded", String(isOpen));
+      return;
+    }
+
+    if (dropdownToggle) {
+      const dropdown = dropdownToggle.closest(".nav-dropdown");
+      const isOpen = dropdown?.classList.toggle("open") || false;
+      dropdownToggle.setAttribute("aria-expanded", String(isOpen));
+      return;
+    }
+
+    if (!event.target.closest(".nav")) {
+      document.querySelector(".nav-links")?.classList.remove("open");
+      document.querySelector(".nav-toggle")?.setAttribute("aria-expanded", "false");
+      document.querySelectorAll(".nav-dropdown.open").forEach((dropdown) => dropdown.classList.remove("open"));
+      document.querySelectorAll(".nav-dropdown-toggle").forEach((button) => button.setAttribute("aria-expanded", "false"));
+    }
   });
 }
 

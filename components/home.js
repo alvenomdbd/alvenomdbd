@@ -7,9 +7,8 @@ initHome();
 
 async function initHome() {
   if (document.body.dataset.page !== "home") return;
-  if (!document.querySelector(".site-header .nav")) {
-    document.querySelector(".site-header").insertAdjacentHTML("afterbegin", renderNav("home"));
-  }
+  document.querySelector(".site-header .nav")?.remove();
+  document.querySelector(".site-header").insertAdjacentHTML("afterbegin", renderNav("home"));
   setupNavToggle();
   const data = await provider.all();
   setText("statKillers", data.killers.length);
