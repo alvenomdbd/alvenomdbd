@@ -9,6 +9,15 @@
   --gold: #d9a84f;
   --green: #67a968;
   --blue: #6b9fc4;
+  --tier-1: #67a968;
+  --tier-2: #3e8ccc;
+  --tier-3: #8e5ec4;
+  --rarity-common: #8a5f3d;
+  --rarity-uncommon: #67a968;
+  --rarity-rare: #3e8ccc;
+  --rarity-very-rare: #8e5ec4;
+  --rarity-ultra-rare: #c92d31;
+  --rarity-event: #d9a84f;
   --shadow: 0 22px 80px rgba(0, 0, 0, 0.38);
 }
 
@@ -415,6 +424,93 @@ textarea {
   border-top: 4px solid var(--green);
 }
 
+.perk-card.tier-i,
+.tier-detail.tier-i {
+  border-top-color: var(--tier-1);
+}
+
+.perk-card.tier-ii,
+.tier-detail.tier-ii {
+  border-top-color: var(--tier-2);
+}
+
+.perk-card.tier-iii,
+.tier-detail.tier-iii {
+  border-top-color: var(--tier-3);
+}
+
+.rarity-card,
+.addon-detail .detail-media,
+.addon-detail .detail-copy {
+  border-top: 4px solid var(--rarity-common);
+}
+
+.rarity-common,
+.rarity-common .detail-media,
+.rarity-common .detail-copy {
+  border-top-color: var(--rarity-common);
+}
+
+.rarity-uncommon,
+.rarity-uncommon .detail-media,
+.rarity-uncommon .detail-copy {
+  border-top-color: var(--rarity-uncommon);
+}
+
+.rarity-rare,
+.rarity-rare .detail-media,
+.rarity-rare .detail-copy {
+  border-top-color: var(--rarity-rare);
+}
+
+.rarity-very-rare,
+.rarity-very-rare .detail-media,
+.rarity-very-rare .detail-copy {
+  border-top-color: var(--rarity-very-rare);
+}
+
+.rarity-ultra-rare,
+.rarity-ultra-rare .detail-media,
+.rarity-ultra-rare .detail-copy {
+  border-top-color: var(--rarity-ultra-rare);
+}
+
+.rarity-event,
+.rarity-event .detail-media,
+.rarity-event .detail-copy {
+  border-top-color: var(--rarity-event);
+}
+
+.rarity-common h2,
+.rarity-common .detail-copy h1 {
+  color: #c79a6a;
+}
+
+.rarity-uncommon h2,
+.rarity-uncommon .detail-copy h1 {
+  color: var(--rarity-uncommon);
+}
+
+.rarity-rare h2,
+.rarity-rare .detail-copy h1 {
+  color: var(--rarity-rare);
+}
+
+.rarity-very-rare h2,
+.rarity-very-rare .detail-copy h1 {
+  color: var(--rarity-very-rare);
+}
+
+.rarity-ultra-rare h2,
+.rarity-ultra-rare .detail-copy h1 {
+  color: #ff6669;
+}
+
+.rarity-event h2,
+.rarity-event .detail-copy h1 {
+  color: var(--rarity-event);
+}
+
 .card-link {
   display: block;
 }
@@ -453,6 +549,37 @@ textarea {
   margin-top: 14px;
   padding-top: 12px;
   color: #f0d39a !important;
+}
+
+.tier-switcher {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  margin-top: 14px;
+}
+
+.tier-button {
+  min-height: 36px;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+.tier-button[data-tier="I"].active {
+  border-color: var(--tier-1);
+  background: rgba(103, 169, 104, 0.18);
+  color: var(--text);
+}
+
+.tier-button[data-tier="II"].active {
+  border-color: var(--tier-2);
+  background: rgba(62, 140, 204, 0.18);
+  color: var(--text);
+}
+
+.tier-button[data-tier="III"].active {
+  border-color: var(--tier-3);
+  background: rgba(142, 94, 196, 0.2);
+  color: var(--text);
 }
 
 .detail-layout {

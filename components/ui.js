@@ -100,12 +100,14 @@ export function renderCollectionCard(item, collection) {
   const effect = item.effect_ar || "";
   const description = item.description_ar || item.summary || "";
   const detailHref = `/pages/detail.html?collection=${encodeURIComponent(collection)}&id=${encodeURIComponent(item.id)}`;
+  const tier = "III";
+  const cardClasses = ["content-card", collectionClass(collection, item, tier)].filter(Boolean).join(" ");
   const meta = [item.rarity, item.category, item.owner_or_type, item.type, item.role, item.difficulty, item.owner, item.realm, item.channel]
     .filter(Boolean)
     .join(" - ");
   const url = item.url ? `<a class="text-link" href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">فتح الرابط</a>` : "";
   return `
-    <article class="content-card">
+    <article class="${escapeAttr(cardClasses)}" ${collection === "perks" ? `data-tier="${tier}"` : ""}>
       <a class="card-link" href="${escapeAttr(detailHref)}" aria-label="${escapeAttr(title)}">
       <img src="${escapeAttr(image)}" alt="${escapeAttr(title)}" loading="lazy" />
       <span>${escapeHtml(meta || collectionLabels[collection] || collection)}</span>
@@ -115,9 +117,34 @@ export function renderCollectionCard(item, collection) {
       ${effect ? `<p class="effect-text">${escapeHtml(effect)}</p>` : ""}
       ${renderTags(item)}
       </a>
+      ${collection === "perks" ? renderTierControls(item) : ""}
       ${url}
     </article>
   `;
+}
+
+function collectionClass(collection, item, tier) {
+  if (collection === "perks") return `perk-card tier-${tier.toLowerCase()}`;
+  if (collection === "addons") return `rarity-card rarity-${slugClass(item.rarity)}`;
+  return "";
+}
+
+function renderTierControls(item) {
+  const tiers = item.tier_effects || item.tiers || {};
+  const hasTiers = ["I", "II", "III"].some((tier) => tiers[tier]);
+  if (!hasTiers) return "";
+  return `
+    <div class="tier-switcher" aria-label="اختيار مستوى البيرك">
+      ${["I", "II", "III"].map((tier) => `<button class="tier-button ${tier === "III" ? "active" : ""}" type="button" data-tier="${tier}">Tier ${tier}</button>`).join("")}
+    </div>
+  `;
+}
+
+function slugClass(value) {
+  return String(value || "unknown")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 export function renderTags(item) {

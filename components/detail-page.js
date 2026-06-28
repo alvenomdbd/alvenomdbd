@@ -1,4 +1,4 @@
-import { createDataProvider, collectionLabels } from "./data-provider.js";
+import { collectionLabels, createDataProvider } from "./data-provider.js";
 import { escapeHtml, renderPageHero, renderTags, setupNavToggle } from "./ui.js";
 
 const provider = createDataProvider();
@@ -38,11 +38,12 @@ async function initDetailPage() {
 function renderDetail(item, collection) {
   const title = item.name_ar || item.nameAr || item.name_en || item.name || item.id;
   const english = item.name_en || item.name || "";
+  const detailClass = collection === "perks" ? "perk-detail" : collection === "addons" ? `addon-detail rarity-${slugClass(item.rarity)}` : "";
   const fields = [
     ["القسم", collectionLabels[collection] || collection],
     ["الاسم الإنجليزي", english],
-    ["الشخصية", item.character || item.owner],
-    ["النوع", item.type || item.category || item.role],
+    [collection === "perks" ? "صاحب البيرك" : "يتبع لأي Killer أو Item", item.character || item.owner],
+    ["النوع", item.perk_type || item.addon_type || item.type || item.category || item.role],
     ["الندرة", item.rarity],
     ["الفصل", item.chapter],
     ["Realm", item.realm],
@@ -51,7 +52,7 @@ function renderDetail(item, collection) {
   ].filter(([, value]) => value);
 
   return `
-    <article class="detail-layout">
+    <article class="detail-layout ${detailClass}">
       <aside class="detail-media">
         <img src="${escapeHtml(item.image || "")}" alt="${escapeHtml(title)}" />
       </aside>
@@ -62,20 +63,51 @@ function renderDetail(item, collection) {
         <div class="detail-facts">
           ${fields.map(([label, value]) => `<div><b>${escapeHtml(label)}</b><em>${escapeHtml(value)}</em></div>`).join("")}
         </div>
-        ${block("الوصف الرسمي / المختصر", item.official_description_ar || item.official_description || item.description || item.summary)}
-        ${block("شرح عربي مفصل", item.description_ar || item.arabic_guide || item.summary)}
-        ${block("التأثير داخل القيم", item.effect_ar)}
-        ${block("القيم الرقمية", arrayText(item.numeric_values || item.values))}
-        ${block("Tier I / Tier II / Tier III", tierText(item.tiers))}
-        ${block("أمثلة على الاستخدام", arrayText(item.usage_examples))}
-        ${block("أفضل Build", arrayText(item.best_build))}
-        ${block("يتوافق مع", arrayText(item.synergies))}
+        ${collection === "perks" ? renderPerkDetail(item) : collection === "addons" ? renderAddonDetail(item) : renderGenericDetail(item)}
         ${block("سجل التعديلات", arrayText(item.patch_history))}
         ${block("نصائح للكيلر", arrayText(item.killer_tips))}
         ${block("نصائح للسيرفايفر", arrayText(item.survivor_tips))}
         ${renderTags(item)}
       </section>
     </article>
+  `;
+}
+
+function renderPerkDetail(item) {
+  return `
+    ${block("الوصف الرسمي", item.official_description_ar || item.official_description || item.description || item.summary)}
+    ${block("شرح عربي مفصل", item.description_ar || item.arabic_guide || item.summary)}
+    ${tierBlocks(item.tier_effects || item.tiers)}
+    ${block("أفضل الكومبوهات", arrayText(item.best_combos || item.best_build))}
+    ${block("البيركات المشابهة", arrayText(item.similar_perks || item.synergies))}
+    ${block("مميزات البيرك", arrayText(item.strengths))}
+    ${block("عيوب البيرك", arrayText(item.weaknesses))}
+    ${block("القيم الرقمية", arrayText(item.numeric_values || item.values))}
+  `;
+}
+
+function renderAddonDetail(item) {
+  return `
+    ${block("التأثير الرسمي", item.official_effect || item.official_description || item.effect_ar)}
+    ${block("شرح عربي مفصل", item.description_ar || item.arabic_guide || item.summary)}
+    ${block("أفضل الكومبوهات", arrayText(item.best_combos))}
+    ${block("أفضل Builds يستخدم معها", arrayText(item.best_builds))}
+    ${block("المميزات", arrayText(item.strengths))}
+    ${block("العيوب", arrayText(item.weaknesses))}
+    ${block("القيم الرقمية", arrayText(item.numeric_values || item.values))}
+  `;
+}
+
+function renderGenericDetail(item) {
+  return `
+    ${block("الوصف الرسمي / المختصر", item.official_description_ar || item.official_description || item.description || item.summary)}
+    ${block("شرح عربي مفصل", item.description_ar || item.arabic_guide || item.summary)}
+    ${block("التأثير داخل القيم", item.effect_ar)}
+    ${block("القيم الرقمية", arrayText(item.numeric_values || item.values))}
+    ${block("Tier I / Tier II / Tier III", tierText(item.tiers))}
+    ${block("أمثلة على الاستخدام", arrayText(item.usage_examples))}
+    ${block("أفضل Build", arrayText(item.best_build))}
+    ${block("يتوافق مع", arrayText(item.synergies))}
   `;
 }
 
@@ -87,6 +119,13 @@ function block(title, value) {
       <p>${escapeHtml(value)}</p>
     </section>
   `;
+}
+
+function tierBlocks(tiers) {
+  if (!tiers || typeof tiers !== "object") return "";
+  return ["I", "II", "III"]
+    .map((tier) => (tiers[tier] ? `<section class="detail-block tier-detail tier-${tier.toLowerCase()}"><h2>تأثير Tier ${tier}</h2><p>${escapeHtml(tiers[tier])}</p></section>` : ""))
+    .join("");
 }
 
 function arrayText(value) {
@@ -101,4 +140,11 @@ function tierText(value) {
   if (Array.isArray(value)) return value.join(" / ");
   if (typeof value === "object") return Object.entries(value).map(([key, val]) => `${key}: ${val}`).join(" / ");
   return value;
+}
+
+function slugClass(value) {
+  return String(value || "unknown")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }

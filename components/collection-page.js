@@ -99,5 +99,16 @@ async function initCollectionPage() {
   document.querySelector("#typeFilter").addEventListener("change", render);
   document.querySelector("#rarityFilter").addEventListener("change", render);
   document.querySelector("#collectionSort").addEventListener("change", render);
+  root.addEventListener("click", (event) => {
+    const tierButton = event.target.closest(".tier-button");
+    if (!tierButton) return;
+    event.preventDefault();
+    const card = tierButton.closest(".perk-card");
+    const tier = tierButton.dataset.tier || "III";
+    card.dataset.tier = tier;
+    card.classList.remove("tier-i", "tier-ii", "tier-iii");
+    card.classList.add(`tier-${tier.toLowerCase()}`);
+    card.querySelectorAll(".tier-button").forEach((button) => button.classList.toggle("active", button === tierButton));
+  });
   render();
 }
