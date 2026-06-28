@@ -20,19 +20,25 @@ async function initCollectionPage() {
 
   const data = await provider.list(collection);
   const root = document.querySelector("#collectionRoot");
-  const options = unique(data.flatMap((item) => [item.type, item.role, item.category, item.rarity, item.difficulty].filter(Boolean)));
+  const typeOptions = unique(data.flatMap((item) => [item.category, item.type, item.owner_or_type, item.role, item.difficulty].filter(Boolean)));
+  const rarityOptions = unique(data.map((item) => item.rarity).filter(Boolean));
 
   root.innerHTML = `
     <div class="tools page-tools">
       <input id="collectionSearch" type="search" placeholder="بحث..." />
-      <select id="collectionFilter">
-        <option value="all">الكل</option>
-        ${options.map((option) => `<option value="${option}">${option}</option>`).join("")}
+      <select id="typeFilter">
+        <option value="all">كل الأنواع</option>
+        ${typeOptions.map((option) => `<option value="${option}">${option}</option>`).join("")}
+      </select>
+      <select id="rarityFilter">
+        <option value="all">كل الندرات</option>
+        ${rarityOptions.map((option) => `<option value="${option}">${option}</option>`).join("")}
       </select>
       <select id="collectionSort">
         <option value="nameAr">حسب الاسم العربي</option>
         <option value="name">حسب الاسم الإنجليزي</option>
-        <option value="type">حسب النوع</option>
+        <option value="category">حسب النوع</option>
+        <option value="rarity">حسب الندرة</option>
         <option value="difficulty">حسب الصعوبة</option>
       </select>
     </div>
@@ -42,10 +48,12 @@ async function initCollectionPage() {
 
   const render = () => {
     const query = document.querySelector("#collectionSearch").value.toLowerCase().trim();
-    const filter = document.querySelector("#collectionFilter").value;
+    const typeFilter = document.querySelector("#typeFilter").value;
+    const rarityFilter = document.querySelector("#rarityFilter").value;
     const sort = document.querySelector("#collectionSort").value;
     const rows = data
-      .filter((item) => filter === "all" || [item.type, item.role, item.category, item.rarity, item.difficulty].includes(filter))
+      .filter((item) => typeFilter === "all" || [item.category, item.type, item.owner_or_type, item.role, item.difficulty].includes(typeFilter))
+      .filter((item) => rarityFilter === "all" || item.rarity === rarityFilter)
       .filter((item) => searchText(item).includes(query))
       .sort((a, b) => compareBy(a, b, sort));
 
@@ -54,7 +62,8 @@ async function initCollectionPage() {
   };
 
   document.querySelector("#collectionSearch").addEventListener("input", render);
-  document.querySelector("#collectionFilter").addEventListener("change", render);
+  document.querySelector("#typeFilter").addEventListener("change", render);
+  document.querySelector("#rarityFilter").addEventListener("change", render);
   document.querySelector("#collectionSort").addEventListener("change", render);
   render();
 }

@@ -101,7 +101,7 @@ function drawList() {
 function drawForm() {
   const form = document.querySelector("#adminForm");
   const item = selectedIndex >= 0 ? store[current][selectedIndex] : {};
-  const fields = ["id", "name", "nameAr", "title", "type", "role", "owner", "category", "difficulty", "rarity", "power", "realm", "channel", "date", "summary", "image", "url", "tags", "perks"];
+  const fields = ["id", "name_en", "name_ar", "name", "nameAr", "title", "type", "role", "owner_or_type", "owner", "category", "difficulty", "rarity", "power", "realm", "channel", "date", "description_ar", "effect_ar", "summary", "image", "url", "tags", "perks"];
   form.innerHTML = `
     <h2>${selectedIndex >= 0 ? "تعديل" : "إضافة"} ${collectionLabels[current]}</h2>
     ${fields

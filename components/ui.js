@@ -7,8 +7,9 @@ export function renderNav(active = "") {
     ["/pages/killers.html", "القتلة", "killers"],
     ["/pages/survivors.html", "الناجون", "survivors"],
     ["/pages/perks.html", "البيركات", "perks"],
-    ["/pages/addons.html", "الإضافات", "addons"],
     ["/pages/items.html", "الأدوات", "items"],
+    ["/pages/addons.html", "الإضافات", "addons"],
+    ["/pages/offerings.html", "الأوفرنغز", "offerings"],
     ["/pages/maps.html", "الخرائط", "maps"],
     ["/pages/news.html", "الأخبار", "news"],
     ["/pages/videos.html", "YouTube", "videos"],
@@ -49,8 +50,11 @@ export function renderPageHero({ eyebrow = "ALVenomDBD", title, subtitle }) {
 
 export function renderCollectionCard(item, collection) {
   const image = item.image || fallbackImage(collection);
-  const title = item.nameAr || item.title || item.name || item.id;
-  const meta = [item.name, item.type, item.role, item.category, item.rarity, item.difficulty, item.owner, item.realm, item.channel]
+  const title = item.name_ar || item.nameAr || item.title || item.name || item.name_en || item.id;
+  const english = item.name_en || item.name || "";
+  const effect = item.effect_ar || "";
+  const description = item.description_ar || item.summary || "";
+  const meta = [item.rarity, item.category, item.owner_or_type, item.type, item.role, item.difficulty, item.owner, item.realm, item.channel]
     .filter(Boolean)
     .join(" - ");
   const url = item.url ? `<a class="text-link" href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">فتح الرابط</a>` : "";
@@ -59,7 +63,9 @@ export function renderCollectionCard(item, collection) {
       <img src="${escapeAttr(image)}" alt="${escapeAttr(title)}" loading="lazy" />
       <span>${escapeHtml(meta || collectionLabels[collection] || collection)}</span>
       <h2>${escapeHtml(title)}</h2>
-      <p>${escapeHtml(item.summary || "")}</p>
+      ${english ? `<strong class="card-en">${escapeHtml(english)}</strong>` : ""}
+      <p>${escapeHtml(description)}</p>
+      ${effect ? `<p class="effect-text">${escapeHtml(effect)}</p>` : ""}
       ${renderTags(item)}
       ${url}
     </article>
@@ -78,6 +84,7 @@ export function fallbackImage(collection) {
   if (collection === "perks") return "/images/perk-survivor.svg";
   if (collection === "addons") return "/images/equipment-killer-addon.svg";
   if (collection === "items") return "/images/equipment-item.svg";
+  if (collection === "offerings") return "/images/equipment-offering.svg";
   return "/images/dbd-hero.png";
 }
 

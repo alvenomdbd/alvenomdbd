@@ -1,11 +1,12 @@
-export const collections = ["killers", "survivors", "perks", "addons", "items", "maps", "news", "videos"];
+export const collections = ["killers", "survivors", "perks", "items", "addons", "offerings", "maps", "news", "videos"];
 
 export const collectionLabels = {
   killers: "القتلة",
   survivors: "الناجون",
   perks: "البيركات",
-  addons: "الإضافات",
   items: "الأدوات",
+  addons: "الإضافات",
+  offerings: "الأوفرنغز",
   maps: "الخرائط",
   news: "الأخبار",
   videos: "فيديوهات YouTube",

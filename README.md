@@ -1,60 +1,54 @@
 # ALVenomDBD
 
-موقع عربي RTL ثابت للعبة Dead by Daylight، منظم ليكون قابلًا للتوسع والنقل لاحقًا إلى Supabase أو Firebase.
+موقع عربي RTL ثابت للعبة Dead by Daylight، منظم حتى يكون قابلًا للتوسع والنقل لاحقًا إلى Supabase أو Firebase.
 
 ## الهيكل
 
 ```text
-outputs/
-  index.html
-  data/
-    killers.json
-    survivors.json
-    perks.json
-    addons.json
-    items.json
-    maps.json
-    news.json
-    videos.json
-  pages/
-    dbd.html
-    killers.html
-    survivors.html
-    perks.html
-    addons.html
-    items.html
-    maps.html
-    news.html
-    videos.html
-    search.html
-  components/
-    data-provider.js
-    ui.js
-    collection-page.js
-    search-page.js
-    home.js
-  admin/
-    index.html
-    admin.js
-  styles/
-    main.css
-  images/
-    ...
+index.html
+data/
+  killers.json
+  survivors.json
+  perks.json
+  items.json
+  addons.json
+  offerings.json
+  maps.json
+  news.json
+  videos.json
+pages/
+  dbd.html
+  killers.html
+  survivors.html
+  perks.html
+  items.html
+  addons.html
+  offerings.html
+  maps.html
+  news.html
+  videos.html
+  search.html
+components/
+admin/
+styles/
+images/
+  items/
+  addons/
+  offerings/
+  survivors/
 ```
 
 ## التشغيل المحلي
 
-يفضل تشغيله بسيرفر محلي لأن الصفحات تقرأ JSON:
+يفضل تشغيل الموقع بسيرفر محلي لأن الصفحات تقرأ ملفات JSON:
 
 ```bash
-npx serve outputs
+npx serve .
 ```
-
-ثم افتح الرابط المحلي.
 
 ## النشر على Netlify
 
-ارفع محتويات مجلد `outputs` على Netlify.
+اربط المستودع مباشرة مع Netlify، واجعل مجلد النشر هو جذر المشروع.
 
 المسارات الجاهزة:
 
@@ -63,8 +57,9 @@ npx serve outputs
 - `/perks`
 - `/killers`
 - `/survivors`
-- `/addons`
 - `/items`
+- `/addons`
+- `/offerings`
 - `/maps`
 - `/news`
 - `/videos`
@@ -74,36 +69,23 @@ npx serve outputs
 
 كل قسم له ملف JSON مستقل داخل `data/`.
 
-مثال إضافة بيرك داخل `data/perks.json`:
+معدات اللعبة مقسمة الآن إلى:
 
-```json
-{
-  "id": "example",
-  "name": "Example Perk",
-  "nameAr": "بيرك مثال",
-  "type": "Survivor",
-  "owner": "Dwight Fairfield",
-  "category": "Information",
-  "summary": "شرح عربي مختصر.",
-  "image": "/images/perk-survivor.svg",
-  "tags": ["info", "beginner"]
-}
-```
+- `data/items.json`
+- `data/addons.json`
+- `data/offerings.json`
+
+وصورها داخل:
+
+- `images/items/`
+- `images/addons/`
+- `images/offerings/`
 
 ## لوحة الإدارة
 
 افتح `/admin`.
 
-لوحة الإدارة:
-
-- تقرأ ملفات JSON.
-- تضيف وتعدل وتحذف محليًا داخل المتصفح.
-- تصدر ملف JSON جاهزًا.
-
-مهم: لأن الموقع ثابت ولا يستخدم قاعدة بيانات خارجية، المتصفح لا يستطيع الكتابة مباشرة داخل ملفات المشروع على Netlify. بعد التصدير:
-
-1. استبدل ملف JSON المناسب داخل `data/`.
-2. أعد رفع الموقع على Netlify.
+لوحة الإدارة تقرأ ملفات JSON وتسمح بتعديل نسخة محلية داخل المتصفح ثم تصدير JSON. لأن الموقع ثابت على Netlify، المتصفح لا يستطيع الكتابة مباشرة داخل ملفات المشروع على GitHub.
 
 ## جاهزية Supabase/Firebase
 
