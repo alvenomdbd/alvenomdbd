@@ -6,14 +6,14 @@
     "name": "Dwight Fairfield",
     "nameAr": "دوايت فيرفيلد",
     "role": "Survivor",
-    "description_ar": "قائد فريق متوتر لكنه مفيد في التعاون وإظهار مواقع الحلفاء.",
-    "summary": "قائد فريق متوتر لكنه مفيد في التعاون وإظهار مواقع الحلفاء.",
+    "description_ar": "دوايت فيرفيلد قائد متردد في الظاهر، لكنه من أفضل الشخصيات لفهم قيمة التعاون. بيركاته تساعدك على رؤية الحلفاء، تسريع إصلاح المولدات، وتحويل الفريق إلى مجموعة أكثر تنظيمًا بدل اللعب العشوائي.",
+    "summary": "دوايت فيرفيلد قائد متردد في الظاهر، لكنه من أفضل الشخصيات لفهم قيمة التعاون. بيركاته تساعدك على رؤية الحلفاء، تسريع إصلاح المولدات، وتحويل الفريق إلى مجموعة أكثر تنظيمًا بدل اللعب العشوائي.",
     "perks": [
       "Bond",
       "Prove Thyself",
       "Leader"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/dwight-fairfield.png"
   },
   {
     "id": "meg-thomas",
@@ -22,14 +22,14 @@
     "name": "Meg Thomas",
     "nameAr": "ميغ توماس",
     "role": "Survivor",
-    "description_ar": "عداءة سريعة تناسب أسلوب المطاردة والهروب في اللحظات الحرجة.",
-    "summary": "عداءة سريعة تناسب أسلوب المطاردة والهروب في اللحظات الحرجة.",
+    "description_ar": "ميغ توماس عداءة ممتازة لمن يحب المطاردات والهرب السريع. قوتها في خلق مسافة مع القاتل، الدخول والخروج من المطاردة بذكاء، واستغلال اللحظة الأخيرة لإنقاذ المباراة.",
+    "summary": "ميغ توماس عداءة ممتازة لمن يحب المطاردات والهرب السريع. قوتها في خلق مسافة مع القاتل، الدخول والخروج من المطاردة بذكاء، واستغلال اللحظة الأخيرة لإنقاذ المباراة.",
     "perks": [
       "Quick & Quiet",
       "Sprint Burst",
       "Adrenaline"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/meg-thomas.png"
   },
   {
     "id": "claudette-morel",
@@ -38,14 +38,14 @@
     "name": "Claudette Morel",
     "nameAr": "كلوديت موريل",
     "role": "Survivor",
-    "description_ar": "خبيرة علاج ودعم تساعد الفريق على التعافي والبقاء لفترة أطول.",
-    "summary": "خبيرة علاج ودعم تساعد الفريق على التعافي والبقاء لفترة أطول.",
+    "description_ar": "كلوديت موريل خيار قوي لمن يحب دور الدعم والعلاج. بيركاتها تعلمك متى تترك كل شيء لإنقاذ الفريق، ومتى يكون العلاج قرارًا يصنع فارقًا حقيقيًا في ضغط المباراة.",
+    "summary": "كلوديت موريل خيار قوي لمن يحب دور الدعم والعلاج. بيركاتها تعلمك متى تترك كل شيء لإنقاذ الفريق، ومتى يكون العلاج قرارًا يصنع فارقًا حقيقيًا في ضغط المباراة.",
     "perks": [
       "Empathy",
       "Botany Knowledge",
       "Self-Care"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/claudette-morel.png"
   },
   {
     "id": "jake-park",
@@ -54,14 +54,14 @@
     "name": "Jake Park",
     "nameAr": "جيك بارك",
     "role": "Survivor",
-    "description_ar": "ناج هادئ يعتمد على التخفي ومقاومة الضغط وكسر الخطافات.",
-    "summary": "ناج هادئ يعتمد على التخفي ومقاومة الضغط وكسر الخطافات.",
+    "description_ar": "جيك بارك ناج هادئ يناسب أسلوب التخفي واللعب البارد. يساعدك على مقاومة أصوات الإصابة، تقليل تنبيه الغربان، وكسر الخطافات عندما يحتاج الفريق إلى تعطيل خطة القاتل.",
+    "summary": "جيك بارك ناج هادئ يناسب أسلوب التخفي واللعب البارد. يساعدك على مقاومة أصوات الإصابة، تقليل تنبيه الغربان، وكسر الخطافات عندما يحتاج الفريق إلى تعطيل خطة القاتل.",
     "perks": [
       "Iron Will",
       "Calm Spirit",
       "Saboteur"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/jake-park.png"
   },
   {
     "id": "nea-karlsson",
@@ -70,14 +70,14 @@
     "name": "Nea Karlsson",
     "nameAr": "نيا كارلسون",
     "role": "Survivor",
-    "description_ar": "شخصية مراوغة تناسب اللعب الحضري والحركة الذكية حول النوافذ والحواجز.",
-    "summary": "شخصية مراوغة تناسب اللعب الحضري والحركة الذكية حول النوافذ والحواجز.",
+    "description_ar": "نيا كارلسون مناسبة للاعب الذي يحب الحركة الذكية حول الخريطة. أسلوبها يعتمد على التخفي السريع، استهلاك الموارد بحذر، واستغلال السقوط من المرتفعات لصناعة مسافة آمنة.",
+    "summary": "نيا كارلسون مناسبة للاعب الذي يحب الحركة الذكية حول الخريطة. أسلوبها يعتمد على التخفي السريع، استهلاك الموارد بحذر، واستغلال السقوط من المرتفعات لصناعة مسافة آمنة.",
     "perks": [
       "Balanced Landing",
       "Urban Evasion",
       "Streetwise"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/nea-karlsson.png"
   },
   {
     "id": "laurie-strode",
@@ -86,14 +86,14 @@
     "name": "Laurie Strode",
     "nameAr": "لوري سترود",
     "role": "Survivor",
-    "description_ar": "ناجية عنيدة متخصصة في مواجهة القاتل وحماية نفسها من التركيز.",
-    "summary": "ناجية عنيدة متخصصة في مواجهة القاتل وحماية نفسها من التركيز.",
+    "description_ar": "لوري سترود شخصية مواجهة لا تهرب من الخطر بسهولة. بيركاتها قوية ضد التركيز والتانل، وتناسب اللاعب الذي يريد فرصة ثانية حقيقية عندما يصر القاتل على ملاحقته.",
+    "summary": "لوري سترود شخصية مواجهة لا تهرب من الخطر بسهولة. بيركاتها قوية ضد التركيز والتانل، وتناسب اللاعب الذي يريد فرصة ثانية حقيقية عندما يصر القاتل على ملاحقته.",
     "perks": [
       "Sole Survivor",
       "Object of Obsession",
       "Decisive Strike"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/laurie-strode.png"
   },
   {
     "id": "ace-visconti",
@@ -102,14 +102,14 @@
     "name": "Ace Visconti",
     "nameAr": "آيس فيسكونتي",
     "role": "Survivor",
-    "description_ar": "مقامر محظوظ يعتمد على الأدوات والصناديق ورفع فرص الفريق.",
-    "summary": "مقامر محظوظ يعتمد على الأدوات والصناديق ورفع فرص الفريق.",
+    "description_ar": "آيس فيسكونتي مقامر محظوظ يحوّل الصناديق والأدوات إلى قيمة أعلى. يناسب من يحب اللعب المرن، قراءة الهالات، والاعتماد على الحظ المدعوم بقرارات ذكية.",
+    "summary": "آيس فيسكونتي مقامر محظوظ يحوّل الصناديق والأدوات إلى قيمة أعلى. يناسب من يحب اللعب المرن، قراءة الهالات، والاعتماد على الحظ المدعوم بقرارات ذكية.",
     "perks": [
       "Open-Handed",
       "Up the Ante",
       "Ace in the Hole"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/ace-visconti.png"
   },
   {
     "id": "william-bill-overbeck",
@@ -118,14 +118,14 @@
     "name": "William \"Bill\" Overbeck",
     "nameAr": "ويليام \"بيل\" أوفربك",
     "role": "Survivor",
-    "description_ar": "محارب مخضرم قوي في الإنقاذ والعودة من السقوط ونهاية المباراة.",
-    "summary": "محارب مخضرم قوي في الإنقاذ والعودة من السقوط ونهاية المباراة.",
+    "description_ar": "ويليام بيل أوفربك محارب مخضرم لا يستسلم بسهولة. بيركاته من أهم أدوات الإنقاذ والصمود، خصوصًا Borrowed Time وUnbreakable، وتناسب المباريات التي تصبح فوضوية في آخرها.",
+    "summary": "ويليام بيل أوفربك محارب مخضرم لا يستسلم بسهولة. بيركاته من أهم أدوات الإنقاذ والصمود، خصوصًا Borrowed Time وUnbreakable، وتناسب المباريات التي تصبح فوضوية في آخرها.",
     "perks": [
       "Left Behind",
       "Borrowed Time",
       "Unbreakable"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/william-bill-overbeck.png"
   },
   {
     "id": "feng-min",
@@ -134,14 +134,14 @@
     "name": "Feng Min",
     "nameAr": "فينغ مين",
     "role": "Survivor",
-    "description_ar": "لاعبة تنافسية جيدة للمبتدئين، تجمع بين إصلاح المولدات والهروب السريع.",
-    "summary": "لاعبة تنافسية جيدة للمبتدئين، تجمع بين إصلاح المولدات والهروب السريع.",
+    "description_ar": "فينغ مين لاعبة تنافسية ممتازة للتعلم والاحتراف. تجمع بين إصلاح المولدات بأمان، الهروب عبر Lithe، وكشف القاتل بعد تكسير الحواجز أو المولدات.",
+    "summary": "فينغ مين لاعبة تنافسية ممتازة للتعلم والاحتراف. تجمع بين إصلاح المولدات بأمان، الهروب عبر Lithe، وكشف القاتل بعد تكسير الحواجز أو المولدات.",
     "perks": [
       "Technician",
       "Lithe",
       "Alert"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/feng-min.png"
   },
   {
     "id": "david-king",
@@ -150,14 +150,14 @@
     "name": "David King",
     "nameAr": "ديفيد كينغ",
     "role": "Survivor",
-    "description_ar": "مقاتل جريء يعتمد على المخاطرة، تلقي الضربات، واللعب العدواني.",
-    "summary": "مقاتل جريء يعتمد على المخاطرة، تلقي الضربات، واللعب العدواني.",
+    "description_ar": "ديفيد كينغ شخصية مخاطرة وشجاعة. بيركاته تكافئ تلقي الضربات واللعب العدواني، لكنها تحتاج قرارًا جيدًا لأن No Mither وDead Hard يطلبان ثقة وتوقيتًا عاليًا.",
+    "summary": "ديفيد كينغ شخصية مخاطرة وشجاعة. بيركاته تكافئ تلقي الضربات واللعب العدواني، لكنها تحتاج قرارًا جيدًا لأن No Mither وDead Hard يطلبان ثقة وتوقيتًا عاليًا.",
     "perks": [
       "We're Gonna Live Forever",
       "Dead Hard",
       "No Mither"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/david-king.png"
   },
   {
     "id": "quentin-smith",
@@ -166,14 +166,14 @@
     "name": "Quentin Smith",
     "nameAr": "كوينتن سميث",
     "role": "Survivor",
-    "description_ar": "ناج صامد يساعد في فتح البوابات والبحث عن العلاج ومقاومة الإرهاق.",
-    "summary": "ناج صامد يساعد في فتح البوابات والبحث عن العلاج ومقاومة الإرهاق.",
+    "description_ar": "كوينتن سميث ناج صبور يركز على دعم نهاية المباراة والاستمرارية. يساعد الفريق بفتح البوابات بسرعة، إدارة الإرهاق، والبحث عن العلاج عند الحاجة.",
+    "summary": "كوينتن سميث ناج صبور يركز على دعم نهاية المباراة والاستمرارية. يساعد الفريق بفتح البوابات بسرعة، إدارة الإرهاق، والبحث عن العلاج عند الحاجة.",
     "perks": [
       "Wake Up!",
       "Pharmacy",
       "Vigil"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/quentin-smith.png"
   },
   {
     "id": "detective-david-tapp",
@@ -182,14 +182,14 @@
     "name": "Detective David Tapp",
     "nameAr": "المحقق ديفيد تاب",
     "role": "Survivor",
-    "description_ar": "محقق عنيد يقرأ الخريطة ويطارد الأدلة ويصمد وهو مصاب.",
-    "summary": "محقق عنيد يقرأ الخريطة ويطارد الأدلة ويصمد وهو مصاب.",
+    "description_ar": "المحقق ديفيد تاب ممتاز لمن يحب جمع المعلومات. بيركاته تكشف الأهداف بعد المولدات، تساعد على إصلاح آمن داخل نطاق الرعب، وتمنح قدرة أفضل على الحركة عند السقوط.",
+    "summary": "المحقق ديفيد تاب ممتاز لمن يحب جمع المعلومات. بيركاته تكشف الأهداف بعد المولدات، تساعد على إصلاح آمن داخل نطاق الرعب، وتمنح قدرة أفضل على الحركة عند السقوط.",
     "perks": [
       "Tenacity",
       "Detective's Hunch",
       "Stake Out"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/detective-david-tapp.png"
   },
   {
     "id": "kate-denson",
@@ -198,14 +198,14 @@
     "name": "Kate Denson",
     "nameAr": "كيت دينسون",
     "role": "Survivor",
-    "description_ar": "فنانة شجاعة تناسب المطاردات، قراءة النوافذ، ومقاومة الحمل.",
-    "summary": "فنانة شجاعة تناسب المطاردات، قراءة النوافذ، ومقاومة الحمل.",
+    "description_ar": "كيت دينسون من أفضل الشخصيات لفهم المطاردات. Windows of Opportunity يجعل الخريطة أوضح، وBoil Over يمنح مقاومة أثناء الحمل، مما يجعلها خيارًا ممتازًا للتعلم واللعب الذكي.",
+    "summary": "كيت دينسون من أفضل الشخصيات لفهم المطاردات. Windows of Opportunity يجعل الخريطة أوضح، وBoil Over يمنح مقاومة أثناء الحمل، مما يجعلها خيارًا ممتازًا للتعلم واللعب الذكي.",
     "perks": [
       "Dance With Me",
       "Windows of Opportunity",
       "Boil Over"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/kate-denson.png"
   },
   {
     "id": "adam-francis",
@@ -214,14 +214,14 @@
     "name": "Adam Francis",
     "nameAr": "آدم فرانسيس",
     "role": "Survivor",
-    "description_ar": "مدرس هادئ يبرع في التضليل والإنقاذ الخطير والتعلم من المحاولات.",
-    "summary": "مدرس هادئ يبرع في التضليل والإنقاذ الخطير والتعلم من المحاولات.",
+    "description_ar": "آدم فرانسيس شخصية هادئة لكنها خطيرة في اللحظات المناسبة. Deliverance يمنح إنقاذًا ذاتيًا قويًا، وDiversion يضيف خداعًا مفيدًا عندما تحتاج لتشتيت القاتل.",
+    "summary": "آدم فرانسيس شخصية هادئة لكنها خطيرة في اللحظات المناسبة. Deliverance يمنح إنقاذًا ذاتيًا قويًا، وDiversion يضيف خداعًا مفيدًا عندما تحتاج لتشتيت القاتل.",
     "perks": [
       "Diversion",
       "Deliverance",
       "Autodidact"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/adam-francis.png"
   },
   {
     "id": "jeffrey-jeff-johansen",
@@ -230,14 +230,14 @@
     "name": "Jeffrey \"Jeff\" Johansen",
     "nameAr": "جيفري \"جيف\" يوهانسن",
     "role": "Survivor",
-    "description_ar": "فنان وفي يساعد الفريق بالتواصل وكشف الهالات وإرباك القاتل.",
-    "summary": "فنان وفي يساعد الفريق بالتواصل وكشف الهالات وإرباك القاتل.",
+    "description_ar": "جيف يوهانسن داعم قوي لمن يحب اللعب الجماعي. Aftercare يبني شبكة معلومات بين الحلفاء، وDistortion يحميك من قراءة الهالة، مما يجعله ممتازًا ضد القتلة المعتمدين على المعلومات.",
+    "summary": "جيف يوهانسن داعم قوي لمن يحب اللعب الجماعي. Aftercare يبني شبكة معلومات بين الحلفاء، وDistortion يحميك من قراءة الهالة، مما يجعله ممتازًا ضد القتلة المعتمدين على المعلومات.",
     "perks": [
       "Breakdown",
       "Aftercare",
       "Distortion"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/jeffrey-jeff-johansen.png"
   },
   {
     "id": "jane-romero",
@@ -246,14 +246,14 @@
     "name": "Jane Romero",
     "nameAr": "جين روميرو",
     "role": "Survivor",
-    "description_ar": "مقدمة قوية الشخصية تساعد الفريق بعد العلاج وتخفي آثارها وتفاجئ القاتل.",
-    "summary": "مقدمة قوية الشخصية تساعد الفريق بعد العلاج وتخفي آثارها وتفاجئ القاتل.",
+    "description_ar": "جين روميرو شخصية واثقة وقوية في قلب الخطر. Head On يفتح أسلوب لعب هجومي من الخزائن، بينما Solidarity وPoised يمنحان دعمًا وحركة أنظف بعد التقدم.",
+    "summary": "جين روميرو شخصية واثقة وقوية في قلب الخطر. Head On يفتح أسلوب لعب هجومي من الخزائن، بينما Solidarity وPoised يمنحان دعمًا وحركة أنظف بعد التقدم.",
     "perks": [
       "Solidarity",
       "Poised",
       "Head On"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/jane-romero.png"
   },
   {
     "id": "ashley-j-williams",
@@ -262,14 +262,14 @@
     "name": "Ashley J. Williams",
     "nameAr": "آشلي جيه ويليامز",
     "role": "Survivor",
-    "description_ar": "ناج ساخر وعنيد يحول السقوط والإنقاذ إلى فرص للعودة.",
-    "summary": "ناج ساخر وعنيد يحول السقوط والإنقاذ إلى فرص للعودة.",
+    "description_ar": "آش ويليامز ناج فوضوي وعنيد يحول المواقف السيئة إلى فرص. بيركاته تناسب من يحب اللعب غير المتوقع، خصوصًا عند السقوط أو حماية الحلفاء في لحظات حرجة.",
+    "summary": "آش ويليامز ناج فوضوي وعنيد يحول المواقف السيئة إلى فرص. بيركاته تناسب من يحب اللعب غير المتوقع، خصوصًا عند السقوط أو حماية الحلفاء في لحظات حرجة.",
     "perks": [
       "Flip-Flop",
       "Buckle Up",
       "Mettle of Man"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/ashley-j-williams.png"
   },
   {
     "id": "nancy-wheeler",
@@ -278,14 +278,14 @@
     "name": "Nancy Wheeler",
     "nameAr": "نانسي ويلر",
     "role": "Survivor",
-    "description_ar": "محققة شابة تعتمد على قراءة الأهداف والتخفي والعلاج داخل الخزائن.",
-    "summary": "محققة شابة تعتمد على قراءة الأهداف والتخفي والعلاج داخل الخزائن.",
+    "description_ar": "نانسي ويلر محققة ذكية تساعدك على قراءة المولدات والحركة بهدوء. Inner Strength يمنح علاجًا مستقلًا قويًا، وFixated يحسن التحكم بالمشي وآثارك.",
+    "summary": "نانسي ويلر محققة ذكية تساعدك على قراءة المولدات والحركة بهدوء. Inner Strength يمنح علاجًا مستقلًا قويًا، وFixated يحسن التحكم بالمشي وآثارك.",
     "perks": [
       "Better Together",
       "Fixated",
       "Inner Strength"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/nancy-wheeler.png"
   },
   {
     "id": "steve-harrington",
@@ -294,14 +294,14 @@
     "name": "Steve Harrington",
     "nameAr": "ستيف هارينغتون",
     "role": "Survivor",
-    "description_ar": "حامٍ شجاع يدعم الإنقاذ ويمنح الفريق فرصًا إضافية تحت الضغط.",
-    "summary": "حامٍ شجاع يدعم الإنقاذ ويمنح الفريق فرصًا إضافية تحت الضغط.",
+    "description_ar": "ستيف هارينغتون حامٍ شجاع يناسب اللاعب الذي يحب الإنقاذ والدفاع عن الفريق. بيركاته تساعد على حماية المنقذين، تمديد وقت الحلفاء على الخطاف، والتعافي بعد إنقاذ ناجح.",
+    "summary": "ستيف هارينغتون حامٍ شجاع يناسب اللاعب الذي يحب الإنقاذ والدفاع عن الفريق. بيركاته تساعد على حماية المنقذين، تمديد وقت الحلفاء على الخطاف، والتعافي بعد إنقاذ ناجح.",
     "perks": [
       "Babysitter",
       "Camaraderie",
       "Second Wind"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/steve-harrington.png"
   },
   {
     "id": "yui-kimura",
@@ -310,14 +310,14 @@
     "name": "Yui Kimura",
     "nameAr": "يوي كيمورا",
     "role": "Survivor",
-    "description_ar": "متسابقة جريئة تساعد على إنقاذ الحواجز وحماية الحلفاء أثناء الحمل.",
-    "summary": "متسابقة جريئة تساعد على إنقاذ الحواجز وحماية الحلفاء أثناء الحمل.",
+    "description_ar": "يوي كيمورا متسابقة جريئة تجعل الموارد أكثر قيمة. Any Means Necessary يعيد الحواجز، وBreakout يساعد في إنقاذ المحمولين، مما يجعلها ممتازة للعب الجماعي النشط.",
+    "summary": "يوي كيمورا متسابقة جريئة تجعل الموارد أكثر قيمة. Any Means Necessary يعيد الحواجز، وBreakout يساعد في إنقاذ المحمولين، مما يجعلها ممتازة للعب الجماعي النشط.",
     "perks": [
       "Lucky Break",
       "Any Means Necessary",
       "Breakout"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/yui-kimura.png"
   },
   {
     "id": "zarina-kassir",
@@ -326,14 +326,14 @@
     "name": "Zarina Kassir",
     "nameAr": "زارينا قصير",
     "role": "Survivor",
-    "description_ar": "صحفية شجاعة تناسب الإنقاذ الذكي وحماية الحلفاء والتضليل.",
-    "summary": "صحفية شجاعة تناسب الإنقاذ الذكي وحماية الحلفاء والتضليل.",
+    "description_ar": "زارينا قصير صحفية شجاعة تستخدم الخداع والحماية بذكاء. Off the Record قوي ضد التانل، وFor the People يسمح بإنقاذ سريع لكنه يحتاج توقيتًا حذرًا.",
+    "summary": "زارينا قصير صحفية شجاعة تستخدم الخداع والحماية بذكاء. Off the Record قوي ضد التانل، وFor the People يسمح بإنقاذ سريع لكنه يحتاج توقيتًا حذرًا.",
     "perks": [
       "Off the Record",
       "Red Herring",
       "For the People"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/zarina-kassir.png"
   },
   {
     "id": "cheryl-mason",
@@ -342,14 +342,14 @@
     "name": "Cheryl Mason",
     "nameAr": "شيريل ماسون",
     "role": "Survivor",
-    "description_ar": "ناجية من رعب سايلنت هيل، قوية في الصمود وحماية المولدات والتعاون.",
-    "summary": "ناجية من رعب سايلنت هيل، قوية في الصمود وحماية المولدات والتعاون.",
+    "description_ar": "شيريل ماسون ناجية من رعب سايلنت هيل وتناسب الصمود تحت الضغط. Soul Guard وRepressed Alliance يفتحان أساليب دفاعية قوية حول السقوط والمولدات.",
+    "summary": "شيريل ماسون ناجية من رعب سايلنت هيل وتناسب الصمود تحت الضغط. Soul Guard وRepressed Alliance يفتحان أساليب دفاعية قوية حول السقوط والمولدات.",
     "perks": [
       "Soul Guard",
       "Blood Pact",
       "Repressed Alliance"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/cheryl-mason.png"
   },
   {
     "id": "felix-richter",
@@ -358,14 +358,14 @@
     "name": "Felix Richter",
     "nameAr": "فيليكس ريختر",
     "role": "Survivor",
-    "description_ar": "معماري عملي يقرأ المولدات ويحسن العلاج ويستفيد من الأدوات.",
-    "summary": "معماري عملي يقرأ المولدات ويحسن العلاج ويستفيد من الأدوات.",
+    "description_ar": "فيليكس ريختر شخصية عملية لمن يحب الأدوات والقراءة المنظمة للخريطة. Built to Last يعيد قيمة الأدوات، وDesperate Measures يصبح أقوى كلما زاد ضغط القاتل.",
+    "summary": "فيليكس ريختر شخصية عملية لمن يحب الأدوات والقراءة المنظمة للخريطة. Built to Last يعيد قيمة الأدوات، وDesperate Measures يصبح أقوى كلما زاد ضغط القاتل.",
     "perks": [
       "Visionary",
       "Desperate Measures",
       "Built to Last"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/felix-richter.png"
   },
   {
     "id": "elodie-rakoto",
@@ -374,14 +374,14 @@
     "name": "Élodie Rakoto",
     "nameAr": "إيلودي راكوتو",
     "role": "Survivor",
-    "description_ar": "باحثة جريئة تستفيد من الصناديق والخداع والقوة أثناء السقوط.",
-    "summary": "باحثة جريئة تستفيد من الصناديق والخداع والقوة أثناء السقوط.",
+    "description_ar": "إيلودي راكوتو باحثة جريئة تحب الصناديق والخدع. Deception يربك القاتل حول الخزائن، وPower Struggle يصنع لحظات هروب نادرة لكنها مؤثرة.",
+    "summary": "إيلودي راكوتو باحثة جريئة تحب الصناديق والخدع. Deception يربك القاتل حول الخزائن، وPower Struggle يصنع لحظات هروب نادرة لكنها مؤثرة.",
     "perks": [
       "Appraisal",
       "Deception",
       "Power Struggle"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/elodie-rakoto.png"
   },
   {
     "id": "yun-jin-lee",
@@ -390,14 +390,14 @@
     "name": "Yun-Jin Lee",
     "nameAr": "يون-جين لي",
     "role": "Survivor",
-    "description_ar": "منتجة ذكية تلعب بأنانية محسوبة وتستفيد من التقدم والهرب السريع.",
-    "summary": "منتجة ذكية تلعب بأنانية محسوبة وتستفيد من التقدم والهرب السريع.",
+    "description_ar": "يون-جين لي منتجة ذكية تلعب بأسلوب محسوب يميل للنجاة الشخصية. Fast Track يستثمر أخطاء المباراة، وSmash Hit يكافئ ستن الحواجز بسرعة كبيرة.",
+    "summary": "يون-جين لي منتجة ذكية تلعب بأسلوب محسوب يميل للنجاة الشخصية. Fast Track يستثمر أخطاء المباراة، وSmash Hit يكافئ ستن الحواجز بسرعة كبيرة.",
     "perks": [
       "Fast Track",
       "Smash Hit",
       "Self-Preservation"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/yun-jin-lee.png"
   },
   {
     "id": "jill-valentine",
@@ -406,14 +406,14 @@
     "name": "Jill Valentine",
     "nameAr": "جيل فالنتاين",
     "role": "Survivor",
-    "description_ar": "عميلة خبيرة في مكافحة الخطر، قوية ضد الطوطمات والتعافي والمولدات.",
-    "summary": "عميلة خبيرة في مكافحة الخطر، قوية ضد الطوطمات والتعافي والمولدات.",
+    "description_ar": "جيل فالنتاين عميلة خبيرة ضد الفوضى والتهديدات الكبيرة. Blast Mine يعاقب القاتل على ركل المولدات، وCounterforce يجعل تنظيف الطوطمات أسرع وأكثر فاعلية.",
+    "summary": "جيل فالنتاين عميلة خبيرة ضد الفوضى والتهديدات الكبيرة. Blast Mine يعاقب القاتل على ركل المولدات، وCounterforce يجعل تنظيف الطوطمات أسرع وأكثر فاعلية.",
     "perks": [
       "Counterforce",
       "Resurgence",
       "Blast Mine"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/jill-valentine.png"
   },
   {
     "id": "leon-s-kennedy",
@@ -422,14 +422,14 @@
     "name": "Leon S. Kennedy",
     "nameAr": "ليون إس. كينيدي",
     "role": "Survivor",
-    "description_ar": "شرطي شجاع يساعد في الصمت أثناء العلاج وصناعة القنابل وإصلاح المولدات.",
-    "summary": "شرطي شجاع يساعد في الصمت أثناء العلاج وصناعة القنابل وإصلاح المولدات.",
+    "description_ar": "ليون كينيدي مناسب للاعب الذي يحب الأدوات التكتيكية. Flashbang يمنح قنابل إبهار من الإصلاح، وBite the Bullet يجعل العلاج صامتًا في لحظات خطيرة.",
+    "summary": "ليون كينيدي مناسب للاعب الذي يحب الأدوات التكتيكية. Flashbang يمنح قنابل إبهار من الإصلاح، وBite the Bullet يجعل العلاج صامتًا في لحظات خطيرة.",
     "perks": [
       "Bite the Bullet",
       "Flashbang",
       "Rookie Spirit"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/leon-s-kennedy.png"
   },
   {
     "id": "mikaela-reid",
@@ -438,14 +438,14 @@
     "name": "Mikaela Reid",
     "nameAr": "ميكايلا ريد",
     "role": "Survivor",
-    "description_ar": "ساحرة شابة تعتمد على البونز وكشف الأهداف ودعم الفريق.",
-    "summary": "ساحرة شابة تعتمد على البونز وكشف الأهداف ودعم الفريق.",
+    "description_ar": "ميكايلا ريد فتحت أسلوب البونز في اللعبة. بيركاتها قوية لدعم الفريق بالشفاء والتخفي، وتناسب اللاعب الذي يعرف أين يضع البون بدون كشفه بسرعة.",
+    "summary": "ميكايلا ريد فتحت أسلوب البونز في اللعبة. بيركاتها قوية لدعم الفريق بالشفاء والتخفي، وتناسب اللاعب الذي يعرف أين يضع البون بدون كشفه بسرعة.",
     "perks": [
       "Clairvoyance",
       "Boon: Circle of Healing",
       "Boon: Shadow Step"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/mikaela-reid.png"
   },
   {
     "id": "jonah-vasquez",
@@ -454,14 +454,14 @@
     "name": "Jonah Vasquez",
     "nameAr": "جوناه فاسكيز",
     "role": "Survivor",
-    "description_ar": "محلل ذكي يساعد في التصحيح وتحمل الضربات ودعم الفريق بالبون.",
-    "summary": "محلل ذكي يساعد في التصحيح وتحمل الضربات ودعم الفريق بالبون.",
+    "description_ar": "جوناه فاسكيز محلل أرقام يستخدم الحسابات لصالح الفريق. Overcome يمنح هروبًا قويًا بعد الضربة، وCorrective Action يساعد الحلفاء في اختبارات المهارة.",
+    "summary": "جوناه فاسكيز محلل أرقام يستخدم الحسابات لصالح الفريق. Overcome يمنح هروبًا قويًا بعد الضربة، وCorrective Action يساعد الحلفاء في اختبارات المهارة.",
     "perks": [
       "Overcome",
       "Corrective Action",
       "Boon: Exponential"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/jonah-vasquez.png"
   },
   {
     "id": "yoichi-asakawa",
@@ -470,14 +470,14 @@
     "name": "Yoichi Asakawa",
     "nameAr": "يويتشي أساكاوا",
     "role": "Survivor",
-    "description_ar": "باحث هادئ يدعم الحلفاء بعد المطاردة ويقوي الحركة والتعاون.",
-    "summary": "باحث هادئ يدعم الحلفاء بعد المطاردة ويقوي الحركة والتعاون.",
+    "description_ar": "يويتشي أساكاوا باحث هادئ يدعم الحلفاء بعد المطاردات والإنقاذ. بيركاته تمنح معلومات، سرعة حركة جماعية، وفرصًا أفضل لإعادة الفريق إلى وضع آمن.",
+    "summary": "يويتشي أساكاوا باحث هادئ يدعم الحلفاء بعد المطاردات والإنقاذ. بيركاته تمنح معلومات، سرعة حركة جماعية، وفرصًا أفضل لإعادة الفريق إلى وضع آمن.",
     "perks": [
       "Parental Guidance",
       "Empathic Connection",
       "Boon: Dark Theory"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/yoichi-asakawa.png"
   },
   {
     "id": "haddie-kaur",
@@ -486,14 +486,14 @@
     "name": "Haddie Kaur",
     "nameAr": "هادي كور",
     "role": "Survivor",
-    "description_ar": "محققة في الظواهر الغريبة تكشف القاتل وتتعامل مع الأدوات والطوطمات.",
-    "summary": "محققة في الظواهر الغريبة تكشف القاتل وتتعامل مع الأدوات والطوطمات.",
+    "description_ar": "هادي كور محققة في الظواهر الغريبة وتناسب من يريد مواجهة الخطر بدل الهروب منه فقط. تكشف القاتل، تستفيد من الأدوات، وتزيد قيمة تنظيف الطوطمات.",
+    "summary": "هادي كور محققة في الظواهر الغريبة وتناسب من يريد مواجهة الخطر بدل الهروب منه فقط. تكشف القاتل، تستفيد من الأدوات، وتزيد قيمة تنظيف الطوطمات.",
     "perks": [
       "Inner Focus",
       "Residual Manifest",
       "Overzealous"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/haddie-kaur.png"
   },
   {
     "id": "ada-wong",
@@ -502,14 +502,14 @@
     "name": "Ada Wong",
     "nameAr": "آدا وونغ",
     "role": "Survivor",
-    "description_ar": "عميلة غامضة تناسب التخفي وقراءة المولدات والبقاء في نهاية المباراة.",
-    "summary": "عميلة غامضة تناسب التخفي وقراءة المولدات والبقاء في نهاية المباراة.",
+    "description_ar": "آدا وونغ عميلة غامضة تلعب بهدوء وتختفي عندما تصبح الأمور خطيرة. Wiretap يمنح معلومات حول القاتل قرب المولد، وLow Profile يساعد في نهاية المباراة.",
+    "summary": "آدا وونغ عميلة غامضة تلعب بهدوء وتختفي عندما تصبح الأمور خطيرة. Wiretap يمنح معلومات حول القاتل قرب المولد، وLow Profile يساعد في نهاية المباراة.",
     "perks": [
       "Wiretap",
       "Reactive Healing",
       "Low Profile"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/ada-wong.png"
   },
   {
     "id": "rebecca-chambers",
@@ -518,14 +518,14 @@
     "name": "Rebecca Chambers",
     "nameAr": "ريبيكا تشامبرز",
     "role": "Survivor",
-    "description_ar": "مسعفة داعمة ممتازة للإنقاذ ورفع كفاءة العلاج واختبارات المهارة.",
-    "summary": "مسعفة داعمة ممتازة للإنقاذ ورفع كفاءة العلاج واختبارات المهارة.",
+    "description_ar": "ريبيكا تشامبرز داعمة ممتازة للإنقاذ والعلاج. Reassurance من أقوى بيركات تخفيف ضغط التخييم، وHyperfocus يكافئ اللاعب الدقيق في اختبارات المهارة.",
+    "summary": "ريبيكا تشامبرز داعمة ممتازة للإنقاذ والعلاج. Reassurance من أقوى بيركات تخفيف ضغط التخييم، وHyperfocus يكافئ اللاعب الدقيق في اختبارات المهارة.",
     "perks": [
       "Better Than New",
       "Reassurance",
       "Hyperfocus"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/rebecca-chambers.png"
   },
   {
     "id": "vittorio-toscano",
@@ -534,14 +534,14 @@
     "name": "Vittorio Toscano",
     "nameAr": "فيتوريو توسكانو",
     "role": "Survivor",
-    "description_ar": "رحالة من زمن قديم يستخدم الطاقة والمعرفة لتسريع إصلاح المولدات.",
-    "summary": "رحالة من زمن قديم يستخدم الطاقة والمعرفة لتسريع إصلاح المولدات.",
+    "description_ar": "فيتوريو توسكانو رحالة قديم يحمل معرفة نادرة داخل الضباب. بيركاته تركز على إصلاح المولدات، قراءة القاتل عبر Fogwise، وتحويل التقدم إلى طاقة محفوظة.",
+    "summary": "فيتوريو توسكانو رحالة قديم يحمل معرفة نادرة داخل الضباب. بيركاته تركز على إصلاح المولدات، قراءة القاتل عبر Fogwise، وتحويل التقدم إلى طاقة محفوظة.",
     "perks": [
       "Potential Energy",
       "Fogwise",
       "Quick Gambit"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/vittorio-toscano.png"
   },
   {
     "id": "thalita-lyra",
@@ -550,14 +550,14 @@
     "name": "Thalita Lyra",
     "nameAr": "ثاليتا ليرا",
     "role": "Survivor",
-    "description_ar": "منافسة اجتماعية تناسب التعاون السريع والمطاردات القصيرة مع الفريق.",
-    "summary": "منافسة اجتماعية تناسب التعاون السريع والمطاردات القصيرة مع الفريق.",
+    "description_ar": "ثاليتا ليرا شخصية اجتماعية تدعم اللعب الثنائي والتعاون السريع. بيركاتها تعطي قيمة عندما تعمل مع الفريق وتساعد على خلق مسافة قصيرة أثناء المطاردة.",
+    "summary": "ثاليتا ليرا شخصية اجتماعية تدعم اللعب الثنائي والتعاون السريع. بيركاتها تعطي قيمة عندما تعمل مع الفريق وتساعد على خلق مسافة قصيرة أثناء المطاردة.",
     "perks": [
       "Friendly Competition",
       "Teamwork: Power of Two",
       "Cut Loose"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/thalita-lyra.png"
   },
   {
     "id": "renato-lyra",
@@ -566,14 +566,14 @@
     "name": "Renato Lyra",
     "nameAr": "ريناتو ليرا",
     "role": "Survivor",
-    "description_ar": "ناج رياضي يساعد في الإنقاذ الجريء والحركة السريعة والتخفي الجماعي.",
-    "summary": "ناج رياضي يساعد في الإنقاذ الجريء والحركة السريعة والتخفي الجماعي.",
+    "description_ar": "ريناتو ليرا لاعب رياضي يحب المخاطرة المحسوبة. Background Player يجعله قويًا في إنقاذ المحمولين، وBlood Rush يمنحه فرصة خطيرة لقلب المطاردة.",
+    "summary": "ريناتو ليرا لاعب رياضي يحب المخاطرة المحسوبة. Background Player يجعله قويًا في إنقاذ المحمولين، وBlood Rush يمنحه فرصة خطيرة لقلب المطاردة.",
     "perks": [
       "Background Player",
       "Blood Rush",
       "Teamwork: Collective Stealth"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/renato-lyra.png"
   },
   {
     "id": "gabriel-soma",
@@ -582,14 +582,14 @@
     "name": "Gabriel Soma",
     "nameAr": "غابرييل سوما",
     "role": "Survivor",
-    "description_ar": "ناج من المستقبل يعتمد على قراءة المولدات والسرعة وإعادة تعبئة الأدوات.",
-    "summary": "ناج من المستقبل يعتمد على قراءة المولدات والسرعة وإعادة تعبئة الأدوات.",
+    "description_ar": "غابرييل سوما ناج من المستقبل يعتمد على التحليل والسرعة. Made for This كان من أشهر بيركات الحركة، وScavenger يساعد في إعادة استخدام الأدوات بذكاء.",
+    "summary": "غابرييل سوما ناج من المستقبل يعتمد على التحليل والسرعة. Made for This كان من أشهر بيركات الحركة، وScavenger يساعد في إعادة استخدام الأدوات بذكاء.",
     "perks": [
       "Troubleshooter",
       "Made for This",
       "Scavenger"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/gabriel-soma.png"
   },
   {
     "id": "nicolas-cage",
@@ -598,14 +598,14 @@
     "name": "Nicolas Cage",
     "nameAr": "نيكولاس كيج",
     "role": "Survivor",
-    "description_ar": "ممثل لا يمكن توقعه، بيركاته مليئة بالمخاطرة والتمثيل والعودة المفاجئة.",
-    "summary": "ممثل لا يمكن توقعه، بيركاته مليئة بالمخاطرة والتمثيل والعودة المفاجئة.",
+    "description_ar": "نيكولاس كيج شخصية مسرحية وغير متوقعة. Dramaturgy وScene Partner يصنعان لحظات مضحكة وخطيرة، بينما Plot Twist يعطي طريقة إبداعية للتعافي والهروب.",
+    "summary": "نيكولاس كيج شخصية مسرحية وغير متوقعة. Dramaturgy وScene Partner يصنعان لحظات مضحكة وخطيرة، بينما Plot Twist يعطي طريقة إبداعية للتعافي والهروب.",
     "perks": [
       "Dramaturgy",
       "Scene Partner",
       "Plot Twist"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/nicolas-cage.png"
   },
   {
     "id": "ellen-ripley",
@@ -614,14 +614,14 @@
     "name": "Ellen Ripley",
     "nameAr": "إلين ريبلي",
     "role": "Survivor",
-    "description_ar": "ناجية أسطورية تناسب التخفي، الفخاخ، والتحرك الهادئ أمام الخطر.",
-    "summary": "ناجية أسطورية تناسب التخفي، الفخاخ، والتحرك الهادئ أمام الخطر.",
+    "description_ar": "إلين ريبلي ناجية أسطورية تعرف كيف تبقى هادئة أمام الكارثة. Chemical Trap يعاقب تكسير الحواجز، وLucky Star يمنح تخفيًا قويًا من الخزائن.",
+    "summary": "إلين ريبلي ناجية أسطورية تعرف كيف تبقى هادئة أمام الكارثة. Chemical Trap يعاقب تكسير الحواجز، وLucky Star يمنح تخفيًا قويًا من الخزائن.",
     "perks": [
       "Lucky Star",
       "Chemical Trap",
       "Light-Footed"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/ellen-ripley.png"
   },
   {
     "id": "alan-wake",
@@ -630,14 +630,14 @@
     "name": "Alan Wake",
     "nameAr": "آلان ويك",
     "role": "Survivor",
-    "description_ar": "كاتب محاصر في الظلام يستخدم الضوء والتركيز والضغط لصناعة فرص النجاة.",
-    "summary": "كاتب محاصر في الظلام يستخدم الضوء والتركيز والضغط لصناعة فرص النجاة.",
+    "description_ar": "آلان ويك كاتب محاصر بين الضوء والظلام. بيركاته تناسب استخدام الفلاش لايت، دعم الفريق بالبون، واللعب تحت ضغط الجروح واختبارات المهارة.",
+    "summary": "آلان ويك كاتب محاصر بين الضوء والظلام. بيركاته تناسب استخدام الفلاش لايت، دعم الفريق بالبون، واللعب تحت ضغط الجروح واختبارات المهارة.",
     "perks": [
       "Champion of Light",
       "Boon: Illumination",
       "Deadline"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/alan-wake.png"
   },
   {
     "id": "sable-ward",
@@ -646,14 +646,14 @@
     "name": "Sable Ward",
     "nameAr": "سيبل وورد",
     "role": "Survivor",
-    "description_ar": "باحثة في الغموض تعتمد على الطقوس والطابق السفلي والمخاطرة الذكية.",
-    "summary": "باحثة في الغموض تعتمد على الطقوس والطابق السفلي والمخاطرة الذكية.",
+    "description_ar": "سيبل وورد عاشقة للغموض وتناسب اللعب الجريء حول الطابق السفلي والطقوس. بيركاتها تفتح أساليب مخاطرة عالية قد تمنح الفريق أفضلية كبيرة إذا نُفذت صح.",
+    "summary": "سيبل وورد عاشقة للغموض وتناسب اللعب الجريء حول الطابق السفلي والطقوس. بيركاتها تفتح أساليب مخاطرة عالية قد تمنح الفريق أفضلية كبيرة إذا نُفذت صح.",
     "perks": [
       "Invocation: Weaving Spiders",
       "Strength in Shadows",
       "Wicked"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/sable-ward.png"
   },
   {
     "id": "aestri-yazar",
@@ -662,14 +662,14 @@
     "name": "Aestri Yazar",
     "nameAr": "أستري يازار",
     "role": "Survivor",
-    "description_ar": "باردة من عالم الفانتازيا تدعم الفريق بالإلهام والخداع ورؤية الأهداف.",
-    "summary": "باردة من عالم الفانتازيا تدعم الفريق بالإلهام والخداع ورؤية الأهداف.",
+    "description_ar": "أستري يازار من عالم Dungeons & Dragons وتدخل الضباب بروح المغامرة. Bardic Inspiration يدعم الفريق، وMirrored Illusion يخلق خداعًا بصريًا مفيدًا.",
+    "summary": "أستري يازار من عالم Dungeons & Dragons وتدخل الضباب بروح المغامرة. Bardic Inspiration يدعم الفريق، وMirrored Illusion يخلق خداعًا بصريًا مفيدًا.",
     "perks": [
       "Bardic Inspiration",
       "Mirrored Illusion",
       "Still Sight"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/aestri-yazar.png"
   },
   {
     "id": "lara-croft",
@@ -678,14 +678,14 @@
     "name": "Lara Croft",
     "nameAr": "لارا كروفت",
     "role": "Survivor",
-    "description_ar": "مغامرة خبيرة تناسب المطاردات الدقيقة وجمع المعلومات واستثمار الصناديق.",
-    "summary": "مغامرة خبيرة تناسب المطاردات الدقيقة وجمع المعلومات واستثمار الصناديق.",
+    "description_ar": "لارا كروفت مغامرة محترفة تناسب اللاعب الدقيق في المطاردات. Finesse يحسن الفولت السريع، وSpecialist يجعل الصناديق والمولدات أكثر قيمة.",
+    "summary": "لارا كروفت مغامرة محترفة تناسب اللاعب الدقيق في المطاردات. Finesse يحسن الفولت السريع، وSpecialist يجعل الصناديق والمولدات أكثر قيمة.",
     "perks": [
       "Finesse",
       "Hardened",
       "Specialist"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/lara-croft.png"
   },
   {
     "id": "trevor-belmont",
@@ -694,14 +694,14 @@
     "name": "Trevor Belmont",
     "nameAr": "تريفور بيلمونت",
     "role": "Survivor",
-    "description_ar": "صياد وحوش يستخدم المعرفة والمكافآت وصناعة اللحظات القوية.",
-    "summary": "صياد وحوش يستخدم المعرفة والمكافآت وصناعة اللحظات القوية.",
+    "description_ar": "تريفور بيلمونت صياد وحوش يعتمد على الخبرة والجرأة. بيركاته تمنحه قراءة أفضل للهالات وفرصًا للاستفادة من الأدوات واللحظات النادرة.",
+    "summary": "تريفور بيلمونت صياد وحوش يعتمد على الخبرة والجرأة. بيركاته تمنحه قراءة أفضل للهالات وفرصًا للاستفادة من الأدوات واللحظات النادرة.",
     "perks": [
       "Eyes of Belmont",
       "Exultation",
       "Moment of Glory"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/trevor-belmont.png"
   },
   {
     "id": "taurie-cain",
@@ -710,14 +710,14 @@
     "name": "Taurie Cain",
     "nameAr": "تاوري كين",
     "role": "Survivor",
-    "description_ar": "ناجية أصلية تركز على الطقوس والإنقاذ وتحمل العبء عن الحلفاء.",
-    "summary": "ناجية أصلية تركز على الطقوس والإنقاذ وتحمل العبء عن الحلفاء.",
+    "description_ar": "تاوري كين شخصية مرتبطة بالطقوس والتضحية. Shoulder the Burden يعطيها دورًا قويًا في تخفيف ضغط الخطافات، بينما Invocation يفتح أسلوب لعب عالي المخاطرة.",
+    "summary": "تاوري كين شخصية مرتبطة بالطقوس والتضحية. Shoulder the Burden يعطيها دورًا قويًا في تخفيف ضغط الخطافات، بينما Invocation يفتح أسلوب لعب عالي المخاطرة.",
     "perks": [
       "Invocation: Treacherous Crows",
       "Clean Break",
       "Shoulder the Burden"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/taurie-cain.png"
   },
   {
     "id": "orela-rose",
@@ -726,14 +726,14 @@
     "name": "Orela Rose",
     "nameAr": "أوريلا روز",
     "role": "Survivor",
-    "description_ar": "مسعفة هادئة متخصصة في الإنقاذ والعلاج وحماية الفريق تحت الضغط.",
-    "summary": "مسعفة هادئة متخصصة في الإنقاذ والعلاج وحماية الفريق تحت الضغط.",
+    "description_ar": "أوريلا روز مسعفة تعرف كيف تعمل تحت الضغط. بيركاتها تدعم العلاج، حماية الحلفاء، والتحرك بسرعة عندما تصبح المباراة على حافة الانهيار.",
+    "summary": "أوريلا روز مسعفة تعرف كيف تعمل تحت الضغط. بيركاتها تدعم العلاج، حماية الحلفاء، والتحرك بسرعة عندما تصبح المباراة على حافة الانهيار.",
     "perks": [
       "Do No Harm",
       "Duty of Care",
       "Rapid Response"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/orela-rose.png"
   },
   {
     "id": "rick-grimes",
@@ -742,14 +742,14 @@
     "name": "Rick Grimes",
     "nameAr": "ريك غرايمز",
     "role": "Survivor",
-    "description_ar": "قائد ناجٍ من عالم متهالك يعتمد على الشجاعة وصناعة الفرص للفريق.",
-    "summary": "قائد ناجٍ من عالم متهالك يعتمد على الشجاعة وصناعة الفرص للفريق.",
+    "description_ar": "ريك غرايمز قائد ميداني قادم من عالم لا يرحم. بيركاته تكافئ الشجاعة وصناعة الموارد وحماية الحلفاء، وتناسب من يحب قيادة الفريق من قلب الخطر.",
+    "summary": "ريك غرايمز قائد ميداني قادم من عالم لا يرحم. بيركاته تكافئ الشجاعة وصناعة الموارد وحماية الحلفاء، وتناسب من يحب قيادة الفريق من قلب الخطر.",
     "perks": [
       "Apocalyptic Ingenuity",
       "Come and Get Me!",
       "Teamwork: Toughen Up"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/rick-grimes.png"
   },
   {
     "id": "michonne-grimes",
@@ -758,14 +758,14 @@
     "name": "Michonne Grimes",
     "nameAr": "ميشون غرايمز",
     "role": "Survivor",
-    "description_ar": "محاربة صلبة تحمي فريقها وتخلق فرص نجاة في أخطر اللحظات.",
-    "summary": "محاربة صلبة تحمي فريقها وتخلق فرص نجاة في أخطر اللحظات.",
+    "description_ar": "ميشون غرايمز محاربة صلبة وهادئة. بيركاتها تمنح فرص نجاة عند السقوط، ستن مفاجئ عبر الفولت، ودعمًا قويًا للحلفاء المصابين في المطاردة.",
+    "summary": "ميشون غرايمز محاربة صلبة وهادئة. بيركاتها تمنح فرص نجاة عند السقوط، ستن مفاجئ عبر الفولت، ودعمًا قويًا للحلفاء المصابين في المطاردة.",
     "perks": [
       "Conviction",
       "Last Stand",
       "Teamwork: Throw Down"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/michonne-grimes.png"
   },
   {
     "id": "vee-boonyasak",
@@ -774,14 +774,14 @@
     "name": "Vee Boonyasak",
     "nameAr": "في بونياصاك",
     "role": "Survivor",
-    "description_ar": "عازفة طبول نشيطة تعزز الفريق وتستفيد من المهارة أثناء الإصلاح.",
-    "summary": "عازفة طبول نشيطة تعزز الفريق وتستفيد من المهارة أثناء الإصلاح.",
+    "description_ar": "في بونياصاك عازفة طبول نشيطة تحول الإيقاع إلى قوة للفريق. بيركاتها تدور حول الأداء، اختبارات المهارة، والتعافي من الإرهاق أثناء الحركة.",
+    "summary": "في بونياصاك عازفة طبول نشيطة تحول الإيقاع إلى قوة للفريق. بيركاتها تدور حول الأداء، اختبارات المهارة، والتعافي من الإرهاق أثناء الحركة.",
     "perks": [
       "Ghost Notes",
       "ONE-TWO-THREE-FOUR!",
       "Road Life"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/vee-boonyasak.png"
   },
   {
     "id": "dustin-henderson",
@@ -790,14 +790,14 @@
     "name": "Dustin Henderson",
     "nameAr": "داستن هندرسون",
     "role": "Survivor",
-    "description_ar": "طالب ذكي ومرح يستخدم الحيل وتغيير الخطة والتعاون حول المولدات.",
-    "summary": "طالب ذكي ومرح يستخدم الحيل وتغيير الخطة والتعاون حول المولدات.",
+    "description_ar": "داستن هندرسون ذكي ومرح ويحب الخطط الغريبة التي تنجح في وقتها. بيركاته تساعد على تعطيل القاتل، تغيير الخطة، والعمل الآمن حول المولدات.",
+    "summary": "داستن هندرسون ذكي ومرح ويحب الخطط الغريبة التي تنجح في وقتها. بيركاته تساعد على تعطيل القاتل، تغيير الخطة، والعمل الآمن حول المولدات.",
     "perks": [
       "Bada Bada Boom",
       "Change of Plan",
       "Teamwork: Full Circuit"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/dustin-henderson.png"
   },
   {
     "id": "eleven",
@@ -806,14 +806,14 @@
     "name": "Eleven",
     "nameAr": "إليفن",
     "role": "Survivor",
-    "description_ar": "جين هوبر، ناجية بقدرات حسية تساعدها على كشف الهالات وحماية الفريق.",
-    "summary": "جين هوبر، ناجية بقدرات حسية تساعدها على كشف الهالات وحماية الفريق.",
+    "description_ar": "إليفن، أو جين هوبر، تستخدم قدراتها الحسية لقراءة ما حولها. بيركاتها تمنح كشف هالات قوي، حماية جماعية، وتقليل ضجيج الإصلاح مع الفريق.",
+    "summary": "إليفن، أو جين هوبر، تستخدم قدراتها الحسية لقراءة ما حولها. بيركاتها تمنح كشف هالات قوي، حماية جماعية، وتقليل ضجيج الإصلاح مع الفريق.",
     "perks": [
       "Extrasensory Perception",
       "We See You",
       "Teamwork: Soft-Spoken"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/eleven.png"
   },
   {
     "id": "kwon-tae-young",
@@ -822,14 +822,14 @@
     "name": "Kwon Tae-Young",
     "nameAr": "كوون تاي-يونغ",
     "role": "Survivor",
-    "description_ar": "مبرمج عبقري وهادئ يحسب خطواته ويدعم الحلفاء بخطط دقيقة.",
-    "summary": "مبرمج عبقري وهادئ يحسب خطواته ويدعم الحلفاء بخطط دقيقة.",
+    "description_ar": "كوون تاي-يونغ عبقري تقني يحسب الاحتمالات قبل أن يتحرك. بيركاته تركز على التخطيط، قراءة الحواجز والنوافذ، ورفع كفاءة الفريق مع تقدم المباراة.",
+    "summary": "كوون تاي-يونغ عبقري تقني يحسب الاحتمالات قبل أن يتحرك. بيركاته تركز على التخطيط، قراءة الحواجز والنوافذ، ورفع كفاءة الفريق مع تقدم المباراة.",
     "perks": [
       "A Place For Us",
       "Five Moves Ahead",
       "Flow State"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/kwon-tae-young.png"
   },
   {
     "id": "shane-wiigwaas",
@@ -838,13 +838,13 @@
     "name": "Shane Wiigwaas",
     "nameAr": "شين ويغواس",
     "role": "Survivor",
-    "description_ar": "محامٍ ودراج يبحث عن العدالة ويحوّل ضغط التجربة إلى فرص للفريق.",
-    "summary": "محامٍ ودراج يبحث عن العدالة ويحوّل ضغط التجربة إلى فرص للفريق.",
+    "description_ar": "شين ويغواس محامٍ ودراج يبحث عن العدالة داخل الضباب. بيركاته تساعد على استعادة التوازن في المطاردة، دعم العلاج، وقراءة أثر القاتل تحت الضغط.",
+    "summary": "شين ويغواس محامٍ ودراج يبحث عن العدالة داخل الضباب. بيركاته تساعد على استعادة التوازن في المطاردة، دعم العلاج، وقراءة أثر القاتل تحت الضغط.",
     "perks": [
       "Wide Open Throttle",
       "Lend a Hand",
       "Cross-Examination"
     ],
-    "image": "/images/survivor.svg"
+    "image": "/images/survivors/shane-wiigwaas.png"
   }
 ]
