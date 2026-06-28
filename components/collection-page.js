@@ -20,7 +20,24 @@ async function initCollectionPage() {
 
   const data = await provider.list(collection);
   const root = document.querySelector("#collectionRoot");
-  const typeOptions = unique(data.flatMap((item) => [item.category, item.type, item.owner_or_type, item.role, item.difficulty].filter(Boolean)));
+  const typeOptions = unique(
+    data.flatMap((item) =>
+      [
+        item.category,
+        item.type,
+        item.owner_or_type,
+        item.role,
+        item.difficulty,
+        item.owner,
+        item.character,
+        item.chapter,
+        item.realm,
+        item.killer,
+        item.survivor,
+        ...(item.linked_characters || []),
+      ].filter(Boolean),
+    ),
+  );
   const rarityOptions = unique(data.map((item) => item.rarity).filter(Boolean));
 
   root.innerHTML = `
@@ -52,7 +69,24 @@ async function initCollectionPage() {
     const rarityFilter = document.querySelector("#rarityFilter").value;
     const sort = document.querySelector("#collectionSort").value;
     const rows = data
-      .filter((item) => typeFilter === "all" || [item.category, item.type, item.owner_or_type, item.role, item.difficulty].includes(typeFilter))
+      .filter(
+        (item) =>
+          typeFilter === "all" ||
+          [
+            item.category,
+            item.type,
+            item.owner_or_type,
+            item.role,
+            item.difficulty,
+            item.owner,
+            item.character,
+            item.chapter,
+            item.realm,
+            item.killer,
+            item.survivor,
+            ...(item.linked_characters || []),
+          ].includes(typeFilter),
+      )
       .filter((item) => rarityFilter === "all" || item.rarity === rarityFilter)
       .filter((item) => searchText(item).includes(query))
       .sort((a, b) => compareBy(a, b, sort));

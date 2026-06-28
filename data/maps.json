@@ -1,26 +1,1694 @@
 [
   {
-    "id": "macmillan",
-    "name": "MacMillan Estate",
-    "nameAr": "ماكميلان إستيت",
-    "realm": "MacMillan Estate",
-    "summary": "عالم كلاسيكي فيه مناطق مفتوحة ولوابات قوية حسب نسخة الخريطة.",
-    "image": "/images/dbd-hero.png"
+    "id": "the-mall",
+    "name_en": "The Mall",
+    "name_ar": "The Mall",
+    "name": "The Mall",
+    "nameAr": "The Mall",
+    "realm": "",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Mall خريطة ضمن عالم Dead by Daylight. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Mall is an upcoming Map within Dead by Daylight. It is set to be implemented in December 2026.",
+    "summary": "The Mall خريطة ضمن عالم Dead by Daylight مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2026",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Mall الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "راقب المبنى الرئيسي لأنه غالبًا يحدد إيقاع المطاردات."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-mall.jpg",
+    "preview_image": "/images/maps/the-mall.jpg",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Mall"
   },
   {
-    "id": "coldwind",
-    "name": "Coldwind Farm",
-    "nameAr": "مزرعة كولدويند",
+    "id": "the-shattered-square",
+    "name_en": "The Shattered Square",
+    "name_ar": "The Shattered Square",
+    "name": "The Shattered Square",
+    "nameAr": "The Shattered Square",
+    "realm": "",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Shattered Square خريطة ضمن عالم Dead by Daylight. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Shattered Square or \"QuantumLevel01\" is one of 2 Maps in the The Decimated Borgo Realm.",
+    "summary": "The Shattered Square خريطة ضمن عالم Dead by Daylight مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Shattered Square الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "راقب المبنى الرئيسي لأنه غالبًا يحدد إيقاع المطاردات."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-shattered-square.png",
+    "preview_image": "/images/maps/the-shattered-square.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Shattered_Square"
+  },
+  {
+    "id": "tricksters-delusion",
+    "name_en": "Trickster's Delusion",
+    "name_ar": "Trickster's Delusion",
+    "name": "Trickster's Delusion",
+    "nameAr": "Trickster's Delusion",
+    "realm": "",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Trickster's Delusion خريطة ضمن عالم Dead by Daylight. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Trickster's Delusion or \"QuiLevel01\" is the only Map in the Sleepless District Realm.",
+    "summary": "Trickster's Delusion خريطة ضمن عالم Dead by Daylight مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "تختلف التفاصيل الدقيقة حسب نسخة الخريطة وتوزيع الموارد داخل المباراة.",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Trickster's Delusion الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "راقب المبنى الرئيسي لأنه غالبًا يحدد إيقاع المطاردات."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/tricksters-delusion.png",
+    "preview_image": "/images/maps/tricksters-delusion.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Trickster's_Delusion"
+  },
+  {
+    "id": "azarovs-resting-place",
+    "name_en": "Azarov's Resting Place",
+    "name_ar": "Azarov's Resting Place",
+    "name": "Azarov's Resting Place",
+    "nameAr": "Azarov's Resting Place",
+    "realm": "Autohaven Wreckers",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Azarov's Resting Place خريطة ضمن عالم Autohaven Wreckers. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Azarov's Resting Place or \"Office\" is one of 9 Maps in the Autohaven Wreckers Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Azarov's Resting Place خريطة ضمن عالم Autohaven Wreckers مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "9  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Azarov's Resting Place الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Autohaven Wreckers لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/azarovs-resting-place.png",
+    "preview_image": "/images/maps/azarovs-resting-place.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Azarov's_Resting_Place"
+  },
+  {
+    "id": "blood-lodge",
+    "name_en": "Blood Lodge",
+    "name_ar": "نزل الدم",
+    "name": "Blood Lodge",
+    "nameAr": "نزل الدم",
+    "realm": "Autohaven Wreckers",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Blood Lodge خريطة ضمن عالم Autohaven Wreckers. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Blood Lodge or \"Lodge\" is one of 9 Maps in the Autohaven Wreckers Realm.",
+    "summary": "Blood Lodge خريطة ضمن عالم Autohaven Wreckers مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "9 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Blood Lodge الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Autohaven Wreckers لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/blood-lodge.png",
+    "preview_image": "/images/maps/blood-lodge.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Blood_Lodge"
+  },
+  {
+    "id": "gas-heaven",
+    "name_en": "Gas Heaven",
+    "name_ar": "Gas Heaven",
+    "name": "Gas Heaven",
+    "nameAr": "Gas Heaven",
+    "realm": "Autohaven Wreckers",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Gas Heaven خريطة ضمن عالم Autohaven Wreckers. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Gas Heaven or \"Gas Station\" is one of 9 Maps in the Autohaven Wreckers Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Gas Heaven خريطة ضمن عالم Autohaven Wreckers مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "9  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Gas Heaven الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Autohaven Wreckers لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/gas-heaven.png",
+    "preview_image": "/images/maps/gas-heaven.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Gas_Heaven"
+  },
+  {
+    "id": "wreckers-yard",
+    "name_en": "Wreckers' Yard",
+    "name_ar": "Wreckers' Yard",
+    "name": "Wreckers' Yard",
+    "nameAr": "Wreckers' Yard",
+    "realm": "Autohaven Wreckers",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Wreckers' Yard خريطة ضمن عالم Autohaven Wreckers. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Wreckers' Yard or \"Scrapyard\" is one of 9 Maps in the Autohaven Wreckers Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Wreckers' Yard خريطة ضمن عالم Autohaven Wreckers مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "9  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Wreckers' Yard الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Autohaven Wreckers لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/wreckers-yard.png",
+    "preview_image": "/images/maps/wreckers-yard.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Wreckers'_Yard"
+  },
+  {
+    "id": "wretched-shop",
+    "name_en": "Wretched Shop",
+    "name_ar": "Wretched Shop",
+    "name": "Wretched Shop",
+    "nameAr": "Wretched Shop",
+    "realm": "Autohaven Wreckers",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Wretched Shop خريطة ضمن عالم Autohaven Wreckers. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Wretched Shop or \"Garage\" is one of 9 Maps in the Autohaven Wreckers Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Wretched Shop خريطة ضمن عالم Autohaven Wreckers مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "9  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Wretched Shop الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Autohaven Wreckers لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/wretched-shop.png",
+    "preview_image": "/images/maps/wretched-shop.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Wretched_Shop"
+  },
+  {
+    "id": "grim-pantry",
+    "name_en": "Grim Pantry",
+    "name_ar": "Grim Pantry",
+    "name": "Grim Pantry",
+    "nameAr": "Grim Pantry",
+    "realm": "Backwater Swamp",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Grim Pantry خريطة ضمن عالم Backwater Swamp. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Grim Pantry or \"GrimPantry\" is one of 2 Maps in the Backwater Swamp Realm.",
+    "summary": "Grim Pantry خريطة ضمن عالم Backwater Swamp مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Grim Pantry الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Backwater Swamp لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/grim-pantry.png",
+    "preview_image": "/images/maps/grim-pantry.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Grim_Pantry"
+  },
+  {
+    "id": "the-pale-rose",
+    "name_en": "The Pale Rose",
+    "name_ar": "The Pale Rose",
+    "name": "The Pale Rose",
+    "nameAr": "The Pale Rose",
+    "realm": "Backwater Swamp",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Pale Rose خريطة ضمن عالم Backwater Swamp. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Pale Rose or \"PaleRose\" is one of 2 Maps in the Backwater Swamp Realm.",
+    "summary": "The Pale Rose خريطة ضمن عالم Backwater Swamp مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Pale Rose الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Backwater Swamp لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-pale-rose.png",
+    "preview_image": "/images/maps/the-pale-rose.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Pale_Rose"
+  },
+  {
+    "id": "fractured-cowshed",
+    "name_en": "Fractured Cowshed",
+    "name_ar": "Fractured Cowshed",
+    "name": "Fractured Cowshed",
+    "nameAr": "Fractured Cowshed",
     "realm": "Coldwind Farm",
-    "summary": "خرائط واسعة بإضاءة واضحة، ممتازة لتعلم قراءة المسافات واللوبات.",
-    "image": "/images/dbd-hero.png"
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Fractured Cowshed خريطة ضمن عالم Coldwind Farm. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Fractured Cowshed or \"Barn\" is one of 8 Maps in the Coldwind Farm Realm.",
+    "summary": "Fractured Cowshed خريطة ضمن عالم Coldwind Farm مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "8 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Fractured Cowshed الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Coldwind Farm لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/fractured-cowshed.png",
+    "preview_image": "/images/maps/fractured-cowshed.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Fractured_Cowshed"
   },
   {
-    "id": "rpd",
+    "id": "rancid-abattoir",
+    "name_en": "Rancid Abattoir",
+    "name_ar": "Rancid Abattoir",
+    "name": "Rancid Abattoir",
+    "nameAr": "Rancid Abattoir",
+    "realm": "Coldwind Farm",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Rancid Abattoir خريطة ضمن عالم Coldwind Farm. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Rancid Abattoir or \"Slaughterhouse\" is one of 8 Maps in the Coldwind Farm Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Rancid Abattoir خريطة ضمن عالم Coldwind Farm مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "8  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Rancid Abattoir الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Coldwind Farm لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/rancid-abattoir.png",
+    "preview_image": "/images/maps/rancid-abattoir.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Rancid_Abattoir"
+  },
+  {
+    "id": "rotten-fields",
+    "name_en": "Rotten Fields",
+    "name_ar": "Rotten Fields",
+    "name": "Rotten Fields",
+    "nameAr": "Rotten Fields",
+    "realm": "Coldwind Farm",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Rotten Fields خريطة ضمن عالم Coldwind Farm. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Rotten Fields or \"Cornfield\" is one of 8 Maps in the Coldwind Farm Realm.",
+    "summary": "Rotten Fields خريطة ضمن عالم Coldwind Farm مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "8 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Rotten Fields الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Coldwind Farm لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/rotten-fields.png",
+    "preview_image": "/images/maps/rotten-fields.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Rotten_Fields"
+  },
+  {
+    "id": "the-thompson-house",
+    "name_en": "The Thompson House",
+    "name_ar": "The Thompson House",
+    "name": "The Thompson House",
+    "nameAr": "The Thompson House",
+    "realm": "Coldwind Farm",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Thompson House خريطة ضمن عالم Coldwind Farm. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Thompson House or \"Farmhouse\" is one of 8 Maps in the Coldwind Farm Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "The Thompson House خريطة ضمن عالم Coldwind Farm مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "8  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Thompson House الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Coldwind Farm لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-thompson-house.png",
+    "preview_image": "/images/maps/the-thompson-house.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Thompson_House"
+  },
+  {
+    "id": "torment-creek",
+    "name_en": "Torment Creek",
+    "name_ar": "Torment Creek",
+    "name": "Torment Creek",
+    "nameAr": "Torment Creek",
+    "realm": "Coldwind Farm",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Torment Creek خريطة ضمن عالم Coldwind Farm. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Torment Creek or \"Silo\" is one of 8 Maps in the Coldwind Farm Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Torment Creek خريطة ضمن عالم Coldwind Farm مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "8  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Torment Creek الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Coldwind Farm لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/torment-creek.png",
+    "preview_image": "/images/maps/torment-creek.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Torment_Creek"
+  },
+  {
+    "id": "disturbed-ward",
+    "name_en": "Disturbed Ward",
+    "name_ar": "Disturbed Ward",
+    "name": "Disturbed Ward",
+    "nameAr": "Disturbed Ward",
+    "realm": "Crotus Prenn Asylum",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Disturbed Ward خريطة ضمن عالم Crotus Prenn Asylum. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Disturbed Ward or \"Asylum\" is one of 4 Maps in the Crotus Prenn Asylum Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Disturbed Ward خريطة ضمن عالم Crotus Prenn Asylum مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "4  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Disturbed Ward الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Crotus Prenn Asylum لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/disturbed-ward.png",
+    "preview_image": "/images/maps/disturbed-ward.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Disturbed_Ward"
+  },
+  {
+    "id": "father-campbells-chapel",
+    "name_en": "Father Campbell's Chapel",
+    "name_ar": "Father Campbell's Chapel",
+    "name": "Father Campbell's Chapel",
+    "nameAr": "Father Campbell's Chapel",
+    "realm": "Crotus Prenn Asylum",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Father Campbell's Chapel خريطة ضمن عالم Crotus Prenn Asylum. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Father Campbell's Chapel or \"Chapel\" is one of 4 Maps in the Crotus Prenn Asylum Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Father Campbell's Chapel خريطة ضمن عالم Crotus Prenn Asylum مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "4  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Father Campbell's Chapel الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Crotus Prenn Asylum لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/father-campbells-chapel.png",
+    "preview_image": "/images/maps/father-campbells-chapel.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Father_Campbell's_Chapel"
+  },
+  {
+    "id": "nostromo-wreckage",
+    "name_en": "Nostromo Wreckage",
+    "name_ar": "Nostromo Wreckage",
+    "name": "Nostromo Wreckage",
+    "nameAr": "Nostromo Wreckage",
+    "realm": "Dvarka Deepwood",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Nostromo Wreckage خريطة ضمن عالم Dvarka Deepwood. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Nostromo Wreckage or \"WormholeLevel01\" is one of 2 Maps in the Dvarka Deepwood Realm.",
+    "summary": "Nostromo Wreckage خريطة ضمن عالم Dvarka Deepwood مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Nostromo Wreckage الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Dvarka Deepwood لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/nostromo-wreckage.png",
+    "preview_image": "/images/maps/nostromo-wreckage.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Nostromo_Wreckage"
+  },
+  {
+    "id": "toba-landing",
+    "name_en": "Toba Landing",
+    "name_ar": "Toba Landing",
+    "name": "Toba Landing",
+    "nameAr": "Toba Landing",
+    "realm": "Dvarka Deepwood",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Toba Landing خريطة ضمن عالم Dvarka Deepwood. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Toba Landing or \"UmbraLevel01\" is one of 2 Maps in the Dvarka Deepwood Realm.",
+    "summary": "Toba Landing خريطة ضمن عالم Dvarka Deepwood مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Toba Landing الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Dvarka Deepwood لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/toba-landing.png",
+    "preview_image": "/images/maps/toba-landing.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Toba_Landing"
+  },
+  {
+    "id": "forgotten-ruins",
+    "name_en": "Forgotten Ruins",
+    "name_ar": "Forgotten Ruins",
+    "name": "Forgotten Ruins",
+    "nameAr": "Forgotten Ruins",
+    "realm": "Forgotten Ruins",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Forgotten Ruins خريطة ضمن عالم Forgotten Ruins. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Forgotten Ruins or \"QuantumLevel02\" is one of 2 Maps in the The Decimated Borgo Realm.",
+    "summary": "Forgotten Ruins خريطة ضمن عالم Forgotten Ruins مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Forgotten Ruins الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Forgotten Ruins لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/forgotten-ruins.png",
+    "preview_image": "/images/maps/forgotten-ruins.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Forgotten_Ruins"
+  },
+  {
+    "id": "dead-sands",
+    "name_en": "Dead Sands",
+    "name_ar": "Dead Sands",
+    "name": "Dead Sands",
+    "nameAr": "Dead Sands",
+    "realm": "Forsaken Boneyard",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Dead Sands خريطة ضمن عالم Forsaken Boneyard. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Dead Sands or \"IonShack\" is one of 2 Maps in the Forsaken Boneyard Realm.",
+    "summary": "Dead Sands خريطة ضمن عالم Forsaken Boneyard مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Dead Sands الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Forsaken Boneyard لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/dead-sands.png",
+    "preview_image": "/images/maps/dead-sands.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Dead_Sands"
+  },
+  {
+    "id": "eyrie-of-crows",
+    "name_en": "Eyrie of Crows",
+    "name_ar": "Eyrie of Crows",
+    "name": "Eyrie of Crows",
+    "nameAr": "Eyrie of Crows",
+    "realm": "Forsaken Boneyard",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Eyrie of Crows خريطة ضمن عالم Forsaken Boneyard. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Eyrie of Crows or \"IonLevel01\" is one of 2 Maps in the Forsaken Boneyard Realm.",
+    "summary": "Eyrie of Crows خريطة ضمن عالم Forsaken Boneyard مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Eyrie of Crows الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Forsaken Boneyard لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/eyrie-of-crows.png",
+    "preview_image": "/images/maps/eyrie-of-crows.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Eyrie_of_Crows"
+  },
+  {
+    "id": "the-game",
+    "name_en": "The Game",
+    "name_ar": "المعمل",
+    "name": "The Game",
+    "nameAr": "المعمل",
+    "realm": "Gideon Meat Plant",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Game خريطة ضمن عالم Gideon Meat Plant. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Game or \"Hideout\" is the only Map in the Gideon Meat Plant Realm.",
+    "summary": "The Game خريطة ضمن عالم Gideon Meat Plant مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "تختلف التفاصيل الدقيقة حسب نسخة الخريطة وتوزيع الموارد داخل المباراة.",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Game الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Gideon Meat Plant لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-game.png",
+    "preview_image": "/images/maps/the-game.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Game"
+  },
+  {
+    "id": "dead-dawg-saloon",
+    "name_en": "Dead Dawg Saloon",
+    "name_ar": "صالون ديد دوغ",
+    "name": "Dead Dawg Saloon",
+    "nameAr": "صالون ديد دوغ",
+    "realm": "Grave of Glenvale",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Dead Dawg Saloon خريطة ضمن عالم Grave of Glenvale. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Dead Dawg Saloon or \"Saloon\" is one of 2 Maps in the Grave of Glenvale Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Dead Dawg Saloon خريطة ضمن عالم Grave of Glenvale مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Dead Dawg Saloon الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Grave of Glenvale لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/dead-dawg-saloon.png",
+    "preview_image": "/images/maps/dead-dawg-saloon.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Dead_Dawg_Saloon"
+  },
+  {
+    "id": "lampkin-lane",
+    "name_en": "Lampkin Lane",
+    "name_ar": "Lampkin Lane",
+    "name": "Lampkin Lane",
+    "nameAr": "Lampkin Lane",
+    "realm": "Haddonfield",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Lampkin Lane خريطة ضمن عالم Haddonfield. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Lampkin Lane or \"Street\" is the only Map in the Haddonfield Realm.",
+    "summary": "Lampkin Lane خريطة ضمن عالم Haddonfield مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "تختلف التفاصيل الدقيقة حسب نسخة الخريطة وتوزيع الموارد داخل المباراة.",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Lampkin Lane الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Haddonfield لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/lampkin-lane.png",
+    "preview_image": "/images/maps/lampkin-lane.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Lampkin_Lane"
+  },
+  {
+    "id": "the-underground-complex",
+    "name_en": "The Underground Complex",
+    "name_ar": "The Underground Complex",
+    "name": "The Underground Complex",
+    "nameAr": "The Underground Complex",
+    "realm": "Hawkins National Laboratory",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Underground Complex خريطة ضمن عالم Hawkins National Laboratory. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Underground Complex or \"Lab\" is the only Map in the Hawkins National Laboratory Realm. The Map was inaccessible to Players for almost two years when CHAPTER 13: Stranger Things was retracted on 17 November 2021.The Map returned with Patch 7.3.3 on Stranger Things Day 2023 (6 November 2023).",
+    "summary": "The Underground Complex خريطة ضمن عالم Hawkins National Laboratory مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "13 | 17  | 2021 | 7.3 | 3  | 2023  | 6  | 2023",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Underground Complex الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Hawkins National Laboratory لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-underground-complex.png",
+    "preview_image": "/images/maps/the-underground-complex.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Underground_Complex"
+  },
+  {
+    "id": "treatment-theatre",
+    "name_en": "Treatment Theatre",
+    "name_ar": "Treatment Theatre",
+    "name": "Treatment Theatre",
+    "nameAr": "Treatment Theatre",
+    "realm": "Léry's Memorial Institute",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Treatment Theatre خريطة ضمن عالم Léry's Memorial Institute. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Treatment Theatre or \"Treatment\" is the only Map in the Léry's Memorial Institute Realm.",
+    "summary": "Treatment Theatre خريطة ضمن عالم Léry's Memorial Institute مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "تختلف التفاصيل الدقيقة حسب نسخة الخريطة وتوزيع الموارد داخل المباراة.",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Treatment Theatre الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Léry's Memorial Institute لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/treatment-theatre.png",
+    "preview_image": "/images/maps/treatment-theatre.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Treatment_Theatre"
+  },
+  {
+    "id": "coal-tower",
+    "name_en": "Coal Tower",
+    "name_ar": "برج الفحم",
+    "name": "Coal Tower",
+    "nameAr": "برج الفحم",
+    "realm": "MacMillan Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Coal Tower خريطة ضمن عالم MacMillan Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Coal Tower or \"Warehouse\" is one of 13 Maps in the The MacMillan Estate Realm.It has a total of 3 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Coal Tower خريطة ضمن عالم MacMillan Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "13  | 3  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Coal Tower الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: MacMillan Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/coal-tower.png",
+    "preview_image": "/images/maps/coal-tower.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Coal_Tower"
+  },
+  {
+    "id": "groaning-storehouse",
+    "name_en": "Groaning Storehouse",
+    "name_ar": "Groaning Storehouse",
+    "name": "Groaning Storehouse",
+    "nameAr": "Groaning Storehouse",
+    "realm": "MacMillan Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Groaning Storehouse خريطة ضمن عالم MacMillan Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Groaning Storehouse or \"Storehouse\" is one of 13 Maps in the The MacMillan Estate Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Groaning Storehouse خريطة ضمن عالم MacMillan Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "13  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Groaning Storehouse الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: MacMillan Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/groaning-storehouse.png",
+    "preview_image": "/images/maps/groaning-storehouse.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Groaning_Storehouse"
+  },
+  {
+    "id": "ironworks-of-misery",
+    "name_en": "Ironworks of Misery",
+    "name_ar": "Ironworks of Misery",
+    "name": "Ironworks of Misery",
+    "nameAr": "Ironworks of Misery",
+    "realm": "MacMillan Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Ironworks of Misery خريطة ضمن عالم MacMillan Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Ironworks of Misery or \"Foundry\" is one of 13 Maps in the The MacMillan Estate Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Ironworks of Misery خريطة ضمن عالم MacMillan Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "13  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Ironworks of Misery الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: MacMillan Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/ironworks-of-misery.png",
+    "preview_image": "/images/maps/ironworks-of-misery.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ironworks_of_Misery"
+  },
+  {
+    "id": "shelter-woods",
+    "name_en": "Shelter Woods",
+    "name_ar": "غابة المأوى",
+    "name": "Shelter Woods",
+    "nameAr": "غابة المأوى",
+    "realm": "MacMillan Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Shelter Woods خريطة ضمن عالم MacMillan Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Shelter Woods or \"Forest\" is one of 13 Maps in the The MacMillan Estate Realm.It has a total of 3 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Shelter Woods خريطة ضمن عالم MacMillan Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "13  | 3  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Shelter Woods الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: MacMillan Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/shelter-woods.png",
+    "preview_image": "/images/maps/shelter-woods.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Shelter_Woods"
+  },
+  {
+    "id": "suffocation-pit",
+    "name_en": "Suffocation Pit",
+    "name_ar": "Suffocation Pit",
+    "name": "Suffocation Pit",
+    "nameAr": "Suffocation Pit",
+    "realm": "MacMillan Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Suffocation Pit خريطة ضمن عالم MacMillan Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Suffocation Pit or \"Mine\" is one of 13 Maps in the The MacMillan Estate Realm.It has a total of 3 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Suffocation Pit خريطة ضمن عالم MacMillan Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "13  | 3  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Suffocation Pit الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: MacMillan Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/suffocation-pit.png",
+    "preview_image": "/images/maps/suffocation-pit.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Suffocation_Pit"
+  },
+  {
+    "id": "mount-ormond-resort",
+    "name_en": "Mount Ormond Resort",
+    "name_ar": "Mount Ormond Resort",
+    "name": "Mount Ormond Resort",
+    "nameAr": "Mount Ormond Resort",
+    "realm": "Ormond",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Mount Ormond Resort خريطة ضمن عالم Ormond. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Mount Ormond Resort or \"Cottage\" is one of 5 Maps in the Ormond Realm.It has a total of 4 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Mount Ormond Resort خريطة ضمن عالم Ormond مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "5  | 4  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Mount Ormond Resort الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Ormond لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/mount-ormond-resort.png",
+    "preview_image": "/images/maps/mount-ormond-resort.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Mount_Ormond_Resort"
+  },
+  {
+    "id": "ormond-lake-mine",
+    "name_en": "Ormond Lake Mine",
+    "name_ar": "Ormond Lake Mine",
+    "name": "Ormond Lake Mine",
+    "nameAr": "Ormond Lake Mine",
+    "realm": "Ormond",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Ormond Lake Mine خريطة ضمن عالم Ormond. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Ormond Lake Mine or \"GelatoLevel01\" is one of 5 Maps in the Ormond Realm.",
+    "summary": "Ormond Lake Mine خريطة ضمن عالم Ormond مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "5 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Ormond Lake Mine الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Ormond لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/ormond-lake-mine.png",
+    "preview_image": "/images/maps/ormond-lake-mine.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ormond_Lake_Mine"
+  },
+  {
+    "id": "raccoon-city-police-station",
+    "name_en": "Raccoon City Police Station",
+    "name_ar": "قسم شرطة راكون سيتي",
     "name": "Raccoon City Police Station",
     "nameAr": "قسم شرطة راكون سيتي",
     "realm": "Raccoon City",
-    "summary": "خريطة داخلية مع ممرات كثيرة. تحتاج معرفة المسارات لتجنب الضياع.",
-    "image": "/images/dbd-hero.png"
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Raccoon City Police Station خريطة ضمن عالم Raccoon City. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Raccoon City Police Station or \"EclipseLevel01\" is one of 3 Maps in the Raccoon City Realm. This version of the Map, which provides simultaneous access to both the East Wing and West Wing, was originally added to Dead by Daylight in Patch 5.0.0, alongside the release of CHAPTER 20: Resident Evil™, but was later retired in Patch 6.2.0 and replaced by two smaller versions that were restricted to just one wing each. The original version returned for the third iteration of 2v8 in Patch 8.5.1, which was themed after Resident Evil.It remains exclusive to that Game Mode now.",
+    "summary": "Raccoon City Police Station خريطة ضمن عالم Raccoon City مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "3  | 5.0 | 0 | 20 | 6.2 | 0  | 2 | 8.5 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Raccoon City Police Station الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Raccoon City لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/raccoon-city-police-station.png",
+    "preview_image": "/images/maps/raccoon-city-police-station.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Raccoon_City_Police_Station"
+  },
+  {
+    "id": "raccoon-city-police-station-east-wing",
+    "name_en": "Raccoon City Police Station East Wing",
+    "name_ar": "Raccoon City Police Station East Wing",
+    "name": "Raccoon City Police Station East Wing",
+    "nameAr": "Raccoon City Police Station East Wing",
+    "realm": "Raccoon City",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Raccoon City Police Station East Wing خريطة ضمن عالم Raccoon City. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Raccoon City Police Station East Wing or \"EclipseLevel01\" is one of 3 Maps in the Raccoon City Realm. It is one of two reworked versions of the much larger Raccoon City Police Station Map and was introduced with Patch 6.2.0, alongside its counterpart: Raccoon City Police Station West Wing.",
+    "summary": "Raccoon City Police Station East Wing خريطة ضمن عالم Raccoon City مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "3  | 6.2 | 0",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Raccoon City Police Station East Wing الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Raccoon City لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/raccoon-city-police-station-east-wing.png",
+    "preview_image": "/images/maps/raccoon-city-police-station-east-wing.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Raccoon_City_Police_Station_East_Wing"
+  },
+  {
+    "id": "raccoon-city-police-station-west-wing",
+    "name_en": "Raccoon City Police Station West Wing",
+    "name_ar": "Raccoon City Police Station West Wing",
+    "name": "Raccoon City Police Station West Wing",
+    "nameAr": "Raccoon City Police Station West Wing",
+    "realm": "Raccoon City",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Raccoon City Police Station West Wing خريطة ضمن عالم Raccoon City. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Raccoon City Police Station West Wing or \"EclipseLevelWestSide\" is one of 3 Maps in the Raccoon City Realm. It is one of two reworked versions of the much larger Raccoon City Police Station Map and was introduced with Patch 6.2.0, alongside its counterpart, Raccoon City Police Station East Wing.",
+    "summary": "Raccoon City Police Station West Wing خريطة ضمن عالم Raccoon City مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "3  | 6.2 | 0",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Raccoon City Police Station West Wing الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Raccoon City لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/raccoon-city-police-station-west-wing.png",
+    "preview_image": "/images/maps/raccoon-city-police-station-west-wing.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Raccoon_City_Police_Station_West_Wing"
+  },
+  {
+    "id": "mothers-dwelling",
+    "name_en": "Mother's Dwelling",
+    "name_ar": "Mother's Dwelling",
+    "name": "Mother's Dwelling",
+    "nameAr": "Mother's Dwelling",
+    "realm": "Red Forest",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Mother's Dwelling خريطة ضمن عالم Red Forest. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Mother's Dwelling or \"Mad House\" is one of 3 Maps in the Red Forest Realm.It has a total of 2 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Mother's Dwelling خريطة ضمن عالم Red Forest مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "3  | 2  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Mother's Dwelling الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Red Forest لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/mothers-dwelling.png",
+    "preview_image": "/images/maps/mothers-dwelling.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Mother's_Dwelling"
+  },
+  {
+    "id": "the-temple-of-purgation",
+    "name_en": "The Temple of Purgation",
+    "name_ar": "The Temple of Purgation",
+    "name": "The Temple of Purgation",
+    "nameAr": "The Temple of Purgation",
+    "realm": "Red Forest",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "The Temple of Purgation خريطة ضمن عالم Red Forest. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "The Temple of Purgation or \"Temple\" is one of 3 Maps in the Red Forest Realm.",
+    "summary": "The Temple of Purgation خريطة ضمن عالم Red Forest مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "3 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات The Temple of Purgation الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Red Forest لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/the-temple-of-purgation.png",
+    "preview_image": "/images/maps/the-temple-of-purgation.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/The_Temple_of_Purgation"
+  },
+  {
+    "id": "midwich-elementary-school",
+    "name_en": "Midwich Elementary School",
+    "name_ar": "مدرسة ميدويتش الابتدائية",
+    "name": "Midwich Elementary School",
+    "nameAr": "مدرسة ميدويتش الابتدائية",
+    "realm": "Silent Hill",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Midwich Elementary School خريطة ضمن عالم Silent Hill. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Midwich Elementary School or \"Level01\" is the only Map in the Silent Hill Realm.",
+    "summary": "Midwich Elementary School خريطة ضمن عالم Silent Hill مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "تختلف التفاصيل الدقيقة حسب نسخة الخريطة وتوزيع الموارد داخل المباراة.",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Midwich Elementary School الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Silent Hill لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/midwich-elementary-school.png",
+    "preview_image": "/images/maps/midwich-elementary-school.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Midwich_Elementary_School"
+  },
+  {
+    "id": "badham-preschool",
+    "name_en": "Badham Preschool",
+    "name_ar": "Badham Preschool",
+    "name": "Badham Preschool",
+    "nameAr": "Badham Preschool",
+    "realm": "Springwood",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Badham Preschool خريطة ضمن عالم Springwood. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Badham Preschool or \"ElmStreet\" is one of 5 Maps in the Springwood Realm.It has a total of 5 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Badham Preschool خريطة ضمن عالم Springwood مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "5  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Badham Preschool الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Springwood لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/badham-preschool.png",
+    "preview_image": "/images/maps/badham-preschool.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Badham_Preschool"
+  },
+  {
+    "id": "fallen-refuge",
+    "name_en": "Fallen Refuge",
+    "name_ar": "Fallen Refuge",
+    "name": "Fallen Refuge",
+    "nameAr": "Fallen Refuge",
+    "realm": "Withered Isle",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Fallen Refuge خريطة ضمن عالم Withered Isle. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Fallen Refuge or \"ApplePieShack\" is one of 4 Maps in the Withered Isle Realm.",
+    "summary": "Fallen Refuge خريطة ضمن عالم Withered Isle مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "4 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Fallen Refuge الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Withered Isle لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/fallen-refuge.png",
+    "preview_image": "/images/maps/fallen-refuge.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Fallen_Refuge"
+  },
+  {
+    "id": "freddy-fazbears-pizza",
+    "name_en": "Freddy Fazbear's Pizza",
+    "name_ar": "Freddy Fazbear's Pizza",
+    "name": "Freddy Fazbear's Pizza",
+    "nameAr": "Freddy Fazbear's Pizza",
+    "realm": "Withered Isle",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Freddy Fazbear's Pizza خريطة ضمن عالم Withered Isle. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Freddy Fazbear's Pizza or \"ApplePieLevel02\" is one of 4 Maps in the Withered Isle Realm.",
+    "summary": "Freddy Fazbear's Pizza خريطة ضمن عالم Withered Isle مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "4 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Freddy Fazbear's Pizza الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Withered Isle لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/freddy-fazbears-pizza.png",
+    "preview_image": "/images/maps/freddy-fazbears-pizza.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Freddy_Fazbear's_Pizza"
+  },
+  {
+    "id": "garden-of-joy",
+    "name_en": "Garden of Joy",
+    "name_ar": "Garden of Joy",
+    "name": "Garden of Joy",
+    "nameAr": "Garden of Joy",
+    "realm": "Withered Isle",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Garden of Joy خريطة ضمن عالم Withered Isle. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Garden of Joy or \"MeteorLevel01\" is one of 4 Maps in the Withered Isle Realm.",
+    "summary": "Garden of Joy خريطة ضمن عالم Withered Isle مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "4 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Garden of Joy الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Withered Isle لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/garden-of-joy.png",
+    "preview_image": "/images/maps/garden-of-joy.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Garden_of_Joy"
+  },
+  {
+    "id": "greenville-square",
+    "name_en": "Greenville Square",
+    "name_ar": "Greenville Square",
+    "name": "Greenville Square",
+    "nameAr": "Greenville Square",
+    "realm": "Withered Isle",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Greenville Square خريطة ضمن عالم Withered Isle. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Greenville Square or \"ApplePieLevel01\" is one of 4 Maps in the Withered Isle Realm.",
+    "summary": "Greenville Square خريطة ضمن عالم Withered Isle مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "4 ",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Greenville Square الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Withered Isle لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/greenville-square.png",
+    "preview_image": "/images/maps/greenville-square.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Greenville_Square"
+  },
+  {
+    "id": "family-residence",
+    "name_en": "Family Residence",
+    "name_ar": "Family Residence",
+    "name": "Family Residence",
+    "nameAr": "Family Residence",
+    "realm": "Yamaoka Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Family Residence خريطة ضمن عالم Yamaoka Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Family Residence or \"Manor\" is one of 6 Maps in the Yamaoka Estate Realm.It has a total of 3 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Family Residence خريطة ضمن عالم Yamaoka Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "6  | 3  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Family Residence الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Yamaoka Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/family-residence.png",
+    "preview_image": "/images/maps/family-residence.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Family_Residence"
+  },
+  {
+    "id": "sanctum-of-wrath",
+    "name_en": "Sanctum of Wrath",
+    "name_ar": "Sanctum of Wrath",
+    "name": "Sanctum of Wrath",
+    "nameAr": "Sanctum of Wrath",
+    "realm": "Yamaoka Estate",
+    "category": "Map",
+    "chapter": "",
+    "killer": "",
+    "linked_characters": [],
+    "release_date": "",
+    "description_ar": "Sanctum of Wrath خريطة ضمن عالم Yamaoka Estate. تحتاج إلى فهم توزيع المولدات، المبنى الرئيسي، أماكن الحواجز، ونقاط الانتقال بين المناطق حتى تستفيد منها كسيرفايفر أو تضغطها ككيلر.",
+    "official_description": "Sanctum of Wrath or \"Shrine\" is one of 6 Maps in the Yamaoka Estate Realm.It has a total of 3 Map Variations, including, if available, a supersized version exclusive to 2v8 Trials.The regular Map Variations are differentiated by Roman Numerals, with only the first one being part of the Map pool of ranked 1v4 Trials.",
+    "summary": "Sanctum of Wrath خريطة ضمن عالم Yamaoka Estate مع مناطق مطاردة وأهداف تحتاج قراءة جيدة.",
+    "map_size_info": "6  | 3  | 2 | 1",
+    "important_locations": [
+      "المبنى الرئيسي",
+      "مناطق المولدات",
+      "الحواجز والنوافذ",
+      "بوابات الخروج"
+    ],
+    "killer_tips": [
+      "احفظ مسارات Sanctum of Wrath الرئيسية ولا تطارد طويلًا في أقوى منطقة آمنة.",
+      "اضغط على المولدات القريبة من بعضها وحاول خلق منطقة ثلاثية المولدات إذا كانت الخريطة تسمح.",
+      "استغل طبيعة Realm: Yamaoka Estate لتوقع أماكن الحواجز والنوافذ."
+    ],
+    "survivor_tips": [
+      "ابدأ بقراءة المبنى الرئيسي واللوابات القريبة قبل أول مطاردة.",
+      "لا تستهلك كل الحواجز القوية مبكرًا، خصوصًا إذا كانت الخريطة صغيرة أو مفتوحة.",
+      "وزع إصلاح المولدات حتى لا تمنح القاتل منطقة ضغط سهلة في نهاية المباراة."
+    ],
+    "image": "/images/maps/sanctum-of-wrath.png",
+    "preview_image": "/images/maps/sanctum-of-wrath.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Sanctum_of_Wrath"
   }
 ]

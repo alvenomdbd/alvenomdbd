@@ -10,3 +10,8 @@
   from = "/offerings"
   to = "/pages/offerings.html"
   status = 200
+
+[[redirects]]
+  from = "/detail"
+  to = "/pages/detail.html"
+  status = 200

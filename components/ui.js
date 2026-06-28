@@ -54,12 +54,14 @@ export function renderCollectionCard(item, collection) {
   const english = item.name_en || item.name || "";
   const effect = item.effect_ar || "";
   const description = item.description_ar || item.summary || "";
+  const detailHref = `/pages/detail.html?collection=${encodeURIComponent(collection)}&id=${encodeURIComponent(item.id)}`;
   const meta = [item.rarity, item.category, item.owner_or_type, item.type, item.role, item.difficulty, item.owner, item.realm, item.channel]
     .filter(Boolean)
     .join(" - ");
   const url = item.url ? `<a class="text-link" href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">فتح الرابط</a>` : "";
   return `
     <article class="content-card">
+      <a class="card-link" href="${escapeAttr(detailHref)}" aria-label="${escapeAttr(title)}">
       <img src="${escapeAttr(image)}" alt="${escapeAttr(title)}" loading="lazy" />
       <span>${escapeHtml(meta || collectionLabels[collection] || collection)}</span>
       <h2>${escapeHtml(title)}</h2>
@@ -67,6 +69,7 @@ export function renderCollectionCard(item, collection) {
       <p>${escapeHtml(description)}</p>
       ${effect ? `<p class="effect-text">${escapeHtml(effect)}</p>` : ""}
       ${renderTags(item)}
+      </a>
       ${url}
     </article>
   `;

@@ -12,7 +12,7 @@
     "description_ar": "أوفرنغ ممتاز لزيادة نقاطك الشخصية بعد المباراة.",
     "effect_ar": "يزيد نقاط الدم المكتسبة للناجي في كل التصنيفات.",
     "summary": "أوفرنغ ممتاز لزيادة نقاطك الشخصية بعد المباراة.",
-    "image": "/images/offerings/bloodpoints-escape-cake.svg"
+    "image": "/images/offerings/bloodpoints-escape-cake.png"
   },
   {
     "id": "bloodpoints-survivor-pudding",
@@ -27,7 +27,8 @@
     "description_ar": "خيار قوي عندما تريد رفع نقاط الدم من مباراة واحدة.",
     "effect_ar": "يزيد نقاط الدم الشخصية بنسبة كبيرة.",
     "summary": "خيار قوي عندما تريد رفع نقاط الدم من مباراة واحدة.",
-    "image": "/images/offerings/bloodpoints-survivor-pudding.svg"
+    "image": "/images/offerings/bloodpoints-survivor-pudding.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Survivor_Pudding"
   },
   {
     "id": "bloodpoints-bloody-party-streamers",
@@ -42,7 +43,8 @@
     "description_ar": "من أفضل الأوفرنغز للفريق كله، يرفع مكافآت الجميع ويستحق الحفظ للمباريات الجماعية.",
     "effect_ar": "يزيد نقاط الدم لكل اللاعبين في المباراة.",
     "summary": "من أفضل الأوفرنغز للفريق كله، يرفع مكافآت الجميع ويستحق الحفظ للمباريات الجماعية.",
-    "image": "/images/offerings/bloodpoints-bloody-party-streamers.svg"
+    "image": "/images/offerings/bloodpoints-bloody-party-streamers.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Bloody_Party_Streamers"
   },
   {
     "id": "bloodpoints-hollow-shell",
@@ -57,7 +59,8 @@
     "description_ar": "زيادة بسيطة لنقاط الدم، مناسبة للاستخدام المتكرر.",
     "effect_ar": "يزيد نقاط الدم بنسبة صغيرة.",
     "summary": "زيادة بسيطة لنقاط الدم، مناسبة للاستخدام المتكرر.",
-    "image": "/images/offerings/bloodpoints-hollow-shell.svg"
+    "image": "/images/offerings/bloodpoints-hollow-shell.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Hollow_Shell"
   },
   {
     "id": "bloodpoints-bound-envelope",
@@ -72,7 +75,8 @@
     "description_ar": "يرفع نقاط فئة معينة للناجي، مفيد عند تجميع نقاط لتطوير شخصية.",
     "effect_ar": "يزيد نقاط فئة محددة من أعمال الناجي.",
     "summary": "يرفع نقاط فئة معينة للناجي، مفيد عند تجميع نقاط لتطوير شخصية.",
-    "image": "/images/offerings/bloodpoints-bound-envelope.svg"
+    "image": "/images/offerings/bloodpoints-bound-envelope.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Bound_Envelope"
   },
   {
     "id": "bloodpoints-sealed-envelope",
@@ -87,7 +91,8 @@
     "description_ar": "نسخة أفضل من أوفرنغ الفئات وتساعد على تسريع التطوير.",
     "effect_ar": "يزيد نقاط دم في فئة محددة بنسبة أعلى.",
     "summary": "نسخة أفضل من أوفرنغ الفئات وتساعد على تسريع التطوير.",
-    "image": "/images/offerings/bloodpoints-sealed-envelope.svg"
+    "image": "/images/offerings/bloodpoints-sealed-envelope.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Sealed_Envelope"
   },
   {
     "id": "realm-macmillan-s-phalanx-bone",
@@ -102,7 +107,8 @@
     "description_ar": "يدفع الاحتمال نحو عالم MacMillan Estate.",
     "effect_ar": "يزيد فرصة اختيار خرائط MacMillan Estate.",
     "summary": "يدفع الاحتمال نحو عالم MacMillan Estate.",
-    "image": "/images/offerings/realm-macmillan-s-phalanx-bone.svg"
+    "image": "/images/offerings/realm-macmillan-s-phalanx-bone.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/MacMillan's_Phalanx_Bone"
   },
   {
     "id": "realm-azarov-s-key",
@@ -117,7 +123,8 @@
     "description_ar": "يدفع الاحتمال نحو عالم Autohaven Wreckers.",
     "effect_ar": "يزيد فرصة اختيار خرائط Autohaven Wreckers.",
     "summary": "يدفع الاحتمال نحو عالم Autohaven Wreckers.",
-    "image": "/images/offerings/realm-azarov-s-key.svg"
+    "image": "/images/offerings/realm-azarov-s-key.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Azarov's_Key"
   },
   {
     "id": "realm-heart-locket",
@@ -132,7 +139,8 @@
     "description_ar": "يدفع الاحتمال نحو Coldwind Farm.",
     "effect_ar": "يزيد فرصة اختيار خرائط Coldwind Farm.",
     "summary": "يدفع الاحتمال نحو Coldwind Farm.",
-    "image": "/images/offerings/realm-heart-locket.svg"
+    "image": "/images/offerings/realm-heart-locket.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Heart_Locket"
   },
   {
     "id": "realm-charred-wedding-photograph",
@@ -147,7 +155,8 @@
     "description_ar": "يدفع الاحتمال نحو Crotus Prenn Asylum.",
     "effect_ar": "يزيد فرصة اختيار خرائط Crotus Prenn Asylum.",
     "summary": "يدفع الاحتمال نحو Crotus Prenn Asylum.",
-    "image": "/images/offerings/realm-charred-wedding-photograph.svg"
+    "image": "/images/offerings/realm-charred-wedding-photograph.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Charred_Wedding_Photograph"
   },
   {
     "id": "realm-strode-realty-key",
@@ -162,7 +171,8 @@
     "description_ar": "يدفع الاحتمال نحو Haddonfield.",
     "effect_ar": "يزيد فرصة اختيار Lampkin Lane.",
     "summary": "يدفع الاحتمال نحو Haddonfield.",
-    "image": "/images/offerings/realm-strode-realty-key.svg"
+    "image": "/images/offerings/realm-strode-realty-key.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Strode_Realty_Key"
   },
   {
     "id": "realm-jigsaw-piece",
@@ -177,7 +187,8 @@
     "description_ar": "يدفع الاحتمال نحو Gideon Meat Plant.",
     "effect_ar": "يزيد فرصة اختيار The Game.",
     "summary": "يدفع الاحتمال نحو Gideon Meat Plant.",
-    "image": "/images/offerings/realm-jigsaw-piece.svg"
+    "image": "/images/offerings/realm-jigsaw-piece.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Jigsaw_Piece"
   },
   {
     "id": "realm-mary-s-letter",
@@ -192,7 +203,8 @@
     "description_ar": "يدفع الاحتمال نحو Silent Hill.",
     "effect_ar": "يزيد فرصة اختيار Midwich Elementary School.",
     "summary": "يدفع الاحتمال نحو Silent Hill.",
-    "image": "/images/offerings/realm-mary-s-letter.svg"
+    "image": "/images/offerings/realm-mary-s-letter.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Mary's_Letter"
   },
   {
     "id": "realm-rpd-badge",
@@ -207,7 +219,8 @@
     "description_ar": "يدفع الاحتمال نحو مركز شرطة راكون سيتي.",
     "effect_ar": "يزيد فرصة اختيار Raccoon City Police Station.",
     "summary": "يدفع الاحتمال نحو مركز شرطة راكون سيتي.",
-    "image": "/images/offerings/realm-rpd-badge.svg"
+    "image": "/images/offerings/realm-rpd-badge.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/RPD_Badge"
   },
   {
     "id": "realm-hawkins-national-laboratory-id",
@@ -222,7 +235,8 @@
     "description_ar": "يدفع الاحتمال نحو Hawkins Laboratory.",
     "effect_ar": "يزيد فرصة اختيار Hawkins National Laboratory.",
     "summary": "يدفع الاحتمال نحو Hawkins Laboratory.",
-    "image": "/images/offerings/realm-hawkins-national-laboratory-id.svg"
+    "image": "/images/offerings/realm-hawkins-national-laboratory-id.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Hawkins_National_Laboratory_ID"
   },
   {
     "id": "realm-airlock-doors",
@@ -237,7 +251,8 @@
     "description_ar": "يدفع الاحتمال نحو Nostromo Wreckage.",
     "effect_ar": "يزيد فرصة اختيار Nostromo Wreckage.",
     "summary": "يدفع الاحتمال نحو Nostromo Wreckage.",
-    "image": "/images/offerings/realm-airlock-doors.svg"
+    "image": "/images/offerings/realm-airlock-doors.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Airlock_Doors"
   },
   {
     "id": "realm-shattered-bottle",
@@ -252,7 +267,8 @@
     "description_ar": "يدفع الاحتمال نحو Dead Dawg Saloon.",
     "effect_ar": "يزيد فرصة اختيار Grave of Glenvale.",
     "summary": "يدفع الاحتمال نحو Dead Dawg Saloon.",
-    "image": "/images/offerings/realm-shattered-bottle.svg"
+    "image": "/images/offerings/realm-shattered-bottle.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Shattered_Bottle"
   },
   {
     "id": "realm-crow-s-eye",
@@ -267,7 +283,8 @@
     "description_ar": "يدفع الاحتمال نحو Forsaken Boneyard.",
     "effect_ar": "يزيد فرصة اختيار Eyrie of Crows.",
     "summary": "يدفع الاحتمال نحو Forsaken Boneyard.",
-    "image": "/images/offerings/realm-crow-s-eye.svg"
+    "image": "/images/offerings/realm-crow-s-eye.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Crow's_Eye"
   },
   {
     "id": "realm-ichorous-loam",
@@ -282,7 +299,8 @@
     "description_ar": "يدفع الاحتمال نحو Garden of Joy.",
     "effect_ar": "يزيد فرصة اختيار Garden of Joy.",
     "summary": "يدفع الاحتمال نحو Garden of Joy.",
-    "image": "/images/offerings/realm-ichorous-loam.svg"
+    "image": "/images/offerings/realm-ichorous-loam.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ichorous_Loam"
   },
   {
     "id": "realm-alien-flora",
@@ -297,7 +315,8 @@
     "description_ar": "يدفع الاحتمال نحو Toba Landing.",
     "effect_ar": "يزيد فرصة اختيار Toba Landing.",
     "summary": "يدفع الاحتمال نحو Toba Landing.",
-    "image": "/images/offerings/realm-alien-flora.svg"
+    "image": "/images/offerings/realm-alien-flora.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Alien_Flora"
   },
   {
     "id": "luck-chalk-pouch",
@@ -312,7 +331,8 @@
     "description_ar": "أوفرنغ حظ بسيط يفيد في محاولات الهروب من الخطاف، لكنه لا يغني عن اللعب الآمن.",
     "effect_ar": "يزيد حظ الناجين بنسبة بسيطة.",
     "summary": "أوفرنغ حظ بسيط يفيد في محاولات الهروب من الخطاف، لكنه لا يغني عن اللعب الآمن.",
-    "image": "/images/offerings/luck-chalk-pouch.svg"
+    "image": "/images/offerings/luck-chalk-pouch.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Chalk_Pouch"
   },
   {
     "id": "luck-cream-chalk-pouch",
@@ -327,7 +347,8 @@
     "description_ar": "نسخة أفضل لدعم الحظ عندما تريد فرصة أعلى للهروب من الخطاف.",
     "effect_ar": "يزيد حظ الناجين بنسبة متوسطة.",
     "summary": "نسخة أفضل لدعم الحظ عندما تريد فرصة أعلى للهروب من الخطاف.",
-    "image": "/images/offerings/luck-cream-chalk-pouch.svg"
+    "image": "/images/offerings/luck-cream-chalk-pouch.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Cream_Chalk_Pouch"
   },
   {
     "id": "luck-salt-pouch",
@@ -342,7 +363,8 @@
     "description_ar": "أوفرنغ حظ قوي نسبيًا، مفيد مع بيلدات تعتمد على محاولات الخطاف.",
     "effect_ar": "يزيد حظ الناجين بنسبة عالية.",
     "summary": "أوفرنغ حظ قوي نسبيًا، مفيد مع بيلدات تعتمد على محاولات الخطاف.",
-    "image": "/images/offerings/luck-salt-pouch.svg"
+    "image": "/images/offerings/luck-salt-pouch.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Salt_Pouch"
   },
   {
     "id": "luck-ivory-chalk-pouch",
@@ -357,7 +379,8 @@
     "description_ar": "يرفع الحظ بشكل جيد للفريق أو اللاعب حسب النوع.",
     "effect_ar": "يحسن فرص الهروب الذاتي من الخطاف.",
     "summary": "يرفع الحظ بشكل جيد للفريق أو اللاعب حسب النوع.",
-    "image": "/images/offerings/luck-ivory-chalk-pouch.svg"
+    "image": "/images/offerings/luck-ivory-chalk-pouch.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ivory_Chalk_Pouch"
   },
   {
     "id": "luck-vigo-s-jar-of-salty-lips",
@@ -372,7 +395,8 @@
     "description_ar": "أقوى أوفرنغ حظ جماعي، يستخدم غالبًا للميمز أو استراتيجيات الهروب من الخطاف.",
     "effect_ar": "يزيد حظ جميع الناجين بشكل كبير.",
     "summary": "أقوى أوفرنغ حظ جماعي، يستخدم غالبًا للميمز أو استراتيجيات الهروب من الخطاف.",
-    "image": "/images/offerings/luck-vigo-s-jar-of-salty-lips.svg"
+    "image": "/images/offerings/luck-vigo-s-jar-of-salty-lips.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Vigo's_Jar_of_Salty_Lips"
   },
   {
     "id": "hatch-annotated-blueprint",
@@ -387,7 +411,8 @@
     "description_ar": "يساعد على توجيه ظهور الهاتش نحو مبنى القاتل أو موقع محدد حسب النسخة.",
     "effect_ar": "يرفع فرصة ظهور الهاتش في موقع معين.",
     "summary": "يساعد على توجيه ظهور الهاتش نحو مبنى القاتل أو موقع محدد حسب النسخة.",
-    "image": "/images/offerings/hatch-annotated-blueprint.svg"
+    "image": "/images/offerings/hatch-annotated-blueprint.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Annotated_Blueprint"
   },
   {
     "id": "hatch-vigo-s-blueprint",
@@ -402,7 +427,8 @@
     "description_ar": "مفيد لمن يلعب آخر ناجٍ ويريد توقع مكان الهاتش.",
     "effect_ar": "يرفع فرصة ظهور الهاتش قرب مبنى الناجين أو موقع محدد.",
     "summary": "مفيد لمن يلعب آخر ناجٍ ويريد توقع مكان الهاتش.",
-    "image": "/images/offerings/hatch-vigo-s-blueprint.svg"
+    "image": "/images/offerings/hatch-vigo-s-blueprint.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Vigo's_Blueprint"
   },
   {
     "id": "hook-petrified-oak",
@@ -417,7 +443,8 @@
     "description_ar": "أوفرنغ دفاعي يقلل راحة القاتل في اختيار الخطافات.",
     "effect_ar": "يزيد المسافة بين الخطافات ويصعب حمل الناجين لمسافات طويلة.",
     "summary": "أوفرنغ دفاعي يقلل راحة القاتل في اختيار الخطافات.",
-    "image": "/images/offerings/hook-petrified-oak.svg"
+    "image": "/images/offerings/hook-petrified-oak.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Petrified_Oak"
   },
   {
     "id": "hook-moldy-oak",
@@ -432,7 +459,7 @@
     "description_ar": "نسخة قاتل تزيد ضغط الخطافات على الخريطة.",
     "effect_ar": "يقرب الخطافات من بعضها لصالح القاتل.",
     "summary": "نسخة قاتل تزيد ضغط الخطافات على الخريطة.",
-    "image": "/images/offerings/hook-moldy-oak.svg"
+    "image": "/images/offerings/hook-moldy-oak.png"
   },
   {
     "id": "hook-rotten-oak",
@@ -447,7 +474,8 @@
     "description_ar": "يزيد كثافة الخطافات ويجعل إنقاذ السابوتاج أصعب.",
     "effect_ar": "يقلل المسافة بين الخطافات بدرجة متوسطة.",
     "summary": "يزيد كثافة الخطافات ويجعل إنقاذ السابوتاج أصعب.",
-    "image": "/images/offerings/hook-rotten-oak.svg"
+    "image": "/images/offerings/hook-rotten-oak.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Rotten_Oak"
   },
   {
     "id": "hook-putrid-oak",
@@ -462,7 +490,8 @@
     "description_ar": "أقوى أوفرنغ قاتل لتقريب الخطافات وزيادة أمان الحمل.",
     "effect_ar": "يقلل المسافة بين الخطافات بدرجة كبيرة.",
     "summary": "أقوى أوفرنغ قاتل لتقريب الخطافات وزيادة أمان الحمل.",
-    "image": "/images/offerings/hook-putrid-oak.svg"
+    "image": "/images/offerings/hook-putrid-oak.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Putrid_Oak"
   },
   {
     "id": "mori-cypress-memento-mori",
@@ -477,7 +506,8 @@
     "description_ar": "أوفرنغ قتل سينمائي محدود بنهاية المباراة.",
     "effect_ar": "يسمح بقتل آخر ناجٍ بيد القاتل عند توفر الشروط.",
     "summary": "أوفرنغ قتل سينمائي محدود بنهاية المباراة.",
-    "image": "/images/offerings/mori-cypress-memento-mori.svg"
+    "image": "/images/offerings/mori-cypress-memento-mori.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Cypress_Memento_Mori"
   },
   {
     "id": "mori-ivory-memento-mori",
@@ -492,7 +522,8 @@
     "description_ar": "موري قوي يسمح بقتل ناجٍ واحد عند تحقق شروط التعليق.",
     "effect_ar": "يسمح بقتل ناجٍ واحد بيد القاتل بعد استيفاء الشروط.",
     "summary": "موري قوي يسمح بقتل ناجٍ واحد عند تحقق شروط التعليق.",
-    "image": "/images/offerings/mori-ivory-memento-mori.svg"
+    "image": "/images/offerings/mori-ivory-memento-mori.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ivory_Memento_Mori"
   },
   {
     "id": "mori-ebony-memento-mori",
@@ -507,7 +538,8 @@
     "description_ar": "أقوى موري تقليدي، يضيف تهديدًا كبيرًا بعد الخطافات.",
     "effect_ar": "يسمح بقتل عدة ناجين بيد القاتل عند تحقق الشروط.",
     "summary": "أقوى موري تقليدي، يضيف تهديدًا كبيرًا بعد الخطافات.",
-    "image": "/images/offerings/mori-ebony-memento-mori.svg"
+    "image": "/images/offerings/mori-ebony-memento-mori.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ebony_Memento_Mori"
   },
   {
     "id": "ward-white-ward",
@@ -522,7 +554,8 @@
     "description_ar": "أوفرنغ مهم إذا دخلت المباراة بأداة نادرة وتخشى خسارتها.",
     "effect_ar": "يحافظ على الأداة والإضافات عند الموت.",
     "summary": "أوفرنغ مهم إذا دخلت المباراة بأداة نادرة وتخشى خسارتها.",
-    "image": "/images/offerings/ward-white-ward.svg"
+    "image": "/images/offerings/ward-white-ward.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/White_Ward"
   },
   {
     "id": "ward-black-ward",
@@ -537,7 +570,8 @@
     "description_ar": "أوفرنغ قاتل يحافظ على الإضافات النادرة بعد المباراة.",
     "effect_ar": "يحمي إضافات القاتل من الفقدان بعد نهاية المباراة.",
     "summary": "أوفرنغ قاتل يحافظ على الإضافات النادرة بعد المباراة.",
-    "image": "/images/offerings/ward-black-ward.svg"
+    "image": "/images/offerings/ward-black-ward.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Black_Ward"
   },
   {
     "id": "ward-sacrificial-ward",
@@ -552,7 +586,8 @@
     "description_ar": "يحاول إلغاء أوفرنغ الخريطة إذا أراد الطرف الآخر فرض عالم معين.",
     "effect_ar": "يلغي تأثير أوفرنغ اختيار الخريطة عند توفر الشروط.",
     "summary": "يحاول إلغاء أوفرنغ الخريطة إذا أراد الطرف الآخر فرض عالم معين.",
-    "image": "/images/offerings/ward-sacrificial-ward.svg"
+    "image": "/images/offerings/ward-sacrificial-ward.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Sacrificial_Ward"
   },
   {
     "id": "event-anniversary-cake",
@@ -567,7 +602,7 @@
     "description_ar": "أوفرنغ احتفالي ممتاز لتجميع نقاط الدم أثناء فعاليات الذكرى.",
     "effect_ar": "يزيد نقاط الدم بشكل كبير خلال الحدث.",
     "summary": "أوفرنغ احتفالي ممتاز لتجميع نقاط الدم أثناء فعاليات الذكرى.",
-    "image": "/images/offerings/event-anniversary-cake.svg"
+    "image": "/images/offerings/event-anniversary-cake.png"
   },
   {
     "id": "event-terrormisu",
@@ -582,7 +617,8 @@
     "description_ar": "أوفرنغ ذكرى محبوب يعطي مكافآت عالية للجميع.",
     "effect_ar": "يزيد نقاط الدم لكل اللاعبين أثناء حدث الذكرى.",
     "summary": "أوفرنغ ذكرى محبوب يعطي مكافآت عالية للجميع.",
-    "image": "/images/offerings/event-terrormisu.svg"
+    "image": "/images/offerings/event-terrormisu.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Terrormisu"
   },
   {
     "id": "event-ghastly-gateau",
@@ -597,7 +633,8 @@
     "description_ar": "أوفرنغ حدث يعطي قيمة عالية ويشجع اللعب الجماعي خلال الفعاليات.",
     "effect_ar": "يزيد نقاط الدم بشكل كبير حسب شروط الحدث.",
     "summary": "أوفرنغ حدث يعطي قيمة عالية ويشجع اللعب الجماعي خلال الفعاليات.",
-    "image": "/images/offerings/event-ghastly-gateau.svg"
+    "image": "/images/offerings/event-ghastly-gateau.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ghastly_Gateau"
   },
   {
     "id": "event-lunar-new-year-envelope",
@@ -612,7 +649,7 @@
     "description_ar": "أوفرنغ حدث يضيف أهدافًا ومكافآت خاصة بالسنة القمرية.",
     "effect_ar": "يفعل عناصر حدث خاصة ويمنح نقاط دم إضافية.",
     "summary": "أوفرنغ حدث يضيف أهدافًا ومكافآت خاصة بالسنة القمرية.",
-    "image": "/images/offerings/event-lunar-new-year-envelope.svg"
+    "image": "/images/offerings/event-lunar-new-year-envelope.png"
   },
   {
     "id": "event-halloween-offering",
@@ -627,6 +664,6 @@
     "description_ar": "أوفرنغ خاص بفعاليات الهالوين، يضيف أهدافًا أو مكافآت مؤقتة حسب الحدث.",
     "effect_ar": "يفعل مكافآت أو تفاعلات مرتبطة بحدث الهالوين.",
     "summary": "أوفرنغ خاص بفعاليات الهالوين، يضيف أهدافًا أو مكافآت مؤقتة حسب الحدث.",
-    "image": "/images/offerings/event-halloween-offering.svg"
+    "image": "/images/offerings/event-halloween-offering.png"
   }
 ]

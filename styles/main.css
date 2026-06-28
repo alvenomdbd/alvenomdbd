@@ -321,6 +321,10 @@ textarea {
   border-top: 4px solid var(--green);
 }
 
+.card-link {
+  display: block;
+}
+
 .content-card img {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -355,6 +359,81 @@ textarea {
   margin-top: 14px;
   padding-top: 12px;
   color: #f0d39a !important;
+}
+
+.detail-layout {
+  display: grid;
+  grid-template-columns: minmax(260px, 390px) 1fr;
+  gap: 18px;
+}
+
+.detail-media,
+.detail-copy,
+.detail-block {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: rgba(17, 23, 25, 0.92);
+}
+
+.detail-media {
+  padding: 18px;
+}
+
+.detail-media img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-radius: 7px;
+  background: #080a0c;
+}
+
+.detail-copy {
+  padding: 24px;
+}
+
+.detail-copy > span {
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.detail-copy h1 {
+  margin-top: 8px;
+  font-size: clamp(34px, 5vw, 64px);
+}
+
+.detail-facts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: 18px 0;
+}
+
+.detail-facts div {
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 10px;
+  background: #0c1113;
+}
+
+.detail-facts b,
+.detail-facts em {
+  display: block;
+  font-style: normal;
+}
+
+.detail-facts b {
+  color: var(--gold);
+  font-size: 12px;
+}
+
+.detail-block {
+  margin-top: 12px;
+  padding: 16px;
+}
+
+.detail-block h2 {
+  margin-bottom: 8px;
+  font-size: 20px;
 }
 
 .pill-list {
@@ -477,6 +556,8 @@ textarea {
   .article-grid,
   .search-results,
   .split-showcase,
+  .detail-layout,
+  .detail-facts,
   .tools,
   .admin-grid,
   .admin-form {

@@ -12,7 +12,7 @@
     "description_ar": "تساعدك على التحكم أثناء العلاج وتخفف أخطاء اختبارات المهارة.",
     "effect_ar": "تحسن جودة العلاج وتزيد الأمان أثناء استخدام الميدكيت.",
     "summary": "تساعدك على التحكم أثناء العلاج وتخفف أخطاء اختبارات المهارة.",
-    "image": "/images/addons/med-kit-rubber-gloves.svg"
+    "image": "/images/addons/med-kit-rubber-gloves.png"
   },
   {
     "id": "med-kit-butterfly-tape",
@@ -27,7 +27,7 @@
     "description_ar": "إضافة بسيطة ترفع سرعة العلاج قليلًا عندما تحتاج علاجًا سريعًا.",
     "effect_ar": "يزيد سرعة العلاج باستخدام الميدكيت بنسبة بسيطة.",
     "summary": "إضافة بسيطة ترفع سرعة العلاج قليلًا عندما تحتاج علاجًا سريعًا.",
-    "image": "/images/addons/med-kit-butterfly-tape.svg"
+    "image": "/images/addons/med-kit-butterfly-tape.png"
   },
   {
     "id": "med-kit-bandages",
@@ -42,7 +42,7 @@
     "description_ar": "ضمادات إضافية تمنحك هامشًا أفضل لإكمال العلاج بدون نفاد الشحنات.",
     "effect_ar": "تضيف شحنات للميدكيت.",
     "summary": "ضمادات إضافية تمنحك هامشًا أفضل لإكمال العلاج بدون نفاد الشحنات.",
-    "image": "/images/addons/med-kit-bandages.svg"
+    "image": "/images/addons/med-kit-bandages.png"
   },
   {
     "id": "med-kit-medical-scissors",
@@ -57,7 +57,7 @@
     "description_ar": "أداة مفيدة لتسريع العلاج عندما تكون بعيدًا عن الفريق أو تحت ضغط القاتل.",
     "effect_ar": "يزيد سرعة العلاج بشكل ملحوظ.",
     "summary": "أداة مفيدة لتسريع العلاج عندما تكون بعيدًا عن الفريق أو تحت ضغط القاتل.",
-    "image": "/images/addons/med-kit-medical-scissors.svg"
+    "image": "/images/addons/med-kit-medical-scissors.png"
   },
   {
     "id": "med-kit-self-adherent-wrap",
@@ -72,7 +72,7 @@
     "description_ar": "يرفع كفاءة الميدكيت ويجعل الشحنات تدوم أكثر في العلاج.",
     "effect_ar": "يزيد شحنات الميدكيت ويحسن الاعتمادية.",
     "summary": "يرفع كفاءة الميدكيت ويجعل الشحنات تدوم أكثر في العلاج.",
-    "image": "/images/addons/med-kit-self-adherent-wrap.svg"
+    "image": "/images/addons/med-kit-self-adherent-wrap.png"
   },
   {
     "id": "med-kit-needle-and-thread",
@@ -87,7 +87,7 @@
     "description_ar": "إضافة للاعب الواثق في اختبارات المهارة، تعطي مكافأة مقابل الدقة.",
     "effect_ar": "يزيد احتمالية اختبارات المهارة ومكافأة Great Skill Check أثناء العلاج.",
     "summary": "إضافة للاعب الواثق في اختبارات المهارة، تعطي مكافأة مقابل الدقة.",
-    "image": "/images/addons/med-kit-needle-and-thread.svg"
+    "image": "/images/addons/med-kit-needle-and-thread.png"
   },
   {
     "id": "med-kit-sponge",
@@ -102,7 +102,7 @@
     "description_ar": "إضافة داعمة تجعل العلاج أكثر قيمة عند إنقاذ الحلفاء.",
     "effect_ar": "تحسن أداء العلاج وتدعم استهلاك الشحنات بشكل أفضل.",
     "summary": "إضافة داعمة تجعل العلاج أكثر قيمة عند إنقاذ الحلفاء.",
-    "image": "/images/addons/med-kit-sponge.svg"
+    "image": "/images/addons/med-kit-sponge.png"
   },
   {
     "id": "med-kit-gel-dressings",
@@ -117,7 +117,7 @@
     "description_ar": "من أفضل إضافات الشحنات، ممتازة لمن يريد أكثر من علاج في المباراة.",
     "effect_ar": "تضيف كمية كبيرة من الشحنات للميدكيت.",
     "summary": "من أفضل إضافات الشحنات، ممتازة لمن يريد أكثر من علاج في المباراة.",
-    "image": "/images/addons/med-kit-gel-dressings.svg"
+    "image": "/images/addons/med-kit-gel-dressings.png"
   },
   {
     "id": "med-kit-gauze-roll",
@@ -132,7 +132,7 @@
     "description_ar": "خيار ممتاز لإطالة عمر الميدكيت دون التضحية الكبيرة بالسرعة.",
     "effect_ar": "تضيف شحنات جيدة للميدكيت.",
     "summary": "خيار ممتاز لإطالة عمر الميدكيت دون التضحية الكبيرة بالسرعة.",
-    "image": "/images/addons/med-kit-gauze-roll.svg"
+    "image": "/images/addons/med-kit-gauze-roll.png"
   },
   {
     "id": "med-kit-surgical-suture",
@@ -147,7 +147,7 @@
     "description_ar": "تكافئ اللاعب الدقيق في العلاج، لكنها تحتاج تركيزًا في اختبارات المهارة.",
     "effect_ar": "تزيد احتمالية اختبارات المهارة ومكافأة النجاح الممتاز.",
     "summary": "تكافئ اللاعب الدقيق في العلاج، لكنها تحتاج تركيزًا في اختبارات المهارة.",
-    "image": "/images/addons/med-kit-surgical-suture.svg"
+    "image": "/images/addons/med-kit-surgical-suture.png"
   },
   {
     "id": "med-kit-styptic-agent",
@@ -162,7 +162,7 @@
     "description_ar": "إضافة دفاعية قوية جدًا تمنح حماية قصيرة عند استخدامها في الوقت الصحيح.",
     "effect_ar": "تمنح Endurance مؤقتًا عند استخدام الميدكيت بطريقة مناسبة.",
     "summary": "إضافة دفاعية قوية جدًا تمنح حماية قصيرة عند استخدامها في الوقت الصحيح.",
-    "image": "/images/addons/med-kit-styptic-agent.svg"
+    "image": "/images/addons/med-kit-styptic-agent.png"
   },
   {
     "id": "med-kit-abdominal-dressing",
@@ -177,7 +177,7 @@
     "description_ar": "تزيد سرعة العلاج بقوة، لكنها تضغط على الشحنات وتحتاج قرارًا سريعًا.",
     "effect_ar": "يرفع سرعة العلاج بشكل كبير مع تأثير على استهلاك الشحنات.",
     "summary": "تزيد سرعة العلاج بقوة، لكنها تضغط على الشحنات وتحتاج قرارًا سريعًا.",
-    "image": "/images/addons/med-kit-abdominal-dressing.svg"
+    "image": "/images/addons/med-kit-abdominal-dressing.png"
   },
   {
     "id": "med-kit-anti-hemorrhagic-syringe",
@@ -192,7 +192,7 @@
     "description_ar": "أقوى إضافة علاجية، تمنح علاجًا مؤجلًا يمكن أن يقلب مطاردة كاملة.",
     "effect_ar": "تفعّل علاجًا تلقائيًا بعد مدة قصيرة إذا بقي الناجي حيًا ولم تتوقف الحالة.",
     "summary": "أقوى إضافة علاجية، تمنح علاجًا مؤجلًا يمكن أن يقلب مطاردة كاملة.",
-    "image": "/images/addons/med-kit-anti-hemorrhagic-syringe.svg"
+    "image": "/images/addons/med-kit-anti-hemorrhagic-syringe.png"
   },
   {
     "id": "flashlight-battery",
@@ -207,7 +207,7 @@
     "description_ar": "إضافة بسيطة ترفع مدة استخدام الكشاف وتمنحك محاولة إضافية.",
     "effect_ar": "تضيف شحنات للفلاش لايت.",
     "summary": "إضافة بسيطة ترفع مدة استخدام الكشاف وتمنحك محاولة إضافية.",
-    "image": "/images/addons/flashlight-battery.svg"
+    "image": "/images/addons/flashlight-battery.png"
   },
   {
     "id": "flashlight-leather-grip",
@@ -222,7 +222,7 @@
     "description_ar": "تجعل التحكم بالشعاع أفضل للاعبين الذين يتعلمون الإنقاذ بالفلاش.",
     "effect_ar": "يحسن دقة التحكم بالفلاش لايت.",
     "summary": "تجعل التحكم بالشعاع أفضل للاعبين الذين يتعلمون الإنقاذ بالفلاش.",
-    "image": "/images/addons/flashlight-leather-grip.svg"
+    "image": "/images/addons/flashlight-leather-grip.png"
   },
   {
     "id": "flashlight-wide-lens",
@@ -237,7 +237,7 @@
     "description_ar": "توسع الشعاع وتساعد على إصابة وجه القاتل بسهولة أكبر.",
     "effect_ar": "يزيد عرض شعاع الكشاف.",
     "summary": "توسع الشعاع وتساعد على إصابة وجه القاتل بسهولة أكبر.",
-    "image": "/images/addons/flashlight-wide-lens.svg"
+    "image": "/images/addons/flashlight-wide-lens.png"
   },
   {
     "id": "flashlight-focus-lens",
@@ -252,7 +252,7 @@
     "description_ar": "تجعل الشعاع أكثر حدة، مناسبة للاعب الذي يضبط الزاوية جيدًا.",
     "effect_ar": "يحسن مدى وتركيز الشعاع.",
     "summary": "تجعل الشعاع أكثر حدة، مناسبة للاعب الذي يضبط الزاوية جيدًا.",
-    "image": "/images/addons/flashlight-focus-lens.svg"
+    "image": "/images/addons/flashlight-focus-lens.png"
   },
   {
     "id": "flashlight-low-amp-filament",
@@ -267,7 +267,7 @@
     "description_ar": "إضافة مهمة لإطالة عمر الكشاف في محاولات الإنقاذ المتعددة.",
     "effect_ar": "يقلل استهلاك الشحنات أثناء الاستخدام.",
     "summary": "إضافة مهمة لإطالة عمر الكشاف في محاولات الإنقاذ المتعددة.",
-    "image": "/images/addons/flashlight-low-amp-filament.svg"
+    "image": "/images/addons/flashlight-low-amp-filament.png"
   },
   {
     "id": "flashlight-heavy-duty-battery",
@@ -282,7 +282,7 @@
     "description_ar": "بطارية أقوى تمنح وقت استخدام أطول وتزيد فرص الإبهار الناجح.",
     "effect_ar": "تضيف شحنات أكثر للفلاش لايت.",
     "summary": "بطارية أقوى تمنح وقت استخدام أطول وتزيد فرص الإبهار الناجح.",
-    "image": "/images/addons/flashlight-heavy-duty-battery.svg"
+    "image": "/images/addons/flashlight-heavy-duty-battery.png"
   },
   {
     "id": "flashlight-rubber-grip",
@@ -297,7 +297,7 @@
     "description_ar": "تحسن ثبات الشعاع أثناء الحركة والالتفاف حول القاتل.",
     "effect_ar": "يحسن التحكم بدقة الشعاع.",
     "summary": "تحسن ثبات الشعاع أثناء الحركة والالتفاف حول القاتل.",
-    "image": "/images/addons/flashlight-rubber-grip.svg"
+    "image": "/images/addons/flashlight-rubber-grip.png"
   },
   {
     "id": "flashlight-tir-optic",
@@ -312,7 +312,7 @@
     "description_ar": "إضافة هجومية تجعل الإبهار أسرع وأكثر تهديدًا في يد لاعب متمرس.",
     "effect_ar": "يزيد قوة الشعاع ويقلل وقت الوصول للـ Blind.",
     "summary": "إضافة هجومية تجعل الإبهار أسرع وأكثر تهديدًا في يد لاعب متمرس.",
-    "image": "/images/addons/flashlight-tir-optic.svg"
+    "image": "/images/addons/flashlight-tir-optic.png"
   },
   {
     "id": "flashlight-long-life-battery",
@@ -327,7 +327,7 @@
     "description_ar": "ممتازة لمن يريد أكثر من محاولة إنقاذ أو تعطيل في المباراة.",
     "effect_ar": "تضيف شحنات عالية للفلاش لايت.",
     "summary": "ممتازة لمن يريد أكثر من محاولة إنقاذ أو تعطيل في المباراة.",
-    "image": "/images/addons/flashlight-long-life-battery.svg"
+    "image": "/images/addons/flashlight-long-life-battery.png"
   },
   {
     "id": "flashlight-intense-halogen",
@@ -342,7 +342,7 @@
     "description_ar": "يرفع شدة الضوء ويجعل القاتل أقل قدرة على تجاهل الشعاع.",
     "effect_ar": "يزيد فعالية الإبهار.",
     "summary": "يرفع شدة الضوء ويجعل القاتل أقل قدرة على تجاهل الشعاع.",
-    "image": "/images/addons/flashlight-intense-halogen.svg"
+    "image": "/images/addons/flashlight-intense-halogen.png"
   },
   {
     "id": "flashlight-high-end-sapphire-lens",
@@ -357,7 +357,7 @@
     "description_ar": "عدسة قوية تعطي شعاعًا مميزًا وتحسن أداء الكشاف في المسافات الدقيقة.",
     "effect_ar": "تحسن مدى وعرض وتركيز الشعاع.",
     "summary": "عدسة قوية تعطي شعاعًا مميزًا وتحسن أداء الكشاف في المسافات الدقيقة.",
-    "image": "/images/addons/flashlight-high-end-sapphire-lens.svg"
+    "image": "/images/addons/flashlight-high-end-sapphire-lens.png"
   },
   {
     "id": "flashlight-odd-bulb",
@@ -372,7 +372,7 @@
     "description_ar": "إضافة نادرة وخطيرة ترفع قوة الكشاف مقابل استهلاك أعلى.",
     "effect_ar": "يزيد شدة الإبهار بشكل كبير مع استهلاك شحنات أسرع.",
     "summary": "إضافة نادرة وخطيرة ترفع قوة الكشاف مقابل استهلاك أعلى.",
-    "image": "/images/addons/flashlight-odd-bulb.svg"
+    "image": "/images/addons/flashlight-odd-bulb.png"
   },
   {
     "id": "toolbox-scraps",
@@ -387,7 +387,7 @@
     "description_ar": "قطع بسيطة تضيف قليلًا من الشحنات لصندوق الأدوات.",
     "effect_ar": "تزيد شحنات التولبوكس بشكل بسيط.",
     "summary": "قطع بسيطة تضيف قليلًا من الشحنات لصندوق الأدوات.",
-    "image": "/images/addons/toolbox-scraps.svg"
+    "image": "/images/addons/toolbox-scraps.png"
   },
   {
     "id": "toolbox-clean-rag",
@@ -402,7 +402,7 @@
     "description_ar": "تحسن استخدام الأدوات قليلًا وتساعد على إكمال إصلاح قصير.",
     "effect_ar": "تحسن كفاءة استخدام الشحنات.",
     "summary": "تحسن استخدام الأدوات قليلًا وتساعد على إكمال إصلاح قصير.",
-    "image": "/images/addons/toolbox-clean-rag.svg"
+    "image": "/images/addons/toolbox-clean-rag.png"
   },
   {
     "id": "toolbox-instructions",
@@ -417,7 +417,7 @@
     "description_ar": "تسهل استخدام التولبوكس وتخفف الضغط على اختبارات المهارة.",
     "effect_ar": "تحسن الاعتمادية أثناء الإصلاح.",
     "summary": "تسهل استخدام التولبوكس وتخفف الضغط على اختبارات المهارة.",
-    "image": "/images/addons/toolbox-instructions.svg"
+    "image": "/images/addons/toolbox-instructions.png"
   },
   {
     "id": "toolbox-wire-spool",
@@ -432,7 +432,7 @@
     "description_ar": "واحدة من أهم إضافات الشحنات للتولبوكس، تزيد مدة الإصلاح السريع.",
     "effect_ar": "تضيف شحنات جيدة لصندوق الأدوات.",
     "summary": "واحدة من أهم إضافات الشحنات للتولبوكس، تزيد مدة الإصلاح السريع.",
-    "image": "/images/addons/toolbox-wire-spool.svg"
+    "image": "/images/addons/toolbox-wire-spool.png"
   },
   {
     "id": "toolbox-spring-clamp",
@@ -447,7 +447,7 @@
     "description_ar": "تجعل استخدام التولبوكس أهدأ وأكثر أمانًا قرب القاتل.",
     "effect_ar": "يقلل ضجيج الإصلاح باستخدام التولبوكس.",
     "summary": "تجعل استخدام التولبوكس أهدأ وأكثر أمانًا قرب القاتل.",
-    "image": "/images/addons/toolbox-spring-clamp.svg"
+    "image": "/images/addons/toolbox-spring-clamp.png"
   },
   {
     "id": "toolbox-grip-wrench",
@@ -462,7 +462,7 @@
     "description_ar": "مفيدة لبناء سابوتاج، خصوصًا عند التخطيط لإنقاذ ناجٍ محمول.",
     "effect_ar": "يحسن فعالية تخريب الخطافات.",
     "summary": "مفيدة لبناء سابوتاج، خصوصًا عند التخطيط لإنقاذ ناجٍ محمول.",
-    "image": "/images/addons/toolbox-grip-wrench.svg"
+    "image": "/images/addons/toolbox-grip-wrench.png"
   },
   {
     "id": "toolbox-socket-swivels",
@@ -477,7 +477,7 @@
     "description_ar": "إضافة قوية لرفع سرعة الإصلاح عند استهلاك شحنات التولبوكس.",
     "effect_ar": "يزيد سرعة الإصلاح باستخدام التولبوكس.",
     "summary": "إضافة قوية لرفع سرعة الإصلاح عند استهلاك شحنات التولبوكس.",
-    "image": "/images/addons/toolbox-socket-swivels.svg"
+    "image": "/images/addons/toolbox-socket-swivels.png"
   },
   {
     "id": "toolbox-protective-gloves",
@@ -492,7 +492,7 @@
     "description_ar": "مفيدة لتقليل مخاطر استخدام التولبوكس في مكان خطر.",
     "effect_ar": "تحسن الأمان أثناء الإصلاح والسابوتاج.",
     "summary": "مفيدة لتقليل مخاطر استخدام التولبوكس في مكان خطر.",
-    "image": "/images/addons/toolbox-protective-gloves.svg"
+    "image": "/images/addons/toolbox-protective-gloves.png"
   },
   {
     "id": "toolbox-hacksaw",
@@ -507,7 +507,7 @@
     "description_ar": "إضافة سابوتاج قوية عندما يكون الهدف تعطيل الخطافات بسرعة.",
     "effect_ar": "يزيد سرعة تخريب الخطافات.",
     "summary": "إضافة سابوتاج قوية عندما يكون الهدف تعطيل الخطافات بسرعة.",
-    "image": "/images/addons/toolbox-hacksaw.svg"
+    "image": "/images/addons/toolbox-hacksaw.png"
   },
   {
     "id": "toolbox-cutting-wire",
@@ -522,7 +522,7 @@
     "description_ar": "تزيد قيمة التولبوكس في مواقف التخريب والإنقاذ القريب.",
     "effect_ar": "يحسن السابوتاج واستهلاك الشحنات.",
     "summary": "تزيد قيمة التولبوكس في مواقف التخريب والإنقاذ القريب.",
-    "image": "/images/addons/toolbox-cutting-wire.svg"
+    "image": "/images/addons/toolbox-cutting-wire.png"
   },
   {
     "id": "toolbox-brand-new-part",
@@ -537,7 +537,7 @@
     "description_ar": "إضافة قوية جدًا للأهداف، تحتاج نجاح اختبارات مهارة للاستفادة القصوى منها.",
     "effect_ar": "تمنح تقدمًا فوريًا كبيرًا على المولد عند استخدامها بنجاح.",
     "summary": "إضافة قوية جدًا للأهداف، تحتاج نجاح اختبارات مهارة للاستفادة القصوى منها.",
-    "image": "/images/addons/toolbox-brand-new-part.svg"
+    "image": "/images/addons/toolbox-brand-new-part.png"
   },
   {
     "id": "map-map-addendum",
@@ -552,7 +552,7 @@
     "description_ar": "يزيد مدة استخدام الخريطة ويعطيك وقتًا أطول لقراءة الهالات.",
     "effect_ar": "يضيف شحنات للخريطة.",
     "summary": "يزيد مدة استخدام الخريطة ويعطيك وقتًا أطول لقراءة الهالات.",
-    "image": "/images/addons/map-map-addendum.svg"
+    "image": "/images/addons/map-map-addendum.png"
   },
   {
     "id": "map-yellow-wire",
@@ -567,7 +567,7 @@
     "description_ar": "إضافة معلومات تكشف أهدافًا إضافية وتجعل الخريطة أكثر فائدة.",
     "effect_ar": "يسمح بتتبع وكشف أنواع إضافية من الأهداف.",
     "summary": "إضافة معلومات تكشف أهدافًا إضافية وتجعل الخريطة أكثر فائدة.",
-    "image": "/images/addons/map-yellow-wire.svg"
+    "image": "/images/addons/map-yellow-wire.png"
   },
   {
     "id": "map-retardant-jelly",
@@ -582,7 +582,7 @@
     "description_ar": "تحافظ على شحنات الخريطة وتجعل استخدامها أكثر كفاءة.",
     "effect_ar": "يقلل استهلاك شحنات الخريطة.",
     "summary": "تحافظ على شحنات الخريطة وتجعل استخدامها أكثر كفاءة.",
-    "image": "/images/addons/map-retardant-jelly.svg"
+    "image": "/images/addons/map-retardant-jelly.png"
   },
   {
     "id": "map-glass-bead",
@@ -597,7 +597,7 @@
     "description_ar": "تسمح بوضع علامة مرئية للحلفاء، ممتازة للتواصل بدون صوت.",
     "effect_ar": "تنشئ عمود ضوء يمكن للحلفاء رؤيته.",
     "summary": "تسمح بوضع علامة مرئية للحلفاء، ممتازة للتواصل بدون صوت.",
-    "image": "/images/addons/map-glass-bead.svg"
+    "image": "/images/addons/map-glass-bead.png"
   },
   {
     "id": "map-red-twine",
@@ -612,7 +612,7 @@
     "description_ar": "إضافة قوية لمن يريد تتبع ممتلكات القاتل والطوطمات.",
     "effect_ar": "يفتح تتبع ممتلكات القاتل وبعض الأهداف المهمة.",
     "summary": "إضافة قوية لمن يريد تتبع ممتلكات القاتل والطوطمات.",
-    "image": "/images/addons/map-red-twine.svg"
+    "image": "/images/addons/map-red-twine.png"
   },
   {
     "id": "map-unusual-stamp",
@@ -627,7 +627,7 @@
     "description_ar": "يرفع مدى قراءة الخريطة ويجعل المعلومات أسهل من مسافة أكبر.",
     "effect_ar": "يزيد مدى كشف الهالات بالخريطة.",
     "summary": "يرفع مدى قراءة الخريطة ويجعل المعلومات أسهل من مسافة أكبر.",
-    "image": "/images/addons/map-unusual-stamp.svg"
+    "image": "/images/addons/map-unusual-stamp.png"
   },
   {
     "id": "map-crystal-bead",
@@ -642,7 +642,7 @@
     "description_ar": "إضافة جماعية قوية تجعل معلومات الخريطة مفيدة للفريق كله.",
     "effect_ar": "تسمح للحلفاء برؤية الهالات التي تكشفها الخريطة.",
     "summary": "إضافة جماعية قوية تجعل معلومات الخريطة مفيدة للفريق كله.",
-    "image": "/images/addons/map-crystal-bead.svg"
+    "image": "/images/addons/map-crystal-bead.png"
   },
   {
     "id": "key-prayer-rope",
@@ -657,7 +657,7 @@
     "description_ar": "يزيد مدة استخدام المفتاح قليلًا ويمنح وقت قراءة إضافي.",
     "effect_ar": "يضيف شحنات للمفتاح.",
     "summary": "يزيد مدة استخدام المفتاح قليلًا ويمنح وقت قراءة إضافي.",
-    "image": "/images/addons/key-prayer-rope.svg"
+    "image": "/images/addons/key-prayer-rope.png"
   },
   {
     "id": "key-scratched-pearl",
@@ -672,7 +672,7 @@
     "description_ar": "تزيد مدى قراءة الهالات وتمنح المفتاح قيمة معلومات أفضل.",
     "effect_ar": "يزيد مدى قدرة المفتاح على كشف الهالات.",
     "summary": "تزيد مدى قراءة الهالات وتمنح المفتاح قيمة معلومات أفضل.",
-    "image": "/images/addons/key-scratched-pearl.svg"
+    "image": "/images/addons/key-scratched-pearl.png"
   },
   {
     "id": "key-prayer-beads",
@@ -687,7 +687,7 @@
     "description_ar": "تطيل عمر المفتاح وتسمح باستخدام إضافاته مدة أطول.",
     "effect_ar": "تضيف شحنات أكثر للمفتاح.",
     "summary": "تطيل عمر المفتاح وتسمح باستخدام إضافاته مدة أطول.",
-    "image": "/images/addons/key-prayer-beads.svg"
+    "image": "/images/addons/key-prayer-beads.png"
   },
   {
     "id": "key-eroded-token",
@@ -702,7 +702,7 @@
     "description_ar": "إضافة معلومات لكشف الحلفاء عندما تحتاج تنسيقًا أو علاجًا.",
     "effect_ar": "يكشف هالات الناجين ضمن مدى محدد أثناء استخدام المفتاح.",
     "summary": "إضافة معلومات لكشف الحلفاء عندما تحتاج تنسيقًا أو علاجًا.",
-    "image": "/images/addons/key-eroded-token.svg"
+    "image": "/images/addons/key-eroded-token.png"
   },
   {
     "id": "key-gold-token",
@@ -717,7 +717,7 @@
     "description_ar": "يرفع قيمة المفتاح في قراءة الفريق والمواقع القريبة.",
     "effect_ar": "يحسن كشف هالات الناجين ومدة الاستخدام.",
     "summary": "يرفع قيمة المفتاح في قراءة الفريق والمواقع القريبة.",
-    "image": "/images/addons/key-gold-token.svg"
+    "image": "/images/addons/key-gold-token.png"
   },
   {
     "id": "key-weaved-ring",
@@ -732,7 +732,7 @@
     "description_ar": "إضافة حماية مهمة للمفاتيح النادرة إذا كنت تخشى فقدانها عند الموت.",
     "effect_ar": "يحافظ على المفتاح عند الموت بدل فقدانه.",
     "summary": "إضافة حماية مهمة للمفاتيح النادرة إذا كنت تخشى فقدانها عند الموت.",
-    "image": "/images/addons/key-weaved-ring.svg"
+    "image": "/images/addons/key-weaved-ring.png"
   },
   {
     "id": "key-milky-glass",
@@ -747,7 +747,7 @@
     "description_ar": "يحافظ على المفتاح بعد استخدام تأثير مهم، مناسب للمفاتيح النادرة.",
     "effect_ar": "يحمي المفتاح من الاستهلاك في بعض الحالات.",
     "summary": "يحافظ على المفتاح بعد استخدام تأثير مهم، مناسب للمفاتيح النادرة.",
-    "image": "/images/addons/key-milky-glass.svg"
+    "image": "/images/addons/key-milky-glass.png"
   },
   {
     "id": "key-blood-amber",
@@ -762,6 +762,6 @@
     "description_ar": "واحدة من أقوى إضافات المفاتيح للمعلومات المباشرة ضد القاتل.",
     "effect_ar": "يكشف هالة القاتل أثناء استخدام المفتاح مقابل استهلاك شحنات سريع.",
     "summary": "واحدة من أقوى إضافات المفاتيح للمعلومات المباشرة ضد القاتل.",
-    "image": "/images/addons/key-blood-amber.svg"
+    "image": "/images/addons/key-blood-amber.png"
   }
 ]

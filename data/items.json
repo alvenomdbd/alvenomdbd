@@ -12,7 +12,8 @@
     "description_ar": "حقيبة إسعاف بسيطة ومناسبة للبداية، تعطيك علاجًا ذاتيًا أو علاج حليف عندما لا يكون الفريق قريبًا منك.",
     "effect_ar": "تمنح شحنات علاج أساسية، وتقبل إضافات الميدكيت لرفع السرعة أو الكفاءة أو عدد العلاجات.",
     "summary": "حقيبة إسعاف بسيطة ومناسبة للبداية، تعطيك علاجًا ذاتيًا أو علاج حليف عندما لا يكون الفريق قريبًا منك.",
-    "image": "/images/items/med-kit-camping-aid-kit.svg"
+    "image": "/images/items/med-kit-camping-aid-kit.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Camping_Aid_Kit"
   },
   {
     "id": "med-kit-first-aid-kit",
@@ -27,7 +28,8 @@
     "description_ar": "نسخة أكثر اعتمادًا من الميدكيت، ممتازة للاعب الذي يريد علاجًا مستقرًا بدون الاعتماد الكامل على الحلفاء.",
     "effect_ar": "تمنح شحنات علاج أعلى من النسخة العادية وتصبح قوية جدًا مع إضافات السرعة أو الشحنات.",
     "summary": "نسخة أكثر اعتمادًا من الميدكيت، ممتازة للاعب الذي يريد علاجًا مستقرًا بدون الاعتماد الكامل على الحلفاء.",
-    "image": "/images/items/med-kit-first-aid-kit.svg"
+    "image": "/images/items/med-kit-first-aid-kit.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/First_Aid_Kit"
   },
   {
     "id": "med-kit-emergency-med-kit",
@@ -42,7 +44,8 @@
     "description_ar": "ميدكيت سريع ومناسب للمباريات التي يضغط فيها القاتل على العلاج باستمرار.",
     "effect_ar": "يركز على سرعة العلاج، ويستفيد من الإضافات التي تزيد الكفاءة أو تمنح حماية عند إنهاء العلاج.",
     "summary": "ميدكيت سريع ومناسب للمباريات التي يضغط فيها القاتل على العلاج باستمرار.",
-    "image": "/images/items/med-kit-emergency-med-kit.svg"
+    "image": "/images/items/med-kit-emergency-med-kit.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Emergency_Med-Kit"
   },
   {
     "id": "med-kit-ranger-med-kit",
@@ -57,7 +60,8 @@
     "description_ar": "أفضل ميدكيت قياسي من ناحية الاعتماد، مناسب للبيلدات التي تريد علاجًا سريعًا ومضمونًا.",
     "effect_ar": "يوفر قيمة عالية مع إضافات الشحنات والسرعة، ويصلح للعب الداعم أو النجاة الفردية.",
     "summary": "أفضل ميدكيت قياسي من ناحية الاعتماد، مناسب للبيلدات التي تريد علاجًا سريعًا ومضمونًا.",
-    "image": "/images/items/med-kit-ranger-med-kit.svg"
+    "image": "/images/items/med-kit-ranger-med-kit.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Ranger_Med-Kit"
   },
   {
     "id": "flashlight-flashlight",
@@ -72,7 +76,8 @@
     "description_ar": "أداة مهارية لإبهار القاتل، إنقاذ الحلفاء من الحمل، أو تعطيل بعض قدرات القتلة في اللحظة المناسبة.",
     "effect_ar": "يطلق شعاعًا محدود الشحنات؛ التوقيت الصحيح على وجه القاتل يسبب Blind ويمكن أن يسقط الناجي المحمول.",
     "summary": "أداة مهارية لإبهار القاتل، إنقاذ الحلفاء من الحمل، أو تعطيل بعض قدرات القتلة في اللحظة المناسبة.",
-    "image": "/images/items/flashlight-flashlight.svg"
+    "image": "/images/items/flashlight-flashlight.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Flashlight"
   },
   {
     "id": "flashlight-sport-flashlight",
@@ -87,7 +92,8 @@
     "description_ar": "كشاف أسرع وأخف للاعب الذي يتقن الزوايا والإنقاذ بالفلاش لايت.",
     "effect_ar": "يحسن استخدام الشعاع ويصبح أقوى مع العدسات والبطاريات المناسبة.",
     "summary": "كشاف أسرع وأخف للاعب الذي يتقن الزوايا والإنقاذ بالفلاش لايت.",
-    "image": "/images/items/flashlight-sport-flashlight.svg"
+    "image": "/images/items/flashlight-sport-flashlight.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Sport_Flashlight"
   },
   {
     "id": "flashlight-utility-flashlight",
@@ -102,7 +108,8 @@
     "description_ar": "كشاف قوي للاعبين المتقدمين، مناسب لإنقاذات دقيقة أو ضغط مستمر على القاتل أثناء المطاردات.",
     "effect_ar": "يعطي أداءً أفضل للشعاع ويستفيد كثيرًا من إضافات مدة الإبهار والبطارية.",
     "summary": "كشاف قوي للاعبين المتقدمين، مناسب لإنقاذات دقيقة أو ضغط مستمر على القاتل أثناء المطاردات.",
-    "image": "/images/items/flashlight-utility-flashlight.svg"
+    "image": "/images/items/flashlight-utility-flashlight.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Utility_Flashlight"
   },
   {
     "id": "flashlight-will-o-wisp",
@@ -117,7 +124,8 @@
     "description_ar": "كشاف حدث بطابع خاص، قيمته الأساسية مثل الكشافات لكنه يعطي طابعًا بصريًا مميزًا.",
     "effect_ar": "يعمل ككشاف مع شحنات وإبهار، ويمكن تطويره بإضافات الفلاش لايت العادية.",
     "summary": "كشاف حدث بطابع خاص، قيمته الأساسية مثل الكشافات لكنه يعطي طابعًا بصريًا مميزًا.",
-    "image": "/images/items/flashlight-will-o-wisp.svg"
+    "image": "/images/items/flashlight-will-o-wisp.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Will_O'_Wisp"
   },
   {
     "id": "toolbox-worn-out-tools",
@@ -132,7 +140,8 @@
     "description_ar": "تولبوكس بسيط للمساعدة في إصلاح مولد أو تعطيل خطاف عند الحاجة، لكنه محدود جدًا.",
     "effect_ar": "يمنح شحنات إصلاح قليلة ويمكن استخدامه للسابوتاج مع إضافات مناسبة.",
     "summary": "تولبوكس بسيط للمساعدة في إصلاح مولد أو تعطيل خطاف عند الحاجة، لكنه محدود جدًا.",
-    "image": "/images/items/toolbox-worn-out-tools.svg"
+    "image": "/images/items/toolbox-worn-out-tools.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Worn-Out_Tools"
   },
   {
     "id": "toolbox-toolbox",
@@ -147,7 +156,8 @@
     "description_ar": "الصندوق القياسي للإصلاح الأسرع، مناسب لتسريع هدف مهم أو تجهيز إنقاذ بالسابوتاج.",
     "effect_ar": "يزيد سرعة الإصلاح أثناء استخدام الشحنات، ويقبل إضافات تزيد الشحنات أو السرعة أو السابوتاج.",
     "summary": "الصندوق القياسي للإصلاح الأسرع، مناسب لتسريع هدف مهم أو تجهيز إنقاذ بالسابوتاج.",
-    "image": "/images/items/toolbox-toolbox.svg"
+    "image": "/images/items/toolbox-toolbox.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Toolbox"
   },
   {
     "id": "toolbox-mechanic-s-toolbox",
@@ -162,7 +172,8 @@
     "description_ar": "تولبوكس موجه لإصلاح المولدات بسرعة، ممتاز مع بيلدات الضغط على الأهداف.",
     "effect_ar": "يرفع سرعة الإصلاح مقابل شحنات محدودة، ويصبح قويًا مع Wire Spool وSocket Swivels.",
     "summary": "تولبوكس موجه لإصلاح المولدات بسرعة، ممتاز مع بيلدات الضغط على الأهداف.",
-    "image": "/images/items/toolbox-mechanic-s-toolbox.svg"
+    "image": "/images/items/toolbox-mechanic-s-toolbox.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Mechanic's_Toolbox"
   },
   {
     "id": "toolbox-commodious-toolbox",
@@ -177,7 +188,8 @@
     "description_ar": "صندوق أدوات يعتمد على كثرة الشحنات، مناسب للاعب يريد قيمة طويلة بدل دفعة قصيرة.",
     "effect_ar": "يعطي شحنات عالية نسبيًا ويستفيد من إضافات الكفاءة والسرعة.",
     "summary": "صندوق أدوات يعتمد على كثرة الشحنات، مناسب للاعب يريد قيمة طويلة بدل دفعة قصيرة.",
-    "image": "/images/items/toolbox-commodious-toolbox.svg"
+    "image": "/images/items/toolbox-commodious-toolbox.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Commodious_Toolbox"
   },
   {
     "id": "toolbox-engineer-s-toolbox",
@@ -192,7 +204,8 @@
     "description_ar": "أداة إصلاح قوية جدًا، مناسبة لإنهاء مولد حرج بسرعة قبل وصول القاتل.",
     "effect_ar": "سرعة إصلاح عالية مع شحنات محدودة، وتحتاج توقيتًا جيدًا حتى لا تضيع قيمتها.",
     "summary": "أداة إصلاح قوية جدًا، مناسبة لإنهاء مولد حرج بسرعة قبل وصول القاتل.",
-    "image": "/images/items/toolbox-engineer-s-toolbox.svg"
+    "image": "/images/items/toolbox-engineer-s-toolbox.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Engineer's_Toolbox"
   },
   {
     "id": "toolbox-alex-s-toolbox",
@@ -207,7 +220,8 @@
     "description_ar": "تولبوكس متخصص في السابوتاج، قوي لإنقاذ الحلفاء من الحمل أو تعطيل منطقة هوك خطيرة.",
     "effect_ar": "يعزز تخريب الخطافات بشكل واضح ويقبل إضافات تقلل وقت السابوتاج أو تزيد الشحنات.",
     "summary": "تولبوكس متخصص في السابوتاج، قوي لإنقاذ الحلفاء من الحمل أو تعطيل منطقة هوك خطيرة.",
-    "image": "/images/items/toolbox-alex-s-toolbox.svg"
+    "image": "/images/items/toolbox-alex-s-toolbox.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Alex's_Toolbox"
   },
   {
     "id": "map-map",
@@ -222,7 +236,7 @@
     "description_ar": "أداة معلومات تساعد على تتبع الأهداف المهمة في الخريطة بدل البحث العشوائي.",
     "effect_ar": "تكشف هالات الأهداف التي تم تتبعها، وتصبح أوسع مع إضافات تكشف الطوطمات أو الحلفاء أو الممتلكات.",
     "summary": "أداة معلومات تساعد على تتبع الأهداف المهمة في الخريطة بدل البحث العشوائي.",
-    "image": "/images/items/map-map.svg"
+    "image": "/images/items/map-map.png"
   },
   {
     "id": "map-rainbow-map",
@@ -237,7 +251,7 @@
     "description_ar": "أقوى خريطة معلومات، مناسبة للاعب الذي يريد قراءة كبيرة للخريطة والأهداف.",
     "effect_ar": "تكشف نطاقًا أوسع من العناصر والأهداف، وتدعم إضافات قوية لزيادة المدى والمدة.",
     "summary": "أقوى خريطة معلومات، مناسبة للاعب الذي يريد قراءة كبيرة للخريطة والأهداف.",
-    "image": "/images/items/map-rainbow-map.svg"
+    "image": "/images/items/map-rainbow-map.png"
   },
   {
     "id": "key-broken-key",
@@ -252,7 +266,8 @@
     "description_ar": "مفتاح محدود لا يعتمد عليه وحده، لكنه يصبح أداة معلومات مع الإضافات المناسبة.",
     "effect_ar": "يستخدم شحناته مع إضافات المفاتيح لكشف الهالات أو دعم قراءة القاتل والحلفاء.",
     "summary": "مفتاح محدود لا يعتمد عليه وحده، لكنه يصبح أداة معلومات مع الإضافات المناسبة.",
-    "image": "/images/items/key-broken-key.svg"
+    "image": "/images/items/key-broken-key.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Broken_Key"
   },
   {
     "id": "key-dull-key",
@@ -267,7 +282,8 @@
     "description_ar": "مفتاح أقوى من المكسور ويصلح لبيلدات قراءة الهالات والمعلومات المتقدمة.",
     "effect_ar": "يعطي مدة استخدام أفضل لإضافات المفتاح، خصوصًا إضافات كشف القاتل أو الناجين.",
     "summary": "مفتاح أقوى من المكسور ويصلح لبيلدات قراءة الهالات والمعلومات المتقدمة.",
-    "image": "/images/items/key-dull-key.svg"
+    "image": "/images/items/key-dull-key.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Dull_Key"
   },
   {
     "id": "key-skeleton-key",
@@ -282,7 +298,8 @@
     "description_ar": "أقوى مفتاح، قيمته اليوم في الإضافات والمعلومات أكثر من كونه أداة هروب قديمة.",
     "effect_ar": "يمتلك شحنات عالية ويستفيد جدًا من إضافات Blood Amber وWeaved Ring وMilky Glass.",
     "summary": "أقوى مفتاح، قيمته اليوم في الإضافات والمعلومات أكثر من كونه أداة هروب قديمة.",
-    "image": "/images/items/key-skeleton-key.svg"
+    "image": "/images/items/key-skeleton-key.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Skeleton_Key"
   },
   {
     "id": "firecracker-firecracker",
@@ -297,7 +314,7 @@
     "description_ar": "أداة حدث توضع على الأرض وتنفجر بعد لحظة، ممتازة لإنقاذ سريع أو تشتيت القاتل.",
     "effect_ar": "تسبب إبهارًا للقريبين من الانفجار إذا كان التوقيت صحيحًا، لكنها تستهلك مرة واحدة.",
     "summary": "أداة حدث توضع على الأرض وتنفجر بعد لحظة، ممتازة لإنقاذ سريع أو تشتيت القاتل.",
-    "image": "/images/items/firecracker-firecracker.svg"
+    "image": "/images/items/firecracker-firecracker.png"
   },
   {
     "id": "firecracker-chinese-firecracker",
@@ -312,7 +329,8 @@
     "description_ar": "نسخة حدث من المفرقعات بطابع السنة القمرية، تستخدم للمفاجأة والإنقاذ اللحظي.",
     "effect_ar": "تعمل كمفرقعة تستخدم مرة واحدة لإبهار القاتل أو خلق فوضى قصيرة في المطاردة.",
     "summary": "نسخة حدث من المفرقعات بطابع السنة القمرية، تستخدم للمفاجأة والإنقاذ اللحظي.",
-    "image": "/images/items/firecracker-chinese-firecracker.svg"
+    "image": "/images/items/firecracker-chinese-firecracker.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Chinese_Firecracker"
   },
   {
     "id": "flashbang-flashbang",
@@ -327,6 +345,7 @@
     "description_ar": "قنبلة يدوية يصنعها الناجي عبر بيرك Flashbang، قوية جدًا في الإنقاذ إذا عرفت توقيت الإسقاط.",
     "effect_ar": "تُسقط على الأرض وتنفجر بعد لحظة مسببة Blind، وقد تجبر القاتل على إسقاط الناجي المحمول.",
     "summary": "قنبلة يدوية يصنعها الناجي عبر بيرك Flashbang، قوية جدًا في الإنقاذ إذا عرفت توقيت الإسقاط.",
-    "image": "/images/items/flashbang-flashbang.svg"
+    "image": "/images/items/flashbang-flashbang.png",
+    "source_url": "https://deadbydaylight.wiki.gg/wiki/Flashbang"
   }
 ]
