@@ -11,6 +11,51 @@ const state = {
   offering: "",
 };
 
+const killerAddonOwners = {
+  animatronic: ["Fazbear's Fright"],
+  artist: ["Birds of Torment"],
+  blight: ["Blighted Corruption"],
+  cannibal: ["Bubba's Chainsaw"],
+  clown: ["Afterpiece Tonic"],
+  "dark-lord": ["Vampiric Shift"],
+  deathslinger: ["Redeemer"],
+  demogorgon: ["Of the Abyss"],
+  doctor: ["Carter's Spark"],
+  dredge: ["Reign of Darkness"],
+  executioner: ["Rites of Judgement"],
+  first: ["Omnipresent Evil"],
+  "ghost-face": ["Night Shroud"],
+  ghoul: ["One-Eyed Terror"],
+  "good-guy": ["Playtime's Over"],
+  hag: ["Blackened Catalyst"],
+  hillbilly: ["Chainsaw"],
+  houndmaster: ["Scent of Blood"],
+  huntress: ["Hunting Hatchets"],
+  knight: ["Guardia Compagnia"],
+  krasue: ["Unbodied Flesh"],
+  legion: ["Feral Frenzy"],
+  lich: ["Vile Darkness"],
+  mastermind: ["Virulent Bound"],
+  nemesis: ["T-Virus"],
+  nightmare: ["Dream Demon"],
+  nurse: ["Spencer's Last Breath"],
+  oni: ["Yamaoka's Wrath"],
+  onry: ["Deluge of Fear"],
+  pig: ["Jigsaw's Baptism"],
+  plague: ["Vile Purge"],
+  shape: ["Evil Within"],
+  singularity: ["Quantum Instantiation"],
+  "skull-merchant": ["Eyes in the Sky"],
+  slasher: ["Test Subject #001"],
+  spirit: ["Yamaoka's Haunting"],
+  trapper: ["Bear Trap"],
+  trickster: ["Showstopper"],
+  twins: ["Blood Bond"],
+  unknown: ["UVX"],
+  wraith: ["Wailing Bell"],
+  xenomorph: ["Hidden Pursuit"],
+};
+
 let data = {};
 
 initBuildCreator();
@@ -99,34 +144,24 @@ function characterOptions() {
 }
 
 function perkOptions() {
-  const role = state.role;
-  const filtered = data.perks.filter((perk) => {
-    const type = String(perk.perk_type || perk.type || "");
-    return type === role || type === "General" || !type;
-  });
-  const rows = filtered.length ? filtered : data.perks;
-  return rows.map((item) => [item.id, displayName(item)]);
+  return data.perks
+    .filter((perk) => String(perk.perk_type || perk.type || "") === state.role)
+    .map((item) => [item.id, displayName(item)]);
 }
 
 function itemOptions() {
-  return [["", "بدون أداة"], ...data.items.map((item) => [item.id, displayName(item)])];
+  if (state.role !== "Survivor") return [];
+  return [["", "بدون أداة"], ...survivorItems().map((item) => [item.id, displayName(item)])];
 }
 
 function addonOptions() {
-  const selectedItem = findById(data.items, state.item);
-  const itemType = selectedItem?.category || selectedItem?.type || selectedItem?.name_en || "";
-  const rows = data.addons.filter((addon) => {
-    const type = String(addon.type || addon.owner_or_type || addon.category || "");
-    if (state.role === "Killer") return type === "Killer Add-on";
-    if (!itemType) return type !== "Killer Add-on";
-    return type.toLowerCase().includes(itemType.toLowerCase()) || String(addon.owner || "").toLowerCase().includes(itemType.toLowerCase());
-  });
-  const fallback = state.role === "Killer" ? data.addons.filter((addon) => addon.type === "Killer Add-on") : data.addons.filter((addon) => addon.type !== "Killer Add-on");
-  return [["", "بدون إضافة"], ...(rows.length ? rows : fallback).map((item) => [item.id, `${displayName(item)} - ${item.rarity || ""}`])];
+  const rows = state.role === "Killer" ? killerAddonRows() : survivorAddonRows();
+  return [["", "بدون إضافة"], ...rows.map((item) => [item.id, `${displayName(item)} - ${item.rarity || ""}`])];
 }
 
 function offeringOptions() {
-  return [["", "بدون أوفرينغ"], ...data.offerings.map((item) => [item.id, displayName(item)])];
+  const rows = data.offerings.filter((offering) => (state.role === "Killer" ? isKillerOffering(offering) : isSurvivorOffering(offering)));
+  return [["", "بدون أوفرينغ"], ...rows.map((item) => [item.id, displayName(item)])];
 }
 
 function renderPreview() {
@@ -148,7 +183,7 @@ function renderPreview() {
       ${perks.map((perk, index) => previewSlot(perk, `Perk ${index + 1}`)).join("")}
     </div>
     <div class="preview-grid preview-equipment">
-      ${state.role === "Survivor" ? previewSlot(item, "Item") : previewSlot(null, "Item")}
+      ${state.role === "Survivor" ? previewSlot(item, "Item") : ""}
       ${addons.map((addon, index) => previewSlot(addon, `Add-on ${index + 1}`)).join("")}
       ${previewSlot(offering, "Offering")}
     </div>
@@ -177,9 +212,13 @@ function updateState(id, value) {
     state.perks = ["", "", "", ""];
     state.item = "";
     state.addons = ["", ""];
+    state.offering = "";
     return;
   }
-  if (id === "character") state.character = value;
+  if (id === "character") {
+    state.character = value;
+    if (state.role === "Killer") state.addons = ["", ""];
+  }
   if (id.startsWith("perk")) state.perks[Number(id.replace("perk", ""))] = value;
   if (id === "item") {
     state.item = value;
@@ -193,10 +232,13 @@ function ensureDefaults() {
   if (!state.character) state.character = firstId(state.role === "Survivor" ? data.survivors : data.killers);
   const perkIds = perkOptions().map(([id]) => id);
   state.perks = state.perks.map((id, index) => (perkIds.includes(id) ? id : perkIds[index] || ""));
-  if (state.role === "Survivor" && !state.item) state.item = firstId(data.items);
+  const itemIds = itemOptions().map(([id]) => id);
+  if (state.role === "Survivor" && !itemIds.includes(state.item)) state.item = itemIds[1] || "";
+  if (state.role === "Killer") state.item = "";
   const addonIds = addonOptions().map(([id]) => id).filter(Boolean);
   state.addons = state.addons.map((id, index) => (addonIds.includes(id) ? id : addonIds[index] || ""));
-  if (!state.offering) state.offering = firstId(data.offerings);
+  const offeringIds = offeringOptions().map(([id]) => id);
+  if (!offeringIds.includes(state.offering)) state.offering = offeringIds[1] || "";
 }
 
 function ensureRoleCompatibility() {
@@ -204,9 +246,13 @@ function ensureRoleCompatibility() {
   if (!characterIds.includes(state.character)) state.character = firstId(state.role === "Survivor" ? data.survivors : data.killers);
   const perkIds = perkOptions().map(([id]) => id);
   state.perks = state.perks.map((id, index) => (perkIds.includes(id) ? id : perkIds[index] || ""));
+  const itemIds = itemOptions().map(([id]) => id);
   if (state.role === "Killer") state.item = "";
+  if (state.role === "Survivor" && !itemIds.includes(state.item)) state.item = itemIds[1] || "";
   const addonIds = addonOptions().map(([id]) => id);
   state.addons = state.addons.map((id, index) => (addonIds.includes(id) ? id : addonIds[index + 1] || ""));
+  const offeringIds = offeringOptions().map(([id]) => id);
+  if (!offeringIds.includes(state.offering)) state.offering = offeringIds[1] || "";
 }
 
 function randomiseBuild() {
@@ -214,10 +260,10 @@ function randomiseBuild() {
   state.character = pick(characters)?.id || "";
   const perks = shuffle(perkOptions().map(([id]) => id)).slice(0, 4);
   state.perks = [perks[0] || "", perks[1] || "", perks[2] || "", perks[3] || ""];
-  state.item = state.role === "Survivor" ? pick(data.items)?.id || "" : "";
+  state.item = state.role === "Survivor" ? pick(itemOptions().map(([id]) => id).filter(Boolean)) || "" : "";
   const addons = shuffle(addonOptions().map(([id]) => id).filter(Boolean)).slice(0, 2);
   state.addons = [addons[0] || "", addons[1] || ""];
-  state.offering = pick(data.offerings)?.id || "";
+  state.offering = pick(offeringOptions().map(([id]) => id).filter(Boolean)) || "";
 }
 
 function applyParams() {
@@ -256,6 +302,55 @@ async function copyBuildLink() {
   }
 }
 
+function survivorItems() {
+  return data.items.filter((item) => survivorItemTypes().includes(itemTypeName(item)));
+}
+
+function survivorAddonRows() {
+  const selectedItem = findById(data.items, state.item);
+  if (!selectedItem) return [];
+  const itemType = itemTypeName(selectedItem);
+  return data.addons.filter((addon) => {
+    const type = String(addon.type || addon.owner_or_type || addon.category || "");
+    const owner = String(addon.owner || "");
+    return type !== "Killer Add-on" && (type.toLowerCase().includes(itemType.toLowerCase()) || owner.toLowerCase().includes(pluralItemType(itemType).toLowerCase()));
+  });
+}
+
+function killerAddonRows() {
+  const owners = killerAddonOwners[state.character] || [];
+  return data.addons.filter((addon) => addon.type === "Killer Add-on" && owners.some((owner) => normalise(addon.owner) === normalise(owner)));
+}
+
+function isSurvivorOffering(offering) {
+  const owner = String(offering.owner_or_type || "");
+  return owner === "Survivor Offering" || owner === "Shared Offering" || owner === "Map Offering" || owner === "Event Offering";
+}
+
+function isKillerOffering(offering) {
+  const owner = String(offering.owner_or_type || "");
+  return owner === "Killer Offering" || owner === "Shared Offering" || owner === "Map Offering" || owner === "Event Offering";
+}
+
+function survivorItemTypes() {
+  return ["Flashlight", "Med-Kit", "Toolbox", "Map", "Key", "Firecracker", "Flashbang"];
+}
+
+function itemTypeName(item) {
+  return String(item?.type || item?.category || item?.name_en || "");
+}
+
+function pluralItemType(type) {
+  const value = String(type || "");
+  if (value === "Med-Kit") return "Med-Kits";
+  if (value === "Map") return "Maps";
+  if (value === "Key") return "Keys";
+  if (value === "Flashlight") return "Flashlights";
+  if (value === "Toolbox") return "Toolboxes";
+  if (value === "Firecracker") return "Firecrackers";
+  return value;
+}
+
 function firstId(rows) {
   return rows?.[0]?.id || "";
 }
@@ -275,4 +370,11 @@ function pick(rows) {
 
 function shuffle(rows) {
   return [...rows].sort(() => Math.random() - 0.5);
+}
+
+function normalise(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[\u200b-\u200d\ufeff]/g, "")
+    .replace(/[^a-z0-9]+/g, "");
 }
