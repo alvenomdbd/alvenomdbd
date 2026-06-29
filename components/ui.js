@@ -36,6 +36,7 @@ export function renderNav(active = "") {
         <a class="${active === "news" ? "active" : ""}" href="/pages/news.html">الأخبار</a>
         <a class="${active === "videos" ? "active" : ""}" href="/pages/videos.html">YouTube</a>
         <a class="${active === "search" ? "active" : ""}" href="/pages/search.html">البحث</a>
+        <a class="${active === "build-creator" ? "active" : ""}" href="/pages/build-creator.html">Build Creator</a>
         <a class="${active === "admin" ? "active" : ""}" href="/admin/">Admin</a>
       </div>
     </nav>
